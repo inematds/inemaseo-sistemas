@@ -4,3 +4,4 @@ dados/
 .env
 __pycache__/
 .telas/
+saida/

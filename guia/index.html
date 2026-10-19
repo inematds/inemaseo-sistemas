@@ -229,25 +229,22 @@
   <div class="step"><div class="b">3</div><div>
     <h3>Guarde o Search Console para sempre</h3>
     <p>Importe a pasta de CSV (reimportar não duplica) e gere o relatório da semana: marca × sem marca × anônimas, consultas que subiram e caíram, pauta (consulta nova sem página dona) e páginas com impressão e 0 clique.</p>
-<pre><span class="k">cd</span> ferramentas/gsc-historico
-<span class="k">python3</span> gsc_historico.py importar ../../exemplos/gsc-historico/entrada --db dados/gsc.sqlite
-<span class="k">python3</span> gsc_historico.py relatorio --db dados/gsc.sqlite --site inema.club --saida saida/inema.club</pre>
+<pre><span class="k">python3</span> ferramentas/gsc-historico/gsc_historico.py importar exemplos/gsc-historico/entrada --db dados/gsc.sqlite
+<span class="k">python3</span> ferramentas/gsc-historico/gsc_historico.py relatorio --db dados/gsc.sqlite --site inema.club --saida saida/inema.club</pre>
   </div></div>
 
   <div class="step"><div class="b">4</div><div>
     <h3>Veja onde a IA do Bing te cita</h3>
     <p>Importe os CSV do AI Performance e cruze com o banco do gsc-historico. Se a ferramenta não reconhecer as colunas, ela pede o mapa com <code>--colunas</code> (a Microsoft não documenta o export).</p>
-<pre><span class="k">cd</span> ferramentas/bing-ia
-<span class="k">python3</span> bing_ia.py importar ../../exemplos/bing-ia/entrada/*.csv --db dados/bing.sqlite
-<span class="k">python3</span> bing_ia.py relatorio --db dados/bing.sqlite --gsc-db ../gsc-historico/dados/gsc.sqlite --site inema.pro --saida saida/inema.pro</pre>
+<pre><span class="k">python3</span> ferramentas/bing-ia/bing_ia.py importar exemplos/bing-ia/entrada/*.csv --db dados/bing.sqlite
+<span class="k">python3</span> ferramentas/bing-ia/bing_ia.py relatorio --db dados/bing.sqlite --gsc-db dados/gsc.sqlite --site inema.pro --saida saida/inema.pro</pre>
   </div></div>
 
   <div class="step"><div class="b">5</div><div>
     <h3>Descubra quais robôs leem o site</h3>
     <p>Analise o log (vários arquivos, <code>.gz</code> incluso). Com <code>--sitemap</code>, mostra também as páginas que nenhum robô conseguiu ler. Antes de mostrar ou publicar um log, use <code>filtrar</code>.</p>
-<pre><span class="k">cd</span> ferramentas/botlog
-<span class="k">python3</span> botlog.py analisar /tmp/site.log --sitemap https://seusite.com/sitemap.xml --saida saida/site
-<span class="k">python3</span> botlog.py filtrar /tmp/site.log --saida /tmp/so-robos.log   <span class="c"># só robôs com IP oficial</span></pre>
+<pre><span class="k">python3</span> ferramentas/botlog/botlog.py analisar /tmp/site.log --sitemap https://seusite.com/sitemap.xml --saida saida/site
+<span class="k">python3</span> ferramentas/botlog/botlog.py filtrar /tmp/site.log --saida /tmp/so-robos.log   <span class="c"># só robôs com IP oficial</span></pre>
   </div></div>
 
   <div class="step"><div class="b">6</div><div>
