@@ -9,7 +9,7 @@
 ## Montado
 
 - `entrada/MONTADO_access.log`, `MONTADO_cloudflare.jsonl`, `MONTADO_sitemap.xml`: **amostra montada**. User-Agents de GPTBot, OAI-SearchBot, PerplexityBot e Perplexity-User copiados das páginas oficiais ou do log real; Claude-User e Claude-SearchBot com string completa montada (a Anthropic dá o nome, não a string inteira); ChatGPT-User, Googlebot e bingbot com as strings conhecidas, não relidas nesta data [a confirmar]. A classificação usa só o nome do robô (token), não a string inteira. IPs de robô tirados das listas oficiais. IPs de pessoa e de falsos robôs são de faixas reservadas para documentação (198.51.100.0/24 e 192.0.2.0/24, RFC 5737): não são de ninguém.
-- `saida-montado/`: relatório com 3 falsos robôs (GPTBot, Googlebot e PerplexityBot de IP fora da lista), um 403 para ClaudeBot (simula bloqueio de CDN) e uma página do sitemap que nenhum robô leu.
+- `saida-montado/`: relatório com 3 falsos robôs (GPTBot, Googlebot e PerplexityBot de IP fora da lista), dois 403 para ClaudeBot, um no log nginx e um no JSON da Cloudflare (simulam bloqueio de CDN) e uma página do sitemap que nenhum robô leu.
 
 ```bash
 cd ferramentas/botlog
