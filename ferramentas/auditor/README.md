@@ -50,6 +50,7 @@ Exemplos reais gerados em 19/10/2026: [`exemplos/auditor/`](../../exemplos/audit
 - A faixa de título 15–65 caracteres vem do `webmcp-readiness`; **não é regra do Google** (o Google corta pela largura).
 - Não roda JavaScript de propósito: é o ponto de vista do robô que não renderiza. Para ver o que o Google renderiza, use a Inspeção de URL do Search Console.
 - Não mede velocidade (Core Web Vitals) nem backlinks.
+- Em site de projeto do GitHub Pages (`usuario.github.io/repo/`), o robots.txt que vale é o da raiz do host, que pertence ao repositório `usuario.github.io`. O achado "robots.txt não existe" ali só se corrige nesse outro repositório; o sitemap é procurado na pasta da URL inicial (ou nas linhas `Sitemap:` do robots).
 
 ## robots.txt (como é lido)
 
