@@ -1,0 +1,651 @@
+{
+  "site": "inema.club",
+  "atual": "2026-10-11",
+  "anterior": "2026-10-04",
+  "semanas_disponiveis": [
+    "2026-09-22",
+    "2026-09-30",
+    "2026-10-03",
+    "2026-10-04",
+    "2026-10-11"
+  ],
+  "serie": [
+    {
+      "inicio": "2026-09-16",
+      "fim": "2026-09-22",
+      "total_cliques": 104,
+      "total_impr": 437,
+      "marca_cliques": 79,
+      "marca_impr": 245,
+      "sem_marca_cliques": 0,
+      "sem_marca_impr": 8,
+      "anonimas_cliques": 25,
+      "anonimas_impr": 184,
+      "consultas_sem_marca": 3
+    },
+    {
+      "inicio": "2026-09-24",
+      "fim": "2026-09-30",
+      "total_cliques": 77,
+      "total_impr": 820,
+      "marca_cliques": 57,
+      "marca_impr": 220,
+      "sem_marca_cliques": 0,
+      "sem_marca_impr": 54,
+      "anonimas_cliques": 20,
+      "anonimas_impr": 546,
+      "consultas_sem_marca": 29
+    },
+    {
+      "inicio": "2026-09-27",
+      "fim": "2026-10-03",
+      "total_cliques": 87,
+      "total_impr": 817,
+      "marca_cliques": 68,
+      "marca_impr": 288,
+      "sem_marca_cliques": 0,
+      "sem_marca_impr": 55,
+      "anonimas_cliques": 19,
+      "anonimas_impr": 474,
+      "consultas_sem_marca": 36
+    },
+    {
+      "inicio": "2026-09-28",
+      "fim": "2026-10-04",
+      "total_cliques": 77,
+      "total_impr": 708,
+      "marca_cliques": 60,
+      "marca_impr": 253,
+      "sem_marca_cliques": 0,
+      "sem_marca_impr": 47,
+      "anonimas_cliques": 17,
+      "anonimas_impr": 408,
+      "consultas_sem_marca": 30
+    },
+    {
+      "inicio": "2026-10-05",
+      "fim": "2026-10-11",
+      "total_cliques": 114,
+      "total_impr": 702,
+      "marca_cliques": 87,
+      "marca_impr": 238,
+      "sem_marca_cliques": 0,
+      "sem_marca_impr": 157,
+      "anonimas_cliques": 27,
+      "anonimas_impr": 307,
+      "consultas_sem_marca": 51
+    }
+  ],
+  "subiram": [
+    {
+      "consulta": "site:*.club \"gpt6\"",
+      "impr_antes": 0,
+      "impr_agora": 17,
+      "delta_impr": 17,
+      "cliques_antes": 0,
+      "cliques_agora": 0,
+      "delta_cliques": 0,
+      "posicao_antes": null,
+      "posicao_agora": 1.0
+    },
+    {
+      "consulta": "aprender ia",
+      "impr_antes": 0,
+      "impr_agora": 10,
+      "delta_impr": 10,
+      "cliques_antes": 0,
+      "cliques_agora": 0,
+      "delta_cliques": 0,
+      "posicao_antes": null,
+      "posicao_agora": 34.5
+    },
+    {
+      "consulta": "aprender inteligencia artificial desde cero",
+      "impr_antes": 0,
+      "impr_agora": 10,
+      "delta_impr": 10,
+      "cliques_antes": 0,
+      "cliques_agora": 0,
+      "delta_cliques": 0,
+      "posicao_antes": null,
+      "posicao_agora": 33.2
+    },
+    {
+      "consulta": "cómo aprender ia",
+      "impr_antes": 0,
+      "impr_agora": 8,
+      "delta_impr": 8,
+      "cliques_antes": 0,
+      "cliques_agora": 0,
+      "delta_cliques": 0,
+      "posicao_antes": null,
+      "posicao_agora": 46.1
+    },
+    {
+      "consulta": "aprender inteligencia artificial",
+      "impr_antes": 0,
+      "impr_agora": 7,
+      "delta_impr": 7,
+      "cliques_antes": 0,
+      "cliques_agora": 0,
+      "delta_cliques": 0,
+      "posicao_antes": null,
+      "posicao_agora": 41.1
+    },
+    {
+      "consulta": "inteligencia artificial desde cero",
+      "impr_antes": 0,
+      "impr_agora": 7,
+      "delta_impr": 7,
+      "cliques_antes": 0,
+      "cliques_agora": 0,
+      "delta_cliques": 0,
+      "posicao_antes": null,
+      "posicao_agora": 34.3
+    },
+    {
+      "consulta": "cómo aprender inteligencia artificial",
+      "impr_antes": 0,
+      "impr_agora": 6,
+      "delta_impr": 6,
+      "cliques_antes": 0,
+      "cliques_agora": 0,
+      "delta_cliques": 0,
+      "posicao_antes": null,
+      "posicao_agora": 35.3
+    },
+    {
+      "consulta": "ia para principiantes",
+      "impr_antes": 0,
+      "impr_agora": 6,
+      "delta_impr": 6,
+      "cliques_antes": 0,
+      "cliques_agora": 0,
+      "delta_cliques": 0,
+      "posicao_antes": null,
+      "posicao_agora": 38.5
+    },
+    {
+      "consulta": "aprender ia desde cero",
+      "impr_antes": 0,
+      "impr_agora": 5,
+      "delta_impr": 5,
+      "cliques_antes": 0,
+      "cliques_agora": 0,
+      "delta_cliques": 0,
+      "posicao_antes": null,
+      "posicao_agora": 29.2
+    },
+    {
+      "consulta": "empezar en inteligencia artificial",
+      "impr_antes": 0,
+      "impr_agora": 5,
+      "delta_impr": 5,
+      "cliques_antes": 0,
+      "cliques_agora": 0,
+      "delta_cliques": 0,
+      "posicao_antes": null,
+      "posicao_agora": 49.8
+    },
+    {
+      "consulta": "guía ia principiantes",
+      "impr_antes": 0,
+      "impr_agora": 5,
+      "delta_impr": 5,
+      "cliques_antes": 0,
+      "cliques_agora": 0,
+      "delta_cliques": 0,
+      "posicao_antes": null,
+      "posicao_agora": 60.8
+    },
+    {
+      "consulta": "guía para aprender inteligencia artificial",
+      "impr_antes": 0,
+      "impr_agora": 5,
+      "delta_impr": 5,
+      "cliques_antes": 0,
+      "cliques_agora": 0,
+      "delta_cliques": 0,
+      "posicao_antes": null,
+      "posicao_agora": 44.2
+    },
+    {
+      "consulta": "tutorial ia desde cero",
+      "impr_antes": 0,
+      "impr_agora": 5,
+      "delta_impr": 5,
+      "cliques_antes": 0,
+      "cliques_agora": 0,
+      "delta_cliques": 0,
+      "posicao_antes": null,
+      "posicao_agora": 29.4
+    },
+    {
+      "consulta": "como estudiar inteligencia artificial",
+      "impr_antes": 0,
+      "impr_agora": 4,
+      "delta_impr": 4,
+      "cliques_antes": 0,
+      "cliques_agora": 0,
+      "delta_cliques": 0,
+      "posicao_antes": null,
+      "posicao_agora": 42.0
+    },
+    {
+      "consulta": "curso de agentes de ia",
+      "impr_antes": 0,
+      "impr_agora": 4,
+      "delta_impr": 4,
+      "cliques_antes": 0,
+      "cliques_agora": 0,
+      "delta_cliques": 0,
+      "posicao_antes": null,
+      "posicao_agora": 34.8
+    }
+  ],
+  "cairam": [
+    {
+      "consulta": "como criar um agente de ia",
+      "impr_antes": 3,
+      "impr_agora": 0,
+      "delta_impr": -3,
+      "cliques_antes": 0,
+      "cliques_agora": 0,
+      "delta_cliques": 0,
+      "posicao_antes": 60.0,
+      "posicao_agora": null
+    },
+    {
+      "consulta": "como criar um ai agent",
+      "impr_antes": 3,
+      "impr_agora": 0,
+      "delta_impr": -3,
+      "cliques_antes": 0,
+      "cliques_agora": 0,
+      "delta_cliques": 0,
+      "posicao_antes": 55.7,
+      "posicao_agora": null
+    },
+    {
+      "consulta": "n8nb",
+      "impr_antes": 4,
+      "impr_agora": 1,
+      "delta_impr": -3,
+      "cliques_antes": 0,
+      "cliques_agora": 0,
+      "delta_cliques": 0,
+      "posicao_antes": 9.0,
+      "posicao_agora": 9.0
+    },
+    {
+      "consulta": "codex skills",
+      "impr_antes": 2,
+      "impr_agora": 0,
+      "delta_impr": -2,
+      "cliques_antes": 0,
+      "cliques_agora": 0,
+      "delta_cliques": 0,
+      "posicao_antes": 6.5,
+      "posicao_agora": null
+    },
+    {
+      "consulta": "como aprender ia",
+      "impr_antes": 2,
+      "impr_agora": 0,
+      "delta_impr": -2,
+      "cliques_antes": 0,
+      "cliques_agora": 0,
+      "delta_cliques": 0,
+      "posicao_antes": 30.0,
+      "posicao_agora": null
+    },
+    {
+      "consulta": "como os tokens agênticos melhoram a confiança e a segurança nas transações conduzidas por ia?",
+      "impr_antes": 3,
+      "impr_agora": 1,
+      "delta_impr": -2,
+      "cliques_antes": 0,
+      "cliques_agora": 0,
+      "delta_cliques": 0,
+      "posicao_antes": 3.0,
+      "posicao_agora": 3.0
+    },
+    {
+      "consulta": "\"nanobrowser\" \".bat\" setup",
+      "impr_antes": 1,
+      "impr_agora": 0,
+      "delta_impr": -1,
+      "cliques_antes": 0,
+      "cliques_agora": 0,
+      "delta_cliques": 0,
+      "posicao_antes": 3.0,
+      "posicao_agora": null
+    },
+    {
+      "consulta": "4dev gerador de senha",
+      "impr_antes": 1,
+      "impr_agora": 0,
+      "delta_impr": -1,
+      "cliques_antes": 0,
+      "cliques_agora": 0,
+      "delta_cliques": 0,
+      "posicao_antes": 38.0,
+      "posicao_agora": null
+    },
+    {
+      "consulta": "ai club",
+      "impr_antes": 1,
+      "impr_agora": 0,
+      "delta_impr": -1,
+      "cliques_antes": 0,
+      "cliques_agora": 0,
+      "delta_cliques": 0,
+      "posicao_antes": 38.0,
+      "posicao_agora": null
+    },
+    {
+      "consulta": "aprender inteligência artificial",
+      "impr_antes": 1,
+      "impr_agora": 0,
+      "delta_impr": -1,
+      "cliques_antes": 0,
+      "cliques_agora": 0,
+      "delta_cliques": 0,
+      "posicao_antes": 37.0,
+      "posicao_agora": null
+    },
+    {
+      "consulta": "assinai club",
+      "impr_antes": 1,
+      "impr_agora": 0,
+      "delta_impr": -1,
+      "cliques_antes": 0,
+      "cliques_agora": 0,
+      "delta_cliques": 0,
+      "posicao_antes": 33.0,
+      "posicao_agora": null
+    },
+    {
+      "consulta": "como aprender inteligência artificial",
+      "impr_antes": 1,
+      "impr_agora": 0,
+      "delta_impr": -1,
+      "cliques_antes": 0,
+      "cliques_agora": 0,
+      "delta_cliques": 0,
+      "posicao_antes": 25.0,
+      "posicao_agora": null
+    },
+    {
+      "consulta": "como fazer um agente de ia",
+      "impr_antes": 1,
+      "impr_agora": 0,
+      "delta_impr": -1,
+      "cliques_antes": 0,
+      "cliques_agora": 0,
+      "delta_cliques": 0,
+      "posicao_antes": 57.0,
+      "posicao_agora": null
+    },
+    {
+      "consulta": "criar agente de ia",
+      "impr_antes": 1,
+      "impr_agora": 0,
+      "delta_impr": -1,
+      "cliques_antes": 0,
+      "cliques_agora": 0,
+      "delta_cliques": 0,
+      "posicao_antes": 69.0,
+      "posicao_agora": null
+    },
+    {
+      "consulta": "curso de vibe coding",
+      "impr_antes": 1,
+      "impr_agora": 0,
+      "delta_impr": -1,
+      "cliques_antes": 0,
+      "cliques_agora": 0,
+      "delta_cliques": 0,
+      "posicao_antes": 64.0,
+      "posicao_agora": null
+    }
+  ],
+  "pauta": [
+    {
+      "consulta": "ia para principiantes",
+      "impressoes": 6,
+      "melhor_posicao": 38.5,
+      "paginas_hoje": "https://www.inema.club/es/aprender-inteligencia-artificial/"
+    },
+    {
+      "consulta": "guía ia principiantes",
+      "impressoes": 5,
+      "melhor_posicao": 60.8,
+      "paginas_hoje": "https://www.inema.club/es/aprender-inteligencia-artificial/"
+    },
+    {
+      "consulta": "tutorial ia desde cero",
+      "impressoes": 5,
+      "melhor_posicao": 29.4,
+      "paginas_hoje": "https://www.inema.club/es/aprender-inteligencia-artificial/"
+    },
+    {
+      "consulta": "empezar en ia",
+      "impressoes": 4,
+      "melhor_posicao": 48.5,
+      "paginas_hoje": "https://www.inema.club/es/aprender-inteligencia-artificial/"
+    },
+    {
+      "consulta": "ia desde cero",
+      "impressoes": 4,
+      "melhor_posicao": 35.2,
+      "paginas_hoje": "https://www.inema.club/es/aprender-inteligencia-artificial/"
+    },
+    {
+      "consulta": "ia para principiantes paso a paso",
+      "impressoes": 4,
+      "melhor_posicao": 45.2,
+      "paginas_hoje": "https://www.inema.club/es/aprender-inteligencia-artificial/"
+    },
+    {
+      "consulta": "iniciarse en ia",
+      "impressoes": 3,
+      "melhor_posicao": 49.3,
+      "paginas_hoje": "https://www.inema.club/es/aprender-inteligencia-artificial/"
+    },
+    {
+      "consulta": "curso de agente de ia",
+      "impressoes": 1,
+      "melhor_posicao": 73.0,
+      "paginas_hoje": "https://www.inema.club/agentes-de-inteligencia-artificial/"
+    },
+    {
+      "consulta": "discovaz ai",
+      "impressoes": 1,
+      "melhor_posicao": 57.0,
+      "paginas_hoje": "https://buscas.inema.club/"
+    },
+    {
+      "consulta": "discovaz ia",
+      "impressoes": 1,
+      "melhor_posicao": 49.0,
+      "paginas_hoje": "https://buscas.inema.club/"
+    },
+    {
+      "consulta": "ema fotos",
+      "impressoes": 1,
+      "melhor_posicao": 33.0,
+      "paginas_hoje": "https://aventura.inema.club/externa"
+    },
+    {
+      "consulta": "enzotvs",
+      "impressoes": 1,
+      "melhor_posicao": 82.0,
+      "paginas_hoje": "https://buscas.inema.club/"
+    },
+    {
+      "consulta": "formação claude code",
+      "impressoes": 1,
+      "melhor_posicao": 88.0,
+      "paginas_hoje": "https://www.inema.club/cursos/"
+    },
+    {
+      "consulta": "github precisao sistemas",
+      "impressoes": 1,
+      "melhor_posicao": 99.0,
+      "paginas_hoje": "https://www.inema.club/cursos/"
+    },
+    {
+      "consulta": "ia club",
+      "impressoes": 1,
+      "melhor_posicao": 30.0,
+      "paginas_hoje": "https://www.inema.club/"
+    },
+    {
+      "consulta": "imene",
+      "impressoes": 1,
+      "melhor_posicao": 40.0,
+      "paginas_hoje": "https://www.inema.club/"
+    },
+    {
+      "consulta": "superagente",
+      "impressoes": 1,
+      "melhor_posicao": 71.0,
+      "paginas_hoje": "https://www.inema.club/cursos/260-super-agentes-da-ia-que-responde-a-ia-que-trabalha-8-aulas/"
+    },
+    {
+      "consulta": "underclub",
+      "impressoes": 1,
+      "melhor_posicao": 61.0,
+      "paginas_hoje": "https://www.inema.club/"
+    }
+  ],
+  "melhorar": [
+    {
+      "consulta": "aprender inteligencia artificial desde cero",
+      "impressoes": 10,
+      "melhor_posicao": 33.2,
+      "paginas_hoje": "https://www.inema.club/es/aprender-inteligencia-artificial/"
+    },
+    {
+      "consulta": "cómo aprender ia",
+      "impressoes": 8,
+      "melhor_posicao": 46.1,
+      "paginas_hoje": "https://www.inema.club/es/aprender-inteligencia-artificial/"
+    },
+    {
+      "consulta": "aprender inteligencia artificial",
+      "impressoes": 7,
+      "melhor_posicao": 41.1,
+      "paginas_hoje": "https://www.inema.club/es/aprender-inteligencia-artificial/"
+    },
+    {
+      "consulta": "inteligencia artificial desde cero",
+      "impressoes": 7,
+      "melhor_posicao": 34.3,
+      "paginas_hoje": "https://www.inema.club/es/aprender-inteligencia-artificial/"
+    },
+    {
+      "consulta": "cómo aprender inteligencia artificial",
+      "impressoes": 6,
+      "melhor_posicao": 35.3,
+      "paginas_hoje": "https://www.inema.club/es/aprender-inteligencia-artificial/"
+    },
+    {
+      "consulta": "aprender ia desde cero",
+      "impressoes": 5,
+      "melhor_posicao": 29.2,
+      "paginas_hoje": "https://www.inema.club/es/aprender-inteligencia-artificial/"
+    },
+    {
+      "consulta": "empezar en inteligencia artificial",
+      "impressoes": 5,
+      "melhor_posicao": 49.8,
+      "paginas_hoje": "https://www.inema.club/es/aprender-inteligencia-artificial/"
+    },
+    {
+      "consulta": "guía para aprender inteligencia artificial",
+      "impressoes": 5,
+      "melhor_posicao": 44.2,
+      "paginas_hoje": "https://www.inema.club/es/aprender-inteligencia-artificial/"
+    },
+    {
+      "consulta": "como estudiar inteligencia artificial",
+      "impressoes": 4,
+      "melhor_posicao": 42.0,
+      "paginas_hoje": "https://www.inema.club/es/aprender-inteligencia-artificial/"
+    },
+    {
+      "consulta": "curso de agentes de ia",
+      "impressoes": 4,
+      "melhor_posicao": 34.8,
+      "paginas_hoje": "https://www.inema.club/agentes-de-inteligencia-artificial/"
+    },
+    {
+      "consulta": "iniciarse en inteligencia artificial",
+      "impressoes": 3,
+      "melhor_posicao": 46.7,
+      "paginas_hoje": "https://www.inema.club/es/aprender-inteligencia-artificial/"
+    },
+    {
+      "consulta": "como aprender inteligencia artificial",
+      "impressoes": 1,
+      "melhor_posicao": 40.0,
+      "paginas_hoje": "https://www.inema.club/es/aprender-inteligencia-artificial/"
+    },
+    {
+      "consulta": "como crear una inteligencia artificial desde cero",
+      "impressoes": 1,
+      "melhor_posicao": 31.0,
+      "paginas_hoje": "https://www.inema.club/es/aprender-inteligencia-artificial/"
+    },
+    {
+      "consulta": "engenheiro de agentes de ia",
+      "impressoes": 1,
+      "melhor_posicao": 65.0,
+      "paginas_hoje": "https://www.inema.club/cursos/10-fea-ia-engenharia-de-agentes/"
+    },
+    {
+      "consulta": "jornada 8020",
+      "impressoes": 1,
+      "melhor_posicao": 13.0,
+      "paginas_hoje": "https://www.inema.club/cursos/57-8020-vendas-gestao-e-estrategia-comercial/"
+    }
+  ],
+  "paginas_sem_clique": [
+    {
+      "pagina": "https://www.inema.club/es/aprender-inteligencia-artificial/",
+      "impressoes": 106,
+      "posicao_media": 39.1,
+      "consultas": 22
+    },
+    {
+      "pagina": "https://buscas.inema.club/",
+      "impressoes": 12,
+      "posicao_media": 26.6,
+      "consultas": 6
+    },
+    {
+      "pagina": "https://www.inema.club/",
+      "impressoes": 10,
+      "posicao_media": 43.3,
+      "consultas": 7
+    },
+    {
+      "pagina": "https://www.inema.club/agentes-de-inteligencia-artificial/",
+      "impressoes": 7,
+      "posicao_media": 32.9,
+      "consultas": 3
+    },
+    {
+      "pagina": "https://www.inema.club/cursos/278-laya-jev-decisoes-estruturadas-na-pratica/",
+      "impressoes": 5,
+      "posicao_media": 7.4,
+      "consultas": 2
+    }
+  ],
+  "regras": {
+    "posicao_dona": 10.0,
+    "min_impr": 5
+  }
+}

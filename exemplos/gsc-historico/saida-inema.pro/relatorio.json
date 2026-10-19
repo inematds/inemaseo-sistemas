@@ -1,0 +1,439 @@
+{
+  "site": "inema.pro",
+  "atual": "2026-10-11",
+  "anterior": "2026-10-04",
+  "semanas_disponiveis": [
+    "2026-09-22",
+    "2026-09-30",
+    "2026-10-03",
+    "2026-10-04",
+    "2026-10-11"
+  ],
+  "serie": [
+    {
+      "inicio": "2026-09-16",
+      "fim": "2026-09-22",
+      "total_cliques": 6,
+      "total_impr": 112,
+      "marca_cliques": 4,
+      "marca_impr": 61,
+      "sem_marca_cliques": 0,
+      "sem_marca_impr": 5,
+      "anonimas_cliques": 2,
+      "anonimas_impr": 46,
+      "consultas_sem_marca": 2
+    },
+    {
+      "inicio": "2026-09-24",
+      "fim": "2026-09-30",
+      "total_cliques": 2,
+      "total_impr": 198,
+      "marca_cliques": 1,
+      "marca_impr": 67,
+      "sem_marca_cliques": 0,
+      "sem_marca_impr": 8,
+      "anonimas_cliques": 1,
+      "anonimas_impr": 123,
+      "consultas_sem_marca": 4
+    },
+    {
+      "inicio": "2026-09-27",
+      "fim": "2026-10-03",
+      "total_cliques": 5,
+      "total_impr": 232,
+      "marca_cliques": 4,
+      "marca_impr": 98,
+      "sem_marca_cliques": 0,
+      "sem_marca_impr": 15,
+      "anonimas_cliques": 1,
+      "anonimas_impr": 119,
+      "consultas_sem_marca": 9
+    },
+    {
+      "inicio": "2026-09-28",
+      "fim": "2026-10-04",
+      "total_cliques": 4,
+      "total_impr": 201,
+      "marca_cliques": 4,
+      "marca_impr": 89,
+      "sem_marca_cliques": 0,
+      "sem_marca_impr": 14,
+      "anonimas_cliques": 0,
+      "anonimas_impr": 98,
+      "consultas_sem_marca": 8
+    },
+    {
+      "inicio": "2026-10-05",
+      "fim": "2026-10-11",
+      "total_cliques": 11,
+      "total_impr": 761,
+      "marca_cliques": 5,
+      "marca_impr": 116,
+      "sem_marca_cliques": 2,
+      "sem_marca_impr": 293,
+      "anonimas_cliques": 4,
+      "anonimas_impr": 352,
+      "consultas_sem_marca": 52
+    }
+  ],
+  "subiram": [
+    {
+      "consulta": "curso jev",
+      "impr_antes": 0,
+      "impr_agora": 9,
+      "delta_impr": 9,
+      "cliques_antes": 0,
+      "cliques_agora": 1,
+      "delta_cliques": 1,
+      "posicao_antes": null,
+      "posicao_agora": 5.5
+    },
+    {
+      "consulta": "curso de jev",
+      "impr_antes": 5,
+      "impr_agora": 7,
+      "delta_impr": 2,
+      "cliques_antes": 0,
+      "cliques_agora": 1,
+      "delta_cliques": 1,
+      "posicao_antes": 5.8,
+      "posicao_agora": 5.0
+    },
+    {
+      "consulta": "slopmonster",
+      "impr_antes": 0,
+      "impr_agora": 194,
+      "delta_impr": 194,
+      "cliques_antes": 0,
+      "cliques_agora": 0,
+      "delta_cliques": 0,
+      "posicao_antes": null,
+      "posicao_agora": 6.0
+    },
+    {
+      "consulta": "oswork",
+      "impr_antes": 1,
+      "impr_agora": 7,
+      "delta_impr": 6,
+      "cliques_antes": 0,
+      "cliques_agora": 0,
+      "delta_cliques": 0,
+      "posicao_antes": 2.0,
+      "posicao_agora": 2.0
+    },
+    {
+      "consulta": "site:developers.openai.com codex \"dot\"",
+      "impr_antes": 0,
+      "impr_agora": 5,
+      "delta_impr": 5,
+      "cliques_antes": 0,
+      "cliques_agora": 0,
+      "delta_cliques": 0,
+      "posicao_antes": null,
+      "posicao_agora": 4.0
+    },
+    {
+      "consulta": "* site.anthropic.com \"opus 5.5\"",
+      "impr_antes": 0,
+      "impr_agora": 4,
+      "delta_impr": 4,
+      "cliques_antes": 0,
+      "cliques_agora": 0,
+      "delta_cliques": 0,
+      "posicao_antes": null,
+      "posicao_agora": 9.5
+    },
+    {
+      "consulta": "site.anthropic.com \"opus 5.5\"",
+      "impr_antes": 0,
+      "impr_agora": 4,
+      "delta_impr": 4,
+      "cliques_antes": 0,
+      "cliques_agora": 0,
+      "delta_cliques": 0,
+      "posicao_antes": null,
+      "posicao_agora": 9.2
+    },
+    {
+      "consulta": "ai agent managements",
+      "impr_antes": 0,
+      "impr_agora": 3,
+      "delta_impr": 3,
+      "cliques_antes": 0,
+      "cliques_agora": 0,
+      "delta_cliques": 0,
+      "posicao_antes": null,
+      "posicao_agora": 89.0
+    },
+    {
+      "consulta": "boas práticas para gerenciamento de credenciais de agentes de ia",
+      "impr_antes": 0,
+      "impr_agora": 3,
+      "delta_impr": 3,
+      "cliques_antes": 0,
+      "cliques_agora": 0,
+      "delta_cliques": 0,
+      "posicao_antes": null,
+      "posicao_agora": 10.7
+    },
+    {
+      "consulta": "how to manage ai agents",
+      "impr_antes": 0,
+      "impr_agora": 3,
+      "delta_impr": 3,
+      "cliques_antes": 0,
+      "cliques_agora": 0,
+      "delta_cliques": 0,
+      "posicao_antes": null,
+      "posicao_agora": 79.0
+    },
+    {
+      "consulta": "jev",
+      "impr_antes": 1,
+      "impr_agora": 4,
+      "delta_impr": 3,
+      "cliques_antes": 0,
+      "cliques_agora": 0,
+      "delta_cliques": 0,
+      "posicao_antes": 11.0,
+      "posicao_agora": 10.5
+    },
+    {
+      "consulta": "managing ai agents",
+      "impr_antes": 0,
+      "impr_agora": 3,
+      "delta_impr": 3,
+      "cliques_antes": 0,
+      "cliques_agora": 0,
+      "delta_cliques": 0,
+      "posicao_antes": null,
+      "posicao_agora": 79.0
+    },
+    {
+      "consulta": "public opinion about the new docs product by openai. anything about the demos? any social thing about what's been happening there?",
+      "impr_antes": 0,
+      "impr_agora": 3,
+      "delta_impr": 3,
+      "cliques_antes": 0,
+      "cliques_agora": 0,
+      "delta_cliques": 0,
+      "posicao_antes": null,
+      "posicao_agora": 7.0
+    },
+    {
+      "consulta": "site:openai.com codex \"dot\"",
+      "impr_antes": 0,
+      "impr_agora": 3,
+      "delta_impr": 3,
+      "cliques_antes": 0,
+      "cliques_agora": 0,
+      "delta_cliques": 0,
+      "posicao_antes": null,
+      "posicao_agora": 8.7
+    },
+    {
+      "consulta": "site.openai.com \"dots\"",
+      "impr_antes": 0,
+      "impr_agora": 2,
+      "delta_impr": 2,
+      "cliques_antes": 0,
+      "cliques_agora": 0,
+      "delta_cliques": 0,
+      "posicao_antes": null,
+      "posicao_agora": 8.0
+    }
+  ],
+  "cairam": [
+    {
+      "consulta": "atue como mestre especialista de prompt para criação de landing page com economia de token",
+      "impr_antes": 3,
+      "impr_agora": 0,
+      "delta_impr": -3,
+      "cliques_antes": 0,
+      "cliques_agora": 0,
+      "delta_cliques": 0,
+      "posicao_antes": 5.0,
+      "posicao_agora": null
+    },
+    {
+      "consulta": "4dev gerador de senha",
+      "impr_antes": 1,
+      "impr_agora": 0,
+      "delta_impr": -1,
+      "cliques_antes": 0,
+      "cliques_agora": 0,
+      "delta_cliques": 0,
+      "posicao_antes": 26.0,
+      "posicao_agora": null
+    },
+    {
+      "consulta": "gemine3",
+      "impr_antes": 1,
+      "impr_agora": 0,
+      "delta_impr": -1,
+      "cliques_antes": 0,
+      "cliques_agora": 0,
+      "delta_cliques": 0,
+      "posicao_antes": 39.0,
+      "posicao_agora": null
+    },
+    {
+      "consulta": "gemini-omni-video kie openrouter veo 3.1",
+      "impr_antes": 1,
+      "impr_agora": 0,
+      "delta_impr": -1,
+      "cliques_antes": 0,
+      "cliques_agora": 0,
+      "delta_cliques": 0,
+      "posicao_antes": 27.0,
+      "posicao_agora": null
+    },
+    {
+      "consulta": "rsiai",
+      "impr_antes": 1,
+      "impr_agora": 0,
+      "delta_impr": -1,
+      "cliques_antes": 0,
+      "cliques_agora": 0,
+      "delta_cliques": 0,
+      "posicao_antes": 9.0,
+      "posicao_agora": null
+    }
+  ],
+  "pauta": [
+    {
+      "consulta": "ai agent managements",
+      "impressoes": 3,
+      "melhor_posicao": 89.0,
+      "paginas_hoje": "https://news.inema.pro/en/noticias/guia-de-gestao-de-agentes-de-ia/"
+    },
+    {
+      "consulta": "how to manage ai agents",
+      "impressoes": 3,
+      "melhor_posicao": 79.0,
+      "paginas_hoje": "https://news.inema.pro/en/noticias/guia-de-gestao-de-agentes-de-ia/"
+    },
+    {
+      "consulta": "managing ai agents",
+      "impressoes": 3,
+      "melhor_posicao": 79.0,
+      "paginas_hoje": "https://news.inema.pro/en/noticias/guia-de-gestao-de-agentes-de-ia/"
+    },
+    {
+      "consulta": "ubtech",
+      "impressoes": 2,
+      "melhor_posicao": 66.0,
+      "paginas_hoje": "https://news.inema.pro/es/noticias/robos-humanoides/"
+    },
+    {
+      "consulta": "ai agent management",
+      "impressoes": 1,
+      "melhor_posicao": 87.0,
+      "paginas_hoje": "https://news.inema.pro/en/noticias/guia-de-gestao-de-agentes-de-ia/"
+    },
+    {
+      "consulta": "ai agents management",
+      "impressoes": 1,
+      "melhor_posicao": 90.0,
+      "paginas_hoje": "https://news.inema.pro/en/noticias/guia-de-gestao-de-agentes-de-ia/"
+    }
+  ],
+  "melhorar": [
+    {
+      "consulta": "boas práticas para gerenciamento de credenciais de agentes de ia",
+      "impressoes": 3,
+      "melhor_posicao": 10.7,
+      "paginas_hoje": "https://news.inema.pro/noticias/7-principios-da-gestao-de-agentes/"
+    },
+    {
+      "consulta": "curso claude code",
+      "impressoes": 1,
+      "melhor_posicao": 43.0,
+      "paginas_hoje": "https://news.inema.pro/noticias/claude-code-basico-agora-em-ingles-e-espanhol/"
+    },
+    {
+      "consulta": "is astra more powerful than fable",
+      "impressoes": 1,
+      "melhor_posicao": 20.0,
+      "paginas_hoje": "https://news.inema.pro/en/noticias/astra-vs-fable/"
+    },
+    {
+      "consulta": "livesx",
+      "impressoes": 1,
+      "melhor_posicao": 41.0,
+      "paginas_hoje": "https://news.inema.pro/en/noticias/yt-pub-livesx/"
+    },
+    {
+      "consulta": "mejores prácticas para gestión de credenciales de agentes de ia",
+      "impressoes": 1,
+      "melhor_posicao": 30.0,
+      "paginas_hoje": "https://news.inema.pro/es/noticias/guia-de-gestao-de-agentes-de-ia/"
+    },
+    {
+      "consulta": "nano banana pro marketing",
+      "impressoes": 1,
+      "melhor_posicao": 57.0,
+      "paginas_hoje": "https://news.inema.pro/es/noticias/nano-banana-pro/"
+    },
+    {
+      "consulta": "open agent skills",
+      "impressoes": 1,
+      "melhor_posicao": 19.0,
+      "paginas_hoje": "https://news.inema.pro/en/noticias/nvidia-open-agent-safety-platform/"
+    },
+    {
+      "consulta": "verifiable skills",
+      "impressoes": 1,
+      "melhor_posicao": 37.0,
+      "paginas_hoje": "https://news.inema.pro/en/noticias/agent-skills/"
+    },
+    {
+      "consulta": "visagismo com ia",
+      "impressoes": 1,
+      "melhor_posicao": 92.0,
+      "paginas_hoje": "https://news.inema.pro/noticias/visagismo-b/"
+    }
+  ],
+  "paginas_sem_clique": [
+    {
+      "pagina": "https://news.inema.pro/en/noticias/slopmonster/",
+      "impressoes": 189,
+      "posicao_media": 7.1,
+      "consultas": 2
+    },
+    {
+      "pagina": "https://news.inema.pro/en/noticias/openai-dots/",
+      "impressoes": 15,
+      "posicao_media": 7.1,
+      "consultas": 8
+    },
+    {
+      "pagina": "https://news.inema.pro/en/noticias/guia-de-gestao-de-agentes-de-ia/",
+      "impressoes": 11,
+      "posicao_media": 83.5,
+      "consultas": 5
+    },
+    {
+      "pagina": "https://news.inema.pro/es/noticias/claude-opus-5-5/",
+      "impressoes": 11,
+      "posicao_media": 9.0,
+      "consultas": 4
+    },
+    {
+      "pagina": "https://eventos.inema.pro/jev/",
+      "impressoes": 9,
+      "posicao_media": 7.5,
+      "consultas": 2
+    },
+    {
+      "pagina": "https://news.inema.pro/es/noticias/slopmonster/",
+      "impressoes": 6,
+      "posicao_media": 9.3,
+      "consultas": 1
+    }
+  ],
+  "regras": {
+    "posicao_dona": 10.0,
+    "min_impr": 5
+  }
+}
