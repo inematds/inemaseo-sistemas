@@ -44,6 +44,10 @@ class Base(unittest.TestCase):
         self.dir = d
         self.con = G.conectar(d / 'g.sqlite')
 
+    def tearDown(self):
+        self.con.close()
+        self.tmp.cleanup()
+
 
 class TestImportar(Base):
     def test_importa_e_e_idempotente(self):
