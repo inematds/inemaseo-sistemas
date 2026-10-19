@@ -1,0 +1,313 @@
+{
+  "linhas_lidas": 26,
+  "linhas_invalidas": 0,
+  "acessos_de_robo": 22,
+  "robos": [
+    {
+      "robo": "GPTBot",
+      "empresa": "OpenAI",
+      "finalidade": "treino",
+      "acessos": 5,
+      "autenticos": 3,
+      "falsos": 2,
+      "sem_lista": 0,
+      "paginas": 3,
+      "robots_txt": 1,
+      "erros_4xx_5xx": 2,
+      "ultimo": "13/Oct/2026:11:30:01 +0000"
+    },
+    {
+      "robo": "ClaudeBot",
+      "empresa": "Anthropic",
+      "finalidade": "treino",
+      "acessos": 3,
+      "autenticos": 3,
+      "falsos": 0,
+      "sem_lista": 0,
+      "paginas": 3,
+      "robots_txt": 1,
+      "erros_4xx_5xx": 2,
+      "ultimo": "2026-10-14T09:10:00Z"
+    },
+    {
+      "robo": "Googlebot",
+      "empresa": "Google",
+      "finalidade": "buscador",
+      "acessos": 3,
+      "autenticos": 2,
+      "falsos": 1,
+      "sem_lista": 0,
+      "paginas": 2,
+      "robots_txt": 0,
+      "erros_4xx_5xx": 0,
+      "ultimo": "13/Oct/2026:14:30:00 +0000"
+    },
+    {
+      "robo": "OAI-SearchBot",
+      "empresa": "OpenAI",
+      "finalidade": "busca",
+      "acessos": 3,
+      "autenticos": 3,
+      "falsos": 0,
+      "sem_lista": 0,
+      "paginas": 3,
+      "robots_txt": 1,
+      "erros_4xx_5xx": 0,
+      "ultimo": "2026-10-14T09:00:00Z"
+    },
+    {
+      "robo": "PerplexityBot",
+      "empresa": "Perplexity",
+      "finalidade": "busca",
+      "acessos": 2,
+      "autenticos": 1,
+      "falsos": 1,
+      "sem_lista": 0,
+      "paginas": 1,
+      "robots_txt": 0,
+      "erros_4xx_5xx": 0,
+      "ultimo": "2026-10-14T09:20:00Z"
+    },
+    {
+      "robo": "bingbot",
+      "empresa": "Microsoft",
+      "finalidade": "buscador",
+      "acessos": 2,
+      "autenticos": 2,
+      "falsos": 0,
+      "sem_lista": 0,
+      "paginas": 2,
+      "robots_txt": 0,
+      "erros_4xx_5xx": 0,
+      "ultimo": "13/Oct/2026:15:00:03 +0000"
+    },
+    {
+      "robo": "ChatGPT-User",
+      "empresa": "OpenAI",
+      "finalidade": "usuario",
+      "acessos": 1,
+      "autenticos": 1,
+      "falsos": 0,
+      "sem_lista": 0,
+      "paginas": 1,
+      "robots_txt": 0,
+      "erros_4xx_5xx": 0,
+      "ultimo": "13/Oct/2026:10:12:44 +0000"
+    },
+    {
+      "robo": "Claude-SearchBot",
+      "empresa": "Anthropic",
+      "finalidade": "busca",
+      "acessos": 1,
+      "autenticos": 1,
+      "falsos": 0,
+      "sem_lista": 0,
+      "paginas": 1,
+      "robots_txt": 0,
+      "erros_4xx_5xx": 0,
+      "ultimo": "13/Oct/2026:12:10:00 +0000"
+    },
+    {
+      "robo": "Claude-User",
+      "empresa": "Anthropic",
+      "finalidade": "usuario",
+      "acessos": 1,
+      "autenticos": 1,
+      "falsos": 0,
+      "sem_lista": 0,
+      "paginas": 1,
+      "robots_txt": 0,
+      "erros_4xx_5xx": 0,
+      "ultimo": "13/Oct/2026:12:20:00 +0000"
+    },
+    {
+      "robo": "Perplexity-User",
+      "empresa": "Perplexity",
+      "finalidade": "usuario",
+      "acessos": 1,
+      "autenticos": 1,
+      "falsos": 0,
+      "sem_lista": 0,
+      "paginas": 1,
+      "robots_txt": 0,
+      "erros_4xx_5xx": 0,
+      "ultimo": "13/Oct/2026:13:05:00 +0000"
+    }
+  ],
+  "por_finalidade": {
+    "busca": 5,
+    "usuario": 3,
+    "treino": 6,
+    "buscador": 4
+  },
+  "quem_leu_o_que": [
+    {
+      "robo": "ChatGPT-User",
+      "caminho": "/cursos/",
+      "acessos": 1
+    },
+    {
+      "robo": "Claude-SearchBot",
+      "caminho": "/aprender-inteligencia-artificial/",
+      "acessos": 1
+    },
+    {
+      "robo": "Claude-User",
+      "caminho": "/blog/post-a/",
+      "acessos": 1
+    },
+    {
+      "robo": "ClaudeBot",
+      "caminho": "/blog/post-b/",
+      "acessos": 1
+    },
+    {
+      "robo": "ClaudeBot",
+      "caminho": "/cursos/",
+      "acessos": 1
+    },
+    {
+      "robo": "ClaudeBot",
+      "caminho": "/robots.txt",
+      "acessos": 1
+    },
+    {
+      "robo": "GPTBot",
+      "caminho": "/",
+      "acessos": 1
+    },
+    {
+      "robo": "GPTBot",
+      "caminho": "/blog/post-a/",
+      "acessos": 1
+    },
+    {
+      "robo": "GPTBot",
+      "caminho": "/robots.txt",
+      "acessos": 1
+    },
+    {
+      "robo": "Googlebot",
+      "caminho": "/",
+      "acessos": 1
+    },
+    {
+      "robo": "Googlebot",
+      "caminho": "/contato/",
+      "acessos": 1
+    },
+    {
+      "robo": "OAI-SearchBot",
+      "caminho": "/aprender-inteligencia-artificial/",
+      "acessos": 1
+    },
+    {
+      "robo": "OAI-SearchBot",
+      "caminho": "/cursos/",
+      "acessos": 1
+    },
+    {
+      "robo": "OAI-SearchBot",
+      "caminho": "/robots.txt",
+      "acessos": 1
+    },
+    {
+      "robo": "Perplexity-User",
+      "caminho": "/cursos/",
+      "acessos": 1
+    },
+    {
+      "robo": "PerplexityBot",
+      "caminho": "/",
+      "acessos": 1
+    },
+    {
+      "robo": "bingbot",
+      "caminho": "/aprender-inteligencia-artificial/",
+      "acessos": 1
+    },
+    {
+      "robo": "bingbot",
+      "caminho": "/sitemap.xml",
+      "acessos": 1
+    }
+  ],
+  "falsos": [
+    {
+      "ip": "192.0.2.10",
+      "diz_ser": "GPTBot",
+      "acessos": 2,
+      "caminhos": {
+        "/wp-login.php": 1,
+        "/.env": 1
+      },
+      "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)"
+    },
+    {
+      "ip": "192.0.2.20",
+      "diz_ser": "Googlebot",
+      "acessos": 1,
+      "caminhos": {
+        "/": 1
+      },
+      "ua": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+    },
+    {
+      "ip": "192.0.2.30",
+      "diz_ser": "PerplexityBot",
+      "acessos": 1,
+      "caminhos": {
+        "/": 1
+      },
+      "ua": "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; PerplexityBot/1.0; +https://perplexity.ai/perplexitybot)"
+    }
+  ],
+  "nunca_visitadas": [
+    "/blog/post-b/"
+  ],
+  "origem_paginas": "sitemap ../../exemplos/botlog/entrada/MONTADO_sitemap.xml",
+  "total_paginas": 6,
+  "rdns": false,
+  "listas": [
+    {
+      "arquivo": "claude.com_bots.json",
+      "creationTime": "2026-10-07T00:00:00Z",
+      "faixas": 38
+    },
+    {
+      "arquivo": "developers.google.com_googlebot.json",
+      "creationTime": "2026-10-16T14:46:09.000000",
+      "faixas": 317
+    },
+    {
+      "arquivo": "openai.com_chatgpt-user.json",
+      "creationTime": "2026-10-07T16:05:32.418450",
+      "faixas": 234
+    },
+    {
+      "arquivo": "openai.com_gptbot.json",
+      "creationTime": "2026-09-22T02:00:07.000000",
+      "faixas": 18
+    },
+    {
+      "arquivo": "openai.com_searchbot.json",
+      "creationTime": "2026-01-02T11:00:00.000000",
+      "faixas": 39
+    },
+    {
+      "arquivo": "www.bing.com_bingbot.json",
+      "creationTime": "2024-01-03T10:00:00.121331",
+      "faixas": 28
+    },
+    {
+      "arquivo": "www.perplexity.com_perplexity-user.json",
+      "creationTime": "2025-10-17T10:17:00.000000",
+      "faixas": 4
+    },
+    {
+      "arquivo": "www.perplexity.com_perplexitybot.json",
+      "creationTime": "2025-02-07T16:56:00.000000",
+      "faixas": 8
+    }
+  ]
+}

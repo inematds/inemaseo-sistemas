@@ -1,0 +1,7 @@
+dados/
+saida/
+*.sqlite
+*.log
+!listas/
+.env
+__pycache__/

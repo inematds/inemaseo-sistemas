@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- MONTADO: sitemap fictício para o exemplo do botlog -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://exemplo.inema.club/</loc></url>
+  <url><loc>https://exemplo.inema.club/cursos/</loc></url>
+  <url><loc>https://exemplo.inema.club/aprender-inteligencia-artificial/</loc></url>
+  <url><loc>https://exemplo.inema.club/blog/post-a/</loc></url>
+  <url><loc>https://exemplo.inema.club/blog/post-b/</loc></url>
+  <url><loc>https://exemplo.inema.club/contato/</loc></url>
+</urlset>

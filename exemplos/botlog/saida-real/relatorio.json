@@ -1,0 +1,124 @@
+{
+  "linhas_lidas": 8,
+  "linhas_invalidas": 0,
+  "acessos_de_robo": 8,
+  "robos": [
+    {
+      "robo": "GPTBot",
+      "empresa": "OpenAI",
+      "finalidade": "treino",
+      "acessos": 4,
+      "autenticos": 4,
+      "falsos": 0,
+      "sem_lista": 0,
+      "paginas": 2,
+      "robots_txt": 0,
+      "erros_4xx_5xx": 0,
+      "ultimo": "19/Oct/2026:06:11:05 +0000"
+    },
+    {
+      "robo": "ClaudeBot",
+      "empresa": "Anthropic",
+      "finalidade": "treino",
+      "acessos": 2,
+      "autenticos": 2,
+      "falsos": 0,
+      "sem_lista": 0,
+      "paginas": 2,
+      "robots_txt": 1,
+      "erros_4xx_5xx": 0,
+      "ultimo": "12/Oct/2026:03:54:30 +0000"
+    },
+    {
+      "robo": "OAI-SearchBot",
+      "empresa": "OpenAI",
+      "finalidade": "busca",
+      "acessos": 2,
+      "autenticos": 2,
+      "falsos": 0,
+      "sem_lista": 0,
+      "paginas": 1,
+      "robots_txt": 2,
+      "erros_4xx_5xx": 1,
+      "ultimo": "19/Oct/2026:06:11:02 +0000"
+    }
+  ],
+  "por_finalidade": {
+    "treino": 6,
+    "busca": 2
+  },
+  "quem_leu_o_que": [
+    {
+      "robo": "GPTBot",
+      "caminho": "/",
+      "acessos": 3
+    },
+    {
+      "robo": "OAI-SearchBot",
+      "caminho": "/robots.txt",
+      "acessos": 2
+    },
+    {
+      "robo": "ClaudeBot",
+      "caminho": "/",
+      "acessos": 1
+    },
+    {
+      "robo": "ClaudeBot",
+      "caminho": "/robots.txt",
+      "acessos": 1
+    },
+    {
+      "robo": "GPTBot",
+      "caminho": "/static/pagina.css",
+      "acessos": 1
+    }
+  ],
+  "falsos": [],
+  "nunca_visitadas": [],
+  "origem_paginas": "páginas com resposta 200 no próprio log (passe --sitemap para usar o sitemap)",
+  "total_paginas": 1,
+  "rdns": false,
+  "listas": [
+    {
+      "arquivo": "claude.com_bots.json",
+      "creationTime": "2026-10-07T00:00:00Z",
+      "faixas": 38
+    },
+    {
+      "arquivo": "developers.google.com_googlebot.json",
+      "creationTime": "2026-10-16T14:46:09.000000",
+      "faixas": 317
+    },
+    {
+      "arquivo": "openai.com_chatgpt-user.json",
+      "creationTime": "2026-10-07T16:05:32.418450",
+      "faixas": 234
+    },
+    {
+      "arquivo": "openai.com_gptbot.json",
+      "creationTime": "2026-09-22T02:00:07.000000",
+      "faixas": 18
+    },
+    {
+      "arquivo": "openai.com_searchbot.json",
+      "creationTime": "2026-01-02T11:00:00.000000",
+      "faixas": 39
+    },
+    {
+      "arquivo": "www.bing.com_bingbot.json",
+      "creationTime": "2024-01-03T10:00:00.121331",
+      "faixas": 28
+    },
+    {
+      "arquivo": "www.perplexity.com_perplexity-user.json",
+      "creationTime": "2025-10-17T10:17:00.000000",
+      "faixas": 4
+    },
+    {
+      "arquivo": "www.perplexity.com_perplexitybot.json",
+      "creationTime": "2025-02-07T16:56:00.000000",
+      "faixas": 8
+    }
+  ]
+}

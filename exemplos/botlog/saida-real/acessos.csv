@@ -1,0 +1,9 @@
+ts,ip,robo,finalidade,verificacao,metodo,caminho,status
+06/Oct/2026:17:02:22 +0000,74.7.241.8,GPTBot,treino,autentico,GET,/,204
+12/Oct/2026:03:54:30 +0000,216.73.217.101,ClaudeBot,treino,autentico,GET,/robots.txt,204
+12/Oct/2026:03:54:30 +0000,216.73.217.101,ClaudeBot,treino,autentico,GET,/,204
+12/Oct/2026:03:59:25 +0000,74.7.228.62,OAI-SearchBot,busca,autentico,GET,/robots.txt,204
+12/Oct/2026:03:59:26 +0000,74.7.227.40,GPTBot,treino,autentico,GET,/,204
+19/Oct/2026:06:11:02 +0000,74.7.175.138,OAI-SearchBot,busca,autentico,GET,/robots.txt,404
+19/Oct/2026:06:11:02 +0000,74.7.227.62,GPTBot,treino,autentico,GET,/,200
+19/Oct/2026:06:11:05 +0000,74.7.227.62,GPTBot,treino,autentico,GET,/static/pagina.css,200

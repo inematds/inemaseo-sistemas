@@ -1,0 +1,11 @@
+robo,empresa,finalidade,acessos,autenticos,falsos,sem_lista,paginas,robots_txt,erros_4xx_5xx,ultimo
+GPTBot,OpenAI,treino,5,3,2,0,3,1,2,13/Oct/2026:11:30:01 +0000
+ClaudeBot,Anthropic,treino,3,3,0,0,3,1,2,2026-10-14T09:10:00Z
+Googlebot,Google,buscador,3,2,1,0,2,0,0,13/Oct/2026:14:30:00 +0000
+OAI-SearchBot,OpenAI,busca,3,3,0,0,3,1,0,2026-10-14T09:00:00Z
+PerplexityBot,Perplexity,busca,2,1,1,0,1,0,0,2026-10-14T09:20:00Z
+bingbot,Microsoft,buscador,2,2,0,0,2,0,0,13/Oct/2026:15:00:03 +0000
+ChatGPT-User,OpenAI,usuario,1,1,0,0,1,0,0,13/Oct/2026:10:12:44 +0000
+Claude-SearchBot,Anthropic,busca,1,1,0,0,1,0,0,13/Oct/2026:12:10:00 +0000
+Claude-User,Anthropic,usuario,1,1,0,0,1,0,0,13/Oct/2026:12:20:00 +0000
+Perplexity-User,Perplexity,usuario,1,1,0,0,1,0,0,13/Oct/2026:13:05:00 +0000

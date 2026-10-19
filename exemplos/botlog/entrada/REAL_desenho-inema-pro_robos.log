@@ -1,0 +1,8 @@
+74.7.241.8 - - [06/Oct/2026:17:02:22 +0000] "GET / HTTP/1.1" 204 0 "-" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)"
+216.73.217.101 - - [12/Oct/2026:03:54:30 +0000] "GET /robots.txt HTTP/1.1" 204 0 "-" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; ClaudeBot/1.0; +claudebot@anthropic.com)"
+216.73.217.101 - - [12/Oct/2026:03:54:30 +0000] "GET / HTTP/1.1" 204 0 "-" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; ClaudeBot/1.0; +claudebot@anthropic.com)"
+74.7.228.62 - - [12/Oct/2026:03:59:25 +0000] "GET /robots.txt HTTP/1.1" 204 0 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; robots.txt; +https://openai.com/searchbot"
+74.7.227.40 - - [12/Oct/2026:03:59:26 +0000] "GET / HTTP/1.1" 204 0 "-" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)"
+74.7.175.138 - - [19/Oct/2026:06:11:02 +0000] "GET /robots.txt HTTP/1.1" 404 22 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.4; robots.txt; +https://openai.com/searchbot"
+74.7.227.62 - - [19/Oct/2026:06:11:02 +0000] "GET / HTTP/1.1" 200 2651 "-" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)"
+74.7.227.62 - - [19/Oct/2026:06:11:05 +0000] "GET /static/pagina.css HTTP/1.1" 200 5792 "https://desenho.inema.pro/" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.4; +https://openai.com/gptbot)"

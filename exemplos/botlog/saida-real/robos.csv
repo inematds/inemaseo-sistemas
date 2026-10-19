@@ -1,0 +1,4 @@
+robo,empresa,finalidade,acessos,autenticos,falsos,sem_lista,paginas,robots_txt,erros_4xx_5xx,ultimo
+GPTBot,OpenAI,treino,4,4,0,0,2,0,0,19/Oct/2026:06:11:05 +0000
+ClaudeBot,Anthropic,treino,2,2,0,0,2,1,0,12/Oct/2026:03:54:30 +0000
+OAI-SearchBot,OpenAI,busca,2,2,0,0,1,2,1,19/Oct/2026:06:11:02 +0000
