@@ -1,0 +1,85 @@
+{
+  "site": "inema.pro",
+  "periodo": [
+    "2026-10-06",
+    "2026-10-11"
+  ],
+  "tem_gsc": true,
+  "total_citacoes": 38,
+  "paginas_citadas": 5,
+  "consultas_grounding": 6,
+  "citadas_com_clique": [],
+  "citadas_sem_clique": [
+    {
+      "url": "https://news.inema.pro/en/noticias/slopmonster/",
+      "citacoes": 23,
+      "cliques_google": 0,
+      "impressoes_google": 189
+    },
+    {
+      "url": "https://news.inema.pro/en/noticias/openai-dots/",
+      "citacoes": 6,
+      "cliques_google": 0,
+      "impressoes_google": 15
+    },
+    {
+      "url": "https://news.inema.pro/es/noticias/claude-opus-5-5/",
+      "citacoes": 4,
+      "cliques_google": 0,
+      "impressoes_google": 11
+    },
+    {
+      "url": "https://eventos.inema.pro/oswork/",
+      "citacoes": 3,
+      "cliques_google": 0,
+      "impressoes_google": 0
+    },
+    {
+      "url": "https://news.inema.pro/en/noticias/guia-de-gestao-de-agentes-de-ia/",
+      "citacoes": 2,
+      "cliques_google": 0,
+      "impressoes_google": 11
+    }
+  ],
+  "clique_sem_citacao": [
+    {
+      "url": "https://eventos.inema.pro/jev/es/",
+      "cliques_google": 2,
+      "impressoes_google": 22
+    }
+  ],
+  "ideias": [
+    {
+      "consulta": "what is slopmonster ai",
+      "citacoes": 7
+    },
+    {
+      "consulta": "openai dots agent",
+      "citacoes": 5
+    },
+    {
+      "consulta": "claude opus 5.5 benchmarks",
+      "citacoes": 4
+    },
+    {
+      "consulta": "how to manage ai agents in a company",
+      "citacoes": 2
+    }
+  ],
+  "ja_no_google": [
+    {
+      "consulta": "slopmonster",
+      "citacoes": 11,
+      "impressoes_google": 194,
+      "cliques_google": 0,
+      "melhor_posicao": 6.0
+    },
+    {
+      "consulta": "oswork",
+      "citacoes": 3,
+      "impressoes_google": 13,
+      "cliques_google": 0,
+      "melhor_posicao": 2.0
+    }
+  ]
+}
