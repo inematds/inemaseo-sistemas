@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>inemaseo-sistemas — o Semrush aberto do seu próprio site</title>
+<meta name="description" content="5 ferramentas de linha de comando, locais e gratuitas, para o SEO do seu próprio site: histórico do Search Console, citações de IA no Bing, robôs de IA no log, auditor técnico e nota de prontidão para agentes. Python padrão, sem API paga, MIT.">
+<link rel="alternate" hreflang="pt-BR" href="https://inematds.github.io/inemaseo-sistemas/guia/">
+<link rel="alternate" hreflang="en" href="https://inematds.github.io/inemaseo-sistemas/guia/en/">
+<link rel="alternate" hreflang="es" href="https://inematds.github.io/inemaseo-sistemas/guia/es/">
+<link rel="canonical" href="https://inematds.github.io/inemaseo-sistemas/guia/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0c0c10; --bg2:#14141b; --card:#16161e; --line:#272730;
+    --txt:#e9e9ee; --mut:#9a9aa6; --amb:#FACC15; --amb2:#f0c070; --sky:#38bdf8; --pro:#cbd5e1;
+    --ambs:rgba(250,204,21,.13); --bad:#f0918a;
+    color-scheme:dark;
+  }
+  body.light{
+    --bg:#f6f7f9; --bg2:#eceef2; --card:#ffffff; --line:#e1e3ea;
+    --txt:#1a1a22; --mut:#5b5b68; --amb:#a16207; --amb2:#a16207; --sky:#0369a1; --pro:#b45309;
+    --ambs:rgba(250,204,21,.28); --bad:#a83426;
+    color-scheme:light;
+  }
+  body.light .hero .glow{opacity:.5}
+  body.light pre{background:#0e0e14;color:#d6d6e0}
+  body.light pre .c{color:#8a8a98}
+  body.light pre .k{color:#f0c070}
+  body.light .btn{background:#FACC15}
+  body.light .step .b{background:#FACC15}
+  body.light .bar i{background:#EAB308}
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--txt);font:16px/1.65 Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+  h1,h2,h3{font-family:Sora,sans-serif;line-height:1.15;margin:0}
+  a{color:var(--amb);text-decoration:none}
+  code,pre{font-family:"JetBrains Mono",monospace}
+  .wrap{max-width:1160px;margin:0 auto;padding:0 22px}
+  .mut{color:var(--mut)} .amb{color:var(--amb)}
+  .chip{display:inline-block;font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;color:var(--amb);font-weight:600;font-family:Sora}
+  nav{position:sticky;top:0;z-index:30;backdrop-filter:blur(12px);background:rgba(12,12,16,.78);border-bottom:1px solid var(--line)}
+  body.light nav{background:rgba(246,247,249,.85)}
+  nav .wrap{display:flex;align-items:center;gap:22px;height:60px}
+  nav .brand{display:flex;align-items:center;gap:8px;font-family:Sora;font-weight:800;letter-spacing:-.02em;color:var(--amb)}
+  nav .brand .emoji{font-size:1.25rem}
+  nav .sep{color:var(--mut);opacity:.45}
+  nav .inema{color:var(--sky);font-weight:600;font-size:.88rem;font-family:Sora}
+  nav .inema:hover{filter:brightness(1.15)}
+  nav .pro{color:var(--pro);font-weight:600;font-size:.88rem;font-family:Sora}
+  nav .pro:hover{filter:brightness(1.15)}
+  nav .clubpro{display:inline-flex;align-items:center;gap:6px}
+  nav .links{margin-left:auto;display:flex;align-items:center;gap:20px;font-size:.92rem}
+  nav .links a.sec{color:var(--mut)} nav .links a.sec:hover{color:var(--txt)}
+  .lang{display:inline-flex;gap:2px;font-family:Sora;font-size:.78rem}
+  .lang a{color:var(--mut);padding:.2em .45em;border-radius:6px} .lang a.on{color:var(--amb);background:var(--ambs)}
+  .tgl{background:var(--bg2);border:1px solid var(--line);color:var(--txt);width:38px;height:38px;border-radius:10px;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;font-size:1.05rem}
+  .tgl:hover{border-color:var(--amb)}
+  .btn{display:inline-block;background:var(--amb);color:#1a1206;font-weight:600;padding:.6em 1.05em;border-radius:10px;font-family:Sora}
+  .btn.ghost{background:transparent;color:var(--txt);border:1px solid var(--line)}
+  @media(max-width:900px){nav .links a.sec{display:none}}
+  @media(max-width:520px){nav .wrap{gap:8px;padding:8px 14px;height:auto;flex-wrap:wrap} nav .links{gap:8px;margin-left:0;width:100%;justify-content:space-between} nav .btn{padding:.45em .7em;font-size:.82rem} .tgl{width:34px;height:34px}}
+  .hero{position:relative;overflow:hidden;border-bottom:1px solid var(--line)}
+  .hero .glow{position:absolute;inset:-40% -20% auto auto;width:70%;height:600px;background:radial-gradient(closest-side,rgba(250,204,21,.16),transparent 70%);pointer-events:none}
+  .hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center;padding:74px 22px}
+  .hero h1{font-size:clamp(2.2rem,5vw,3.5rem);font-weight:800;letter-spacing:-.025em}
+  .hero p.lead{font-size:1.18rem;color:var(--mut);margin:1.1em 0 1.6em;max-width:34ch}
+  .hero .cta{display:flex;gap:12px;flex-wrap:wrap}
+  .hero figure{margin:0;border-radius:16px;overflow:hidden;border:1px solid var(--line);box-shadow:0 30px 80px -30px #000}
+  .hero figure img{width:100%;display:block}
+  .resumo{padding:38px 0 34px;border-bottom:1px solid var(--line)}
+  .resumo p{font-size:1.12rem;line-height:1.7;max-width:74ch;margin:.55em 0 0}
+  @media(max-width:780px){.hero .wrap{grid-template-columns:1fr;padding:48px 22px}}
+  section{padding:62px 0;border-bottom:1px solid var(--line)}
+  section h2{font-size:clamp(1.5rem,3.4vw,2.1rem);font-weight:800;letter-spacing:-.02em}
+  section .sub{color:var(--mut);margin:.6em 0 2em;max-width:62ch}
+  .grid{display:grid;gap:16px}
+  .g3{grid-template-columns:repeat(3,1fr)} .g4{grid-template-columns:repeat(4,1fr)} .g2{grid-template-columns:repeat(2,1fr)}
+  @media(max-width:820px){.g3,.g4{grid-template-columns:1fr 1fr}}
+  @media(max-width:540px){.g2,.g3,.g4{grid-template-columns:1fr}}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px}
+  .card h3{font-size:1.05rem;margin-bottom:.4em}
+  .card p{color:var(--mut);font-size:.92rem;margin:0}
+  .card p+p{margin-top:.6em}
+  .card .src{font-size:.82rem;margin-top:.8em;color:var(--mut)}
+  .card .src b{color:var(--txt);font-weight:600}
+  .num{display:inline-flex;width:30px;height:30px;align-items:center;justify-content:center;border-radius:8px;background:var(--ambs);color:var(--amb);font-family:Sora;font-weight:800;font-size:.9rem;margin-bottom:.7em}
+  .flow{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:10px}
+  .flow span{background:var(--bg2);border:1px solid var(--line);border-radius:999px;padding:.45em .9em;font-size:.85rem;font-family:Sora;font-weight:600}
+  .flow .arr{color:var(--amb);border:none;background:none;padding:0 .1em}
+  pre{background:#0a0a0e;border:1px solid var(--line);border-radius:12px;padding:16px 18px;overflow:auto;font-size:.86rem;line-height:1.6;color:#d6d6e0}
+  pre .c{color:#8a8a98} pre .k{color:var(--amb2)} pre .s{color:#9ece6a}
+  .step{display:grid;grid-template-columns:46px minmax(0,1fr);gap:16px;margin-bottom:26px}
+  .step>div,.card{min-width:0}
+  p code,li code,td code{overflow-wrap:anywhere}
+  .step .b{width:46px;height:46px;border-radius:12px;background:var(--amb);color:#1a1206;font-family:Sora;font-weight:800;font-size:1.25rem;display:flex;align-items:center;justify-content:center}
+  .step h3{font-size:1.12rem;margin-bottom:.3em}
+  .step p{color:var(--mut);margin:.2em 0 .7em}
+  .bars{display:grid;gap:12px;margin:6px 0 4px}
+  .bar{display:grid;grid-template-columns:minmax(0,15em) minmax(0,1fr) 3.2em;gap:12px;align-items:center;font-size:.9rem}
+  .bar span{overflow-wrap:anywhere}
+  .bar em{display:block;height:14px;background:var(--bg2);border:1px solid var(--line);border-radius:999px;overflow:hidden}
+  .bar i{display:block;height:100%;background:var(--amb);border-radius:999px}
+  .bar b{font-family:Sora;font-weight:800;text-align:right}
+  @media(max-width:540px){.bar{grid-template-columns:1fr 3em}.bar em{grid-column:1/-1;grid-row:2}}
+  .big{font-family:Sora;font-weight:800;font-size:2.1rem;color:var(--amb);line-height:1;margin:.1em 0 .25em}
+  .tag{display:inline-block;font-size:.75rem;font-family:Sora;font-weight:600;letter-spacing:.08em;text-transform:uppercase;border:1px solid var(--line);border-radius:999px;padding:.15em .6em;color:var(--mut);margin-bottom:.6em}
+  .tag.real{color:var(--amb);border-color:var(--amb)}
+  .no{list-style:none;padding:0;margin:0;display:grid;gap:10px}
+  .no li{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;font-size:.95rem}
+  .no li strong{font-family:Sora}
+  .no li .x{color:var(--bad);font-family:Sora;font-weight:800;margin-right:.4em}
+  .yes li .x{color:var(--amb)}
+  footer{padding:46px 0;text-align:center;color:var(--mut);font-size:.9rem}
+  .pill{display:inline-block;border:1px solid var(--line);border-radius:999px;padding:.3em .8em;font-size:.78rem;color:var(--mut);margin:4px}
+</style>
+</head>
+<body>
+
+<nav><div class="wrap">
+  <a class="brand" href="#top"><span class="emoji">🔎</span> inemaseo-sistemas</a>
+  <span class="sep">|</span>
+  <span class="clubpro">
+    <a class="inema" href="https://inema.club" target="_blank" rel="noopener">INEMA.CLUB</a>
+    <span class="sep">-</span>
+    <a class="pro" href="https://inema.pro" target="_blank" rel="noopener">PRO</a>
+  </span>
+  <div class="links">
+    <a class="sec" href="#oque">O que é</a>
+    <a class="sec" href="#fluxo">Como funciona</a>
+    <a class="sec" href="#guia">Guia de uso</a>
+    <a class="sec" href="#exemplos">Achados reais</a>
+    <a class="sec" href="#limites">Limites</a>
+    <a class="sec" href="#curso">Curso</a>
+    <span class="lang"><a class="on" href="./">PT</a><a href="en/">EN</a><a href="es/">ES</a></span>
+    <button class="tgl" id="themeToggle" aria-label="Alternar tema" title="Alternar tema">🌙</button>
+    <a class="btn" href="https://github.com/inematds/inemaseo-sistemas" target="_blank" rel="noopener">GitHub</a>
+  </div>
+</div></nav>
+
+<header class="hero" id="top">
+  <div class="glow"></div>
+  <div class="wrap">
+    <div>
+      <span class="chip">inemaSEO · 5 ferramentas locais · MIT</span>
+      <h1>O Semrush <span class="amb">aberto</span> do seu próprio site</h1>
+      <p class="lead">Cinco ferramentas de linha de comando que rodam no seu computador, só com Python, sem API paga e sem conta em serviço nenhum além do Search Console e do Bing Webmaster, que são grátis.</p>
+      <div class="cta">
+        <a class="btn" href="#guia">Começar o guia</a>
+        <a class="btn ghost" href="https://github.com/inematds/inemaseo-sistemas" target="_blank" rel="noopener">Ver no GitHub</a>
+      </div>
+    </div>
+    <figure><img src="assets/banner.jpg" alt="Banner: Semrush aberto do seu próprio site — 5 ferramentas locais, sem API paga"></figure>
+  </div>
+</header>
+
+<section id="resumo" class="resumo"><div class="wrap">
+  <span class="chip">Em resumo</span>
+  <p>O inemaseo-sistemas é um conjunto de cinco programas gratuitos para cuidar do SEO (como o site aparece no Google e nas IAs) do <strong>seu próprio</strong> site. Serve para quem tem um site e quer saber o que está quebrado, quem te encontra, quais robôs de IA leem as páginas e se o site está pronto para agentes de IA. Tudo roda no seu computador, com o Python 3.10 ou mais novo, usando só dado grátis: o site, o log do servidor e os arquivos que o Search Console e o Bing Webmaster deixam baixar.</p>
+</div></section>
+
+<section id="oque"><div class="wrap">
+  <span class="chip">O que é</span>
+  <h2>Cinco perguntas, cinco ferramentas</h2>
+  <p class="sub">Cada ferramenta responde uma pergunta, lê um dado que você já tem e entrega um relatório HTML (padrão INEMA) mais JSON e CSV para outra ferramenta ler.</p>
+  <figure style="margin:0 0 26px;border-radius:16px;overflow:hidden;border:1px solid var(--line);box-shadow:0 30px 80px -30px #000"><img src="assets/banner-grade.jpg" alt="Banner: o Semrush aberto do seu site, com as cinco ferramentas gsc-historico, bing-ia, botlog, auditor e agente-ready" loading="lazy" style="width:100%;display:block"></figure>
+  <div class="grid g3">
+    <div class="card"><div class="num">1</div><h3>📈 gsc-historico</h3><p>Quantas buscas <strong>sem a sua marca</strong> te acharam, semana a semana, para sempre. O Search Console só guarda 16 meses; aqui fica num banco SQLite que nunca apaga.</p><p class="src"><b>Dado:</b> CSV do <code>gsc_semanal.py</code> (Search Console)</p></div>
+    <div class="card"><div class="num">2</div><h3>💬 bing-ia</h3><p>Quais páginas o Copilot e o Bing citaram em respostas de IA e se elas também têm clique no Google. As consultas da IA que você ainda não cobre viram ideias de conteúdo.</p><p class="src"><b>Dado:</b> export do relatório AI Performance do Bing Webmaster</p></div>
+    <div class="card"><div class="num">3</div><h3>🤖 botlog</h3><p>Quais robôs de IA leram o site de verdade, separados por finalidade (busca, pedido do usuário, treino), e quais são falsos, com o IP conferido nas listas oficiais.</p><p class="src"><b>Dado:</b> log de acesso do seu servidor + listas oficiais de IP</p></div>
+    <div class="card"><div class="num">4</div><h3>🩻 auditor</h3><p>O que está quebrado no HTML que o servidor entrega: canônico, hreflang, sitemap, robots.txt por finalidade de robô de IA, bloqueio de CDN, páginas órfãs. Cada achado com uma linha de "como corrigir".</p><p class="src"><b>Dado:</b> o seu site, rastreado com educação</p></div>
+    <div class="card"><div class="num">5</div><h3>🎯 agente-ready</h3><p>Nota de 0 a 100 de prontidão para IA e agentes, com <strong>pesos públicos</strong> em <code>pesos.json</code>: dá para discordar, mudar e comparar. Inclui WebMCP (<code>document.modelContext</code>).</p><p class="src"><b>Dado:</b> o seu site</p></div>
+    <div class="card"><div class="num">✓</div><h3>🧾 Nada inventado</h3><p>Nome de robô, IP oficial, coluna de CSV e regra do Google só entram com fonte (link no README de cada ferramenta). Onde não há fonte, está escrito <strong>[a confirmar]</strong>.</p><p class="src"><b>Licença:</b> MIT · só biblioteca padrão do Python</p></div>
+  </div>
+</div></section>
+
+<section id="fluxo"><div class="wrap">
+  <span class="chip">Como funciona</span>
+  <h2>Dado grátis entra, relatório sai</h2>
+  <p class="sub">Nada vai para a nuvem. Você aponta a ferramenta para um arquivo ou para o endereço do site, ela trabalha no seu computador e grava os resultados numa pasta.</p>
+  <div class="flow">
+    <span>Seu dado grátis</span><span class="arr">→</span>
+    <span>Ferramenta local (Python)</span><span class="arr">→</span>
+    <span>relatorio.html</span><span class="arr">+</span>
+    <span>JSON / CSV</span><span class="arr">→</span>
+    <span>Próxima ferramenta</span>
+  </div>
+  <div class="grid g3" style="margin-top:26px">
+    <div class="card"><h3>Arquivos que você baixa</h3><p>Os CSV semanais do Search Console entram no <strong>gsc-historico</strong>. O CSV do AI Performance entra no <strong>bing-ia</strong>, que cruza com o banco do gsc-historico.</p></div>
+    <div class="card"><h3>Log do servidor</h3><p>O <strong>botlog</strong> lê nginx/Apache (combined, inclusive <code>.gz</code>) e Cloudflare Logpush. Antes de compartilhar, o comando <code>filtrar</code> deixa só as linhas de robô com IP oficial (LGPD).</p></div>
+    <div class="card"><h3>O próprio site</h3><p>O <strong>auditor</strong> e o <strong>agente-ready</strong> leem o HTML como um robô que não roda JavaScript: só GET, pausa de 1 s, respeitando o robots.txt. O agente-ready importa o núcleo do auditor.</p></div>
+  </div>
+</div></section>
+
+<section id="pre"><div class="wrap">
+  <span class="chip">Pré-requisitos</span>
+  <h2>O que precisa ter</h2>
+  <p class="sub">Para o auditor e o agente-ready basta o Python e a internet. As outras três pedem um arquivo seu.</p>
+  <div class="grid g3">
+    <div class="card"><h3>Python 3.10+ e git</h3><p>Só biblioteca padrão: não tem <code>pip install</code>.</p><pre><span class="k">python3</span> --version
+<span class="k">git</span> clone https://github.com/inematds/inemaseo-sistemas
+<span class="k">cd</span> inemaseo-sistemas</pre></div>
+    <div class="card"><h3>Search Console e Bing</h3><p>Para o <strong>gsc-historico</strong>: os CSV do <code>gsc_semanal.py</code> (repositório <code>inemaseo-metodo</code>). Para o <strong>bing-ia</strong>: o CSV exportado do AI Performance no painel do Bing Webmaster (não existe API para esses dados).</p></div>
+    <div class="card"><h3>Log de acesso</h3><p>Para o <strong>botlog</strong>: o access log do seu nginx/Apache ou o JSON do Cloudflare Logpush. Leitura só, por exemplo:</p><pre><span class="k">ssh</span> root@SEU_SERVIDOR <span class="s">'cd /var/log/nginx; zcat -f access.log.*.gz; cat access.log.1 access.log'</span> > /tmp/site.log</pre></div>
+  </div>
+</div></section>
+
+<section id="guia"><div class="wrap">
+  <span class="chip">Guia de uso · passo a passo</span>
+  <h2>Do clone ao primeiro relatório</h2>
+  <p class="sub">Os comandos abaixo rodam a partir da raiz do repositório. Toda ferramenta tem <code>--help</code> em português e um README com todas as opções.</p>
+
+  <div class="step"><div class="b">1</div><div>
+    <h3>Audite o HTML do seu site</h3>
+    <p>Rastreia até 50 páginas (mude com <code>--max</code>) e grava <code>relatorio.html</code>, <code>auditoria.json</code>, <code>achados.csv</code> e <code>paginas.csv</code>. No terminal, o resumo e os 5 primeiros achados críticos/importantes.</p>
+<pre><span class="k">python3</span> ferramentas/auditor/auditor.py https://seusite.com --max 50 --saida saida/auditor
+<span class="k">python3</span> ferramentas/auditor/auditor.py https://usuario.github.io/repo/guia/ --max 20   <span class="c"># só a pasta do guia</span></pre>
+  </div></div>
+
+  <div class="step"><div class="b">2</div><div>
+    <h3>Tire a nota para IA e agentes</h3>
+    <p>Lê a home e 4 páginas do sitemap (mude com <code>--paginas</code>), umas 10 a 25 requisições. Saída: <code>relatorio.html</code>, <code>agente-ready.json</code> e <code>criterios.csv</code>. Critério que não se aplica sai da conta, não vira falha.</p>
+<pre><span class="k">python3</span> ferramentas/agente-ready/agente-ready.py https://seusite.com --saida saida/agente-ready
+<span class="k">python3</span> ferramentas/agente-ready/agente-ready.py https://seusite.com --paginas 8</pre>
+  </div></div>
+
+  <div class="step"><div class="b">3</div><div>
+    <h3>Guarde o Search Console para sempre</h3>
+    <p>Importe a pasta de CSV (reimportar não duplica) e gere o relatório da semana: marca × sem marca × anônimas, consultas que subiram e caíram, pauta (consulta nova sem página dona) e páginas com impressão e 0 clique.</p>
+<pre><span class="k">cd</span> ferramentas/gsc-historico
+<span class="k">python3</span> gsc_historico.py importar ../../exemplos/gsc-historico/entrada --db dados/gsc.sqlite
+<span class="k">python3</span> gsc_historico.py relatorio --db dados/gsc.sqlite --site inema.club --saida saida/inema.club</pre>
+  </div></div>
+
+  <div class="step"><div class="b">4</div><div>
+    <h3>Veja onde a IA do Bing te cita</h3>
+    <p>Importe os CSV do AI Performance e cruze com o banco do gsc-historico. Se a ferramenta não reconhecer as colunas, ela pede o mapa com <code>--colunas</code> (a Microsoft não documenta o export).</p>
+<pre><span class="k">cd</span> ferramentas/bing-ia
+<span class="k">python3</span> bing_ia.py importar ../../exemplos/bing-ia/entrada/*.csv --db dados/bing.sqlite
+<span class="k">python3</span> bing_ia.py relatorio --db dados/bing.sqlite --gsc-db ../gsc-historico/dados/gsc.sqlite --site inema.pro --saida saida/inema.pro</pre>
+  </div></div>
+
+  <div class="step"><div class="b">5</div><div>
+    <h3>Descubra quais robôs leem o site</h3>
+    <p>Analise o log (vários arquivos, <code>.gz</code> incluso). Com <code>--sitemap</code>, mostra também as páginas que nenhum robô conseguiu ler. Antes de mostrar ou publicar um log, use <code>filtrar</code>.</p>
+<pre><span class="k">cd</span> ferramentas/botlog
+<span class="k">python3</span> botlog.py analisar /tmp/site.log --sitemap https://seusite.com/sitemap.xml --saida saida/site
+<span class="k">python3</span> botlog.py filtrar /tmp/site.log --saida /tmp/so-robos.log   <span class="c"># só robôs com IP oficial</span></pre>
+  </div></div>
+
+  <div class="step"><div class="b">6</div><div>
+    <h3>Rode os testes</h3>
+    <p>Os testes não usam rede: o auditor e o agente-ready testam contra um site falso em <code>tests/fixtures/</code>.</p>
+<pre><span class="k">for</span> t in ferramentas/*/; do [ -d $t/tests ] && python3 -m unittest discover -s $t/tests; done</pre>
+  </div></div>
+</div></section>
+
+<section id="exemplos"><div class="wrap">
+  <span class="chip">Achados reais · 19/10/2026</span>
+  <h2>O que as ferramentas acharam nos sites do INEMA</h2>
+  <p class="sub">Os exemplos do repositório foram gerados de verdade em 19/10/2026, só com GET em sites públicos do INEMA. Cada relatório abre no navegador.</p>
+
+  <div class="card" style="margin-bottom:16px">
+    <span class="tag real">agente-ready · real</span>
+    <h3>Nota de prontidão para IA e agentes (0–100)</h3>
+    <div class="bars" style="margin-top:14px">
+      <div class="bar"><span>inema.club</span><em><i style="width:93%"></i></em><b>93</b></div>
+      <div class="bar"><span>news.inema.pro</span><em><i style="width:72%"></i></em><b>72</b></div>
+      <div class="bar"><span>eventos.inema.pro</span><em><i style="width:69%"></i></em><b>69</b></div>
+      <div class="bar"><span>guia rea-engenharia-reversa</span><em><i style="width:54%"></i></em><b>54</b></div>
+    </div>
+    <p class="src">Nos três últimos, a categoria <b>entidade</b> ficou em 0 (sem Organization/Person com <code>@id</code> no JSON-LD) e <b>WebMCP</b> em 29 (nenhuma ferramenta registrada). O inema.club registra ferramenta WebMCP e tirou 100 nessa categoria. · <a href="../exemplos/agente-ready/inema.club/relatorio.html">inema.club</a> · <a href="../exemplos/agente-ready/eventos.inema.pro/relatorio.html">eventos</a> · <a href="../exemplos/agente-ready/news.inema.pro/relatorio.html">news</a> · <a href="../exemplos/agente-ready/github.io-rea-engenharia-reversa/relatorio.html">guia REA</a></p>
+  </div>
+
+  <div class="grid g3">
+    <div class="card"><span class="tag real">auditor · real</span><h3>inema.club</h3><div class="big">50 páginas</div><p>1 achado importante: 2 páginas de curso com menos de 80 palavras no HTML entregue (77 e 78). Nas melhorias: 28 títulos fora da faixa de 15–65 caracteres (faixa prática, não regra do Google) e uma entidade sem <code>@id</code>.</p><p class="src"><a href="../exemplos/auditor/inema.club/relatorio.html">abrir relatório</a></p></div>
+    <div class="card"><span class="tag real">auditor · real</span><h3>eventos.inema.pro</h3><div class="big">0 críticos</div><p>Nenhum achado crítico ou importante em 50 páginas. 4 melhorias: títulos longos, títulos repetidos, mais de um H1 e páginas sem JSON-LD.</p><p class="src"><a href="../exemplos/auditor/eventos.inema.pro/relatorio.html">abrir relatório</a></p></div>
+    <div class="card"><span class="tag real">auditor · real</span><h3>guia no GitHub Pages</h3><div class="big">2 importantes</div><p>No guia rea-engenharia-reversa: sitemap não encontrado e 3 páginas sem link canônico. O robots.txt de <code>github.io</code> pertence a outro repositório.</p><p class="src"><a href="../exemplos/auditor/github.io-rea-engenharia-reversa/relatorio.html">abrir relatório</a></p></div>
+    <div class="card"><span class="tag real">gsc-historico · real</span><h3>inema.club, semana 05–11/10</h3><div class="big">157</div><p>impressões de buscas sem a marca, com 0 clique (de 702 impressões no total). O relatório tirou 18 consultas para a pauta e 5 páginas com impressão e nenhum clique.</p><p class="src"><a href="../exemplos/gsc-historico/saida-inema.club/relatorio.html">abrir relatório</a></p></div>
+    <div class="card"><span class="tag real">botlog · real</span><h3>desenho.inema.pro</h3><div class="big">8 de 3.082</div><p>linhas do log de 05 a 19/10 eram de robô com IP oficial: GPTBot (4), ClaudeBot (2) e OAI-SearchBot (2). O resto (pessoas, scanners, <code>curl</code>) saiu pelo <code>filtrar</code>.</p><p class="src"><a href="../exemplos/botlog/saida-real/relatorio.html">abrir relatório</a></p></div>
+    <div class="card"><span class="tag">bing-ia · fictício</span><h3>Exemplo rotulado</h3><p>O exemplo do bing-ia usa CSV com <strong>números inventados</strong> (as URLs são reais do inema.pro), cruzados com o banco real do gsc-historico. Os nomes das colunas são palpite <strong>[a confirmar]</strong> com um export real.</p><p class="src"><a href="../exemplos/bing-ia/saida/relatorio.html">abrir relatório</a></p></div>
+  </div>
+</div></section>
+
+<section id="limites"><div class="wrap">
+  <span class="chip">Limite honesto</span>
+  <h2>O que dá e o que não dá para fazer de graça</h2>
+  <p class="sub">O repositório não promete o que o dado grátis não entrega. O que exige dado pago fica fora dele, como opção.</p>
+  <div class="grid g2">
+    <div><h3 style="margin-bottom:12px">Dá, com estas 5 ferramentas</h3>
+      <ul class="no yes">
+        <li><span class="x">✓</span>Auditoria técnica do HTML entregue</li>
+        <li><span class="x">✓</span>Histórico do Search Console sem o limite de 16 meses</li>
+        <li><span class="x">✓</span>Citações oficiais da IA do Bing</li>
+        <li><span class="x">✓</span>Robôs de IA no log, com falsos separados</li>
+        <li><span class="x">✓</span>Nota de prontidão para agentes, com pesos públicos</li>
+      </ul></div>
+    <div><h3 style="margin-bottom:12px">Não dá sem dado pago</h3>
+      <ul class="no">
+        <li><span class="x">✕</span><strong>Volume exato de busca</strong> e dificuldade de palavra-chave</li>
+        <li><span class="x">✕</span><strong>SERP de concorrente</strong></li>
+        <li><span class="x">✕</span><strong>Backlinks completos</strong></li>
+        <li><span class="x">✕</span><strong>Monitor automático</strong> das respostas das IAs</li>
+      </ul>
+      <p class="mut" style="margin-top:14px;font-size:.95rem">Para isso existem DataForSEO, Firecrawl, Apify, Semrush e Ahrefs: opcionais, fora deste repositório. Comparativo em <a href="https://github.com/inematds/inemaseo-sistemas/blob/main/docs/ESPEC.md" target="_blank" rel="noopener">docs/ESPEC.md</a>.</p></div>
+  </div>
+  <div class="grid g3" style="margin-top:22px">
+    <div class="card"><h3>Amostra, não o site inteiro</h3><p>Com <code>--max 50</code> num site de mil URLs, "órfã" quer dizer "sem link de entrada nas 50 páginas lidas". O agente-ready lê a home e 4 páginas: é um termômetro.</p></div>
+    <div class="card"><h3>Log não é citação</h3><p>O log mostra quem <strong>pediu</strong> a página, não se a IA usou o conteúdo numa resposta. Para citação, o bing-ia. Atrás de CDN, use o log da CDN.</p></div>
+    <div class="card"><h3>Só o que o robô vê</h3><p>Nada roda JavaScript, de propósito. O auditor não mede velocidade (Core Web Vitals) nem backlinks.</p></div>
+  </div>
+</div></section>
+
+<section id="curso"><div class="wrap">
+  <span class="chip">Curso relacionado</span>
+  <h2>Aprenda a usar no inemaSEO</h2>
+  <p class="sub">O inemaseo-sistemas faz parte do inemaSEO e é a base do curso 7 da Formação inemaSEO.</p>
+  <div class="grid g2">
+    <a class="card" href="https://eventos.inema.pro/inemaseo/" target="_blank" rel="noopener"><span class="tag real">Formação</span><h3>Formação inemaSEO</h3><p>A área do inemaSEO, com os cursos da formação.</p><p class="src">eventos.inema.pro/inemaseo</p></a>
+    <a class="card" href="https://inematds.github.io/formacao-inemaseo-sistemas-v72/" target="_blank" rel="noopener"><span class="tag">Em construção</span><h3>Curso 7 · os sistemas do inemaSEO</h3><p>O curso que ensina estas cinco ferramentas. Ainda em construção.</p><p class="src">inematds.github.io/formacao-inemaseo-sistemas-v72</p></a>
+  </div>
+</div></section>
+
+<footer>
+  <div class="wrap">
+    <div class="pill">Python 3.10+</div><div class="pill">biblioteca padrão</div><div class="pill">SQLite</div><div class="pill">MIT</div>
+    <p style="margin-top:18px">inemaseo-sistemas · parte do <a href="https://eventos.inema.pro/inemaseo/" target="_blank" rel="noopener">inemaSEO</a> ·
+      <a href="https://github.com/inematds/inemaseo-sistemas">inematds/inemaseo-sistemas</a> ·
+      <a href="https://inema.club">INEMA.CLUB</a></p>
+  </div>
+</footer>
+
+<script>
+  (function(){
+    var KEY='inemaseo-sistemas-theme';
+    var b=document.body, t=document.getElementById('themeToggle');
+    try{ if(localStorage.getItem(KEY)==='light'){ b.classList.add('light'); t.textContent='☀️'; } }catch(e){}
+    t.addEventListener('click',function(){
+      var light=b.classList.toggle('light');
+      t.textContent=light?'☀️':'🌙';
+      try{ localStorage.setItem(KEY, light?'light':'dark'); }catch(e){}
+    });
+  })();
+</script>
+</body>
+</html>

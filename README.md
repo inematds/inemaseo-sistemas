@@ -1,5 +1,17 @@
 # inemaseo-sistemas
 
+[![inemaseo-sistemas](guia/assets/banner.jpg)](https://inematds.github.io/inemaseo-sistemas/guia/)
+
+**🇧🇷 [Português](README.md) · 🇺🇸 [English](README.en.md) · 🇪🇸 [Español](README.es.md)**
+
+## O que é
+
+O inemaseo-sistemas é um conjunto de cinco programas gratuitos para cuidar do SEO (como o site aparece no Google e nas IAs) do **seu próprio** site. Serve para quem tem um site e quer saber o que está quebrado, quem te encontra, quais robôs de IA leem as páginas e se o site está pronto para agentes de IA. Tudo roda no seu computador, com o Python 3.10 ou mais novo, usando só dado grátis: o site, o log do servidor e os arquivos que o Search Console e o Bing Webmaster deixam baixar.
+
+## 📖 Guia de uso
+
+Guia completo (landing + passo a passo): **https://inematds.github.io/inemaseo-sistemas/guia/**
+
 O "Semrush aberto" do **seu próprio site**: 5 ferramentas de linha de comando que rodam no seu computador, só com Python 3.10+ (biblioteca padrão), sem API paga e sem conta em serviço nenhum além do Search Console e do Bing Webmaster, que são grátis. Licença MIT.
 
 Faz parte do [inemaSEO](https://eventos.inema.pro/inemaseo/) e é a base do curso 7 da Formação inemaSEO.
@@ -29,5 +41,5 @@ for t in ferramentas/*/; do [ -d $t/tests ] && python3 -m unittest discover -s $
 ```
 
 ---
-**English:** a free, local "open Semrush" for your own site — 5 stdlib-only Python CLIs (Search Console history, Bing AI citations, AI bot log analysis, technical auditor, AI/agent readiness score). MIT. Docs are in Portuguese; guide in EN/ES at `guia/`.
-**Español:** un "Semrush abierto" gratuito y local para tu propio sitio — 5 herramientas en Python (historial de Search Console, citas de IA en Bing, robots de IA en el log, auditor técnico, nota de preparación para agentes). MIT. Guía en ES en `guia/es/`.
+**English:** [README.en.md](README.en.md) · guide: https://inematds.github.io/inemaseo-sistemas/guia/en/
+**Español:** [README.es.md](README.es.md) · guía: https://inematds.github.io/inemaseo-sistemas/guia/es/
