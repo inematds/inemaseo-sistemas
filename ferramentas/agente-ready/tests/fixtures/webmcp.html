@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<title>Site com WebMCP para o teste do agente-ready</title>
+<link rel="canonical" href="https://ex.test/">
+<meta name="author" content="Equipe Ex">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","@id":"https://ex.test/#pessoa","name":"Ex","datePublished":"2026-10-01"}</script>
+<script src="/app.js"></script>
+<script>
+if ("modelContext" in document) {
+  document.modelContext?.registerTool({
+    name: "buscar_cursos",
+    description: "Busca cursos gratuitos pelo tema e devolve título e link.",
+    inputSchema: {type: "object", properties: {tema: {type: "string"}}},
+    async execute({tema}) { return {resultados: []}; },
+    annotations: {readOnlyHint: true}
+  });
+}
+</script>
+</head><body><main><h1>WebMCP</h1>
+<p>Esta página registra uma ferramenta com a API da especificação de 16 de outubro de 2026, que fica em document e não mais em navigator.</p>
+</main></body></html>

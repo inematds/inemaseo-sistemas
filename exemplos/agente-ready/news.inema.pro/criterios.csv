@@ -1,0 +1,24 @@
+id,categoria,peso,status,pontos,detalhe
+robots_busca,acesso,12,ok,12,todos liberados na home
+robots_usuario,acesso,6,ok,6,todos liberados na home
+cdn_robos,acesso,12,ok,12,"3 UA(s) de robô testados, nenhum barrado"
+entidade_id,entidade,8,falha,0,0 entidade(s); com @id: 0
+sameas,entidade,4,falha,0,sem sameAs na entidade
+sobre_contato,entidade,2,falha,0,"sem link /sobre, /about ou /contato"
+html_sem_js,conteudo,10,ok,10,5 de 5 página(s) com 150+ palavras no HTML entregue (média 976)
+resposta_visivel,conteudo,6,ok,6,5 de 5 com H1 + parágrafo de 20+ palavras
+autoria,conteudo,5,falha,0,"0 de 5 com autor (meta, rel=author ou JSON-LD)"
+datas,conteudo,5,parcial,2.5,"3 de 5 com data (JSON-LD, meta article ou <time>)"
+sitemap,descoberta,6,ok,6,690 URL(s) no escopo
+lastmod,descoberta,3,ok,3,690 de 690 com lastmod
+canonico,descoberta,4,ok,4,5 de 5 com um canônico absoluto
+hreflang,descoberta,3,ok,3,5 página(s) com hreflang; 5 com autorreferência
+llms_txt,descoberta,2,ok,2,HTTP 200
+webmcp_api,webmcp,5,falha,0,nenhum registerTool() em 6 script(s) de mesma origem + inline
+webmcp_politica,webmcp,1,na,,site sem WebMCP; Permissions-Policy: (ausente)
+https,webmcp,2,ok,2,HTTPS
+form_label,formularios,2,na,,sem formulário nas páginas lidas
+form_autocomplete,formularios,2,na,,sem formulário nas páginas lidas
+robots_treino,informativo,0,info,,nenhum bloqueado
+content_signal,informativo,0,info,,não declarado
+markdown,informativo,0,info,,Content-Type devolvido: text/html

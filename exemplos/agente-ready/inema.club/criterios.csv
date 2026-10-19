@@ -1,0 +1,24 @@
+id,categoria,peso,status,pontos,detalhe
+robots_busca,acesso,12,ok,12,todos liberados na home
+robots_usuario,acesso,6,ok,6,todos liberados na home
+cdn_robos,acesso,12,ok,12,"3 UA(s) de robô testados, nenhum barrado"
+entidade_id,entidade,8,ok,8,2 entidade(s); com @id: 2
+sameas,entidade,4,ok,4,sameAs presente
+sobre_contato,entidade,2,falha,0,"sem link /sobre, /about ou /contato"
+html_sem_js,conteudo,10,ok,10,5 de 5 página(s) com 150+ palavras no HTML entregue (média 996)
+resposta_visivel,conteudo,6,ok,6,5 de 5 com H1 + parágrafo de 20+ palavras
+autoria,conteudo,5,parcial,2.5,"3 de 5 com autor (meta, rel=author ou JSON-LD)"
+datas,conteudo,5,parcial,2.5,"3 de 5 com data (JSON-LD, meta article ou <time>)"
+sitemap,descoberta,6,ok,6,182 URL(s) no escopo
+lastmod,descoberta,3,ok,3,181 de 182 com lastmod
+canonico,descoberta,4,ok,4,5 de 5 com um canônico absoluto
+hreflang,descoberta,3,ok,3,2 página(s) com hreflang; 2 com autorreferência
+llms_txt,descoberta,2,ok,2,HTTP 200
+webmcp_api,webmcp,5,ok,5,"1 registerTool(); nomes: ?; 2 form[toolname] (forma declarativa antiga, fora do texto da spec de 16/10/2026 [a confirmar])"
+webmcp_politica,webmcp,1,ok,1,"Permissions-Policy: tools=(self), camera=(), microphone=(), geolocation=()"
+https,webmcp,2,ok,2,HTTPS
+form_label,formularios,2,ok,2,2 de 2 campo(s) com rótulo
+form_autocomplete,formularios,2,na,,sem campo de e-mail/nome/telefone
+robots_treino,informativo,0,info,,nenhum bloqueado
+content_signal,informativo,0,info,,não declarado
+markdown,informativo,0,info,,Content-Type devolvido: text/html

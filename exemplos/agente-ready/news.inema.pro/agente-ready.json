@@ -1,0 +1,353 @@
+{
+  "nota": 72,
+  "por_categoria": {
+    "acesso": 100,
+    "entidade": 0,
+    "conteudo": 71,
+    "descoberta": 100,
+    "webmcp": 29
+  },
+  "evidencias": {
+    "inicio": "https://news.inema.pro/",
+    "host": "news.inema.pro",
+    "robots_status": 200,
+    "robots": {
+      "Googlebot": true,
+      "Bingbot": true,
+      "OAI-SearchBot": true,
+      "Claude-SearchBot": true,
+      "PerplexityBot": true,
+      "ChatGPT-User": true,
+      "Claude-User": true,
+      "Perplexity-User": true,
+      "GPTBot": true,
+      "ClaudeBot": true,
+      "Google-Extended": true
+    },
+    "home_status": 200,
+    "https": true,
+    "sitemap_urls": 690,
+    "paginas": [
+      "https://news.inema.pro/",
+      "https://news.inema.pro/en/",
+      "https://news.inema.pro/es/noticias/aventurasinemavideo/",
+      "https://news.inema.pro/noticias/areas-do-inema-eventos-v6-2/",
+      "https://news.inema.pro/en/noticias/agent-skills/"
+    ],
+    "webmcp": {
+      "document": false,
+      "navigator": false,
+      "registros": 0,
+      "nomes": [],
+      "scripts_lidos": 6,
+      "forms_toolname": 0
+    },
+    "requisicoes": 19
+  },
+  "criterios": [
+    {
+      "id": "robots_busca",
+      "categoria": "acesso",
+      "peso": 12,
+      "titulo": "robots.txt libera os robôs de busca e citação",
+      "por_que": "Googlebot, Bingbot, OAI-SearchBot, Claude-SearchBot e PerplexityBot montam as respostas com fonte. Bloqueado = some das respostas daquele assistente.",
+      "fonte": [
+        "https://platform.openai.com/docs/bots",
+        "https://support.anthropic.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how",
+        "https://docs.perplexity.ai/guides/bots"
+      ],
+      "status": "ok",
+      "detalhe": "todos liberados na home",
+      "pontos": 12
+    },
+    {
+      "id": "robots_usuario",
+      "categoria": "acesso",
+      "peso": 6,
+      "titulo": "robots.txt libera os agentes a pedido do usuário",
+      "por_que": "ChatGPT-User, Claude-User e Perplexity-User leem a página quando alguém pede. Bloqueado = o agente não consegue abrir o seu site.",
+      "fonte": [
+        "https://support.anthropic.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how",
+        "https://docs.perplexity.ai/guides/bots"
+      ],
+      "status": "ok",
+      "detalhe": "todos liberados na home",
+      "pontos": 6
+    },
+    {
+      "id": "cdn_robos",
+      "categoria": "acesso",
+      "peso": 12,
+      "titulo": "CDN/WAF não barra User-Agent de robô de IA",
+      "por_que": "robots.txt é pedido; quem bloqueia de verdade é a CDN. O Google pede o rastreamento liberado em robots.txt e em qualquer CDN. Limite: só detecta regra por User-Agent, não por IP verificado.",
+      "fonte": [
+        "https://developers.google.com/search/docs/appearance/ai-features",
+        "https://developers.cloudflare.com/ai-crawl-control/"
+      ],
+      "status": "ok",
+      "detalhe": "3 UA(s) de robô testados, nenhum barrado",
+      "pontos": 12
+    },
+    {
+      "id": "entidade_id",
+      "categoria": "entidade",
+      "peso": 8,
+      "titulo": "Organization ou Person com @id no JSON-LD da home",
+      "por_que": "Diz quem publica, de forma que a máquina liga a mesma entidade entre páginas e perfis.",
+      "fonte": [
+        "https://developers.google.com/search/docs/appearance/structured-data/organization"
+      ],
+      "status": "falha",
+      "detalhe": "0 entidade(s); com @id: 0",
+      "pontos": 0
+    },
+    {
+      "id": "sameas",
+      "categoria": "entidade",
+      "peso": 4,
+      "titulo": "sameAs ligando a entidade aos perfis oficiais",
+      "por_que": "sameAs aponta os perfis (GitHub, YouTube, LinkedIn) da mesma entidade.",
+      "fonte": [
+        "https://developers.google.com/search/docs/appearance/structured-data/organization"
+      ],
+      "status": "falha",
+      "detalhe": "sem sameAs na entidade",
+      "pontos": 0
+    },
+    {
+      "id": "sobre_contato",
+      "categoria": "entidade",
+      "peso": 2,
+      "titulo": "Link para Sobre ou Contato na home",
+      "por_que": "Quem publica e como falar com ele é parte do 'quem' das diretrizes de conteúdo útil do Google.",
+      "fonte": [
+        "https://developers.google.com/search/docs/fundamentals/creating-helpful-content"
+      ],
+      "status": "falha",
+      "detalhe": "sem link /sobre, /about ou /contato",
+      "pontos": 0
+    },
+    {
+      "id": "html_sem_js",
+      "categoria": "conteudo",
+      "peso": 10,
+      "titulo": "Conteúdo principal no HTML entregue (sem depender de JavaScript)",
+      "por_que": "O que o servidor entrega é o que o robô lê sem renderizar. O Google renderiza JS em segunda fila; robôs de IA que não rodam JS: [a confirmar por robô].",
+      "fonte": [
+        "https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics"
+      ],
+      "status": "ok",
+      "detalhe": "5 de 5 página(s) com 150+ palavras no HTML entregue (média 976)",
+      "pontos": 10
+    },
+    {
+      "id": "resposta_visivel",
+      "categoria": "conteudo",
+      "peso": 6,
+      "titulo": "Resposta visível em texto (H1 + parágrafo com 20+ palavras)",
+      "por_que": "A resposta precisa estar em texto na página, não só em vídeo, imagem ou interação.",
+      "fonte": [
+        "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide"
+      ],
+      "status": "ok",
+      "detalhe": "5 de 5 com H1 + parágrafo de 20+ palavras",
+      "pontos": 6
+    },
+    {
+      "id": "autoria",
+      "categoria": "conteudo",
+      "peso": 5,
+      "titulo": "Autoria identificada",
+      "por_que": "'Quem fez' é uma das perguntas que o Google sugere responder em todo conteúdo.",
+      "fonte": [
+        "https://developers.google.com/search/docs/fundamentals/creating-helpful-content"
+      ],
+      "status": "falha",
+      "detalhe": "0 de 5 com autor (meta, rel=author ou JSON-LD)",
+      "pontos": 0
+    },
+    {
+      "id": "datas",
+      "categoria": "conteudo",
+      "peso": 5,
+      "titulo": "Data de publicação ou atualização",
+      "por_que": "datePublished/dateModified ou <time> deixam claro se a informação é atual.",
+      "fonte": [
+        "https://developers.google.com/search/docs/appearance/structured-data/article"
+      ],
+      "status": "parcial",
+      "detalhe": "3 de 5 com data (JSON-LD, meta article ou <time>)",
+      "pontos": 2.5
+    },
+    {
+      "id": "sitemap",
+      "categoria": "descoberta",
+      "peso": 6,
+      "titulo": "Sitemap com URLs",
+      "por_que": "Lista as URLs canônicas para qualquer robô.",
+      "fonte": [
+        "https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap"
+      ],
+      "status": "ok",
+      "detalhe": "690 URL(s) no escopo",
+      "pontos": 6
+    },
+    {
+      "id": "lastmod",
+      "categoria": "descoberta",
+      "peso": 3,
+      "titulo": "lastmod no sitemap",
+      "por_que": "Sem data, o robô não sabe o que mudou.",
+      "fonte": [
+        "https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap"
+      ],
+      "status": "ok",
+      "detalhe": "690 de 690 com lastmod",
+      "pontos": 3
+    },
+    {
+      "id": "canonico",
+      "categoria": "descoberta",
+      "peso": 4,
+      "titulo": "Um canônico absoluto por página",
+      "por_que": "Junta duplicadas numa URL só.",
+      "fonte": [
+        "https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls"
+      ],
+      "status": "ok",
+      "detalhe": "5 de 5 com um canônico absoluto",
+      "pontos": 4
+    },
+    {
+      "id": "hreflang",
+      "categoria": "descoberta",
+      "peso": 3,
+      "titulo": "hreflang com autorreferência (se o site tem idiomas)",
+      "por_que": "Liga as versões de idioma; cada uma lista as outras e a si mesma.",
+      "fonte": [
+        "https://developers.google.com/search/docs/specialty/international/localized-versions"
+      ],
+      "status": "ok",
+      "detalhe": "5 página(s) com hreflang; 5 com autorreferência",
+      "pontos": 3
+    },
+    {
+      "id": "llms_txt",
+      "categoria": "descoberta",
+      "peso": 2,
+      "titulo": "llms.txt (opcional, peso baixo)",
+      "por_que": "Barato, útil como índice para agentes de código. Sem evidência de ganho de citação: Ahrefs (jun/2026, 137 mil domínios) viu 97% dos arquivos sem nenhuma requisição; o guia de IA do Google diz que pode ignorar.",
+      "fonte": [
+        "https://ahrefs.com/blog/llmstxt-study/",
+        "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide"
+      ],
+      "status": "ok",
+      "detalhe": "HTTP 200",
+      "pontos": 2
+    },
+    {
+      "id": "webmcp_api",
+      "categoria": "webmcp",
+      "peso": 5,
+      "titulo": "Ferramentas WebMCP registradas com document.modelContext.registerTool()",
+      "por_que": "WebMCP deixa o site oferecer ações a agentes no navegador. Rascunho do W3C Community Group (16/10/2026), fora da trilha de padrão, sem navegador estável: é preparação, não fator de ranking. navigator.modelContext é nome antigo (vale parcial).",
+      "fonte": [
+        "https://webmachinelearning.github.io/webmcp/"
+      ],
+      "status": "falha",
+      "detalhe": "nenhum registerTool() em 6 script(s) de mesma origem + inline",
+      "pontos": 0
+    },
+    {
+      "id": "webmcp_politica",
+      "categoria": "webmcp",
+      "peso": 1,
+      "titulo": "Permissions-Policy não desliga as ferramentas que o site registra",
+      "por_que": "Permissions-Policy: tools=() desliga a API no documento. Bom onde não há WebMCP; ruim se o site registra ferramentas.",
+      "fonte": [
+        "https://webmachinelearning.github.io/webmcp/#permissions-policy"
+      ],
+      "status": "na",
+      "detalhe": "site sem WebMCP; Permissions-Policy: (ausente)",
+      "pontos": null
+    },
+    {
+      "id": "https",
+      "categoria": "webmcp",
+      "peso": 2,
+      "titulo": "HTTPS (contexto seguro)",
+      "por_que": "document.modelContext só existe em contexto seguro ([SecureContext] na especificação).",
+      "fonte": [
+        "https://webmachinelearning.github.io/webmcp/#document-extension"
+      ],
+      "status": "ok",
+      "detalhe": "HTTPS",
+      "pontos": 2
+    },
+    {
+      "id": "form_label",
+      "categoria": "formularios",
+      "peso": 2,
+      "titulo": "Campos de formulário com rótulo",
+      "por_que": "Agente e leitor de tela precisam saber o que cada campo pede.",
+      "fonte": [
+        "https://www.w3.org/WAI/tutorials/forms/labels/"
+      ],
+      "status": "na",
+      "detalhe": "sem formulário nas páginas lidas",
+      "pontos": null
+    },
+    {
+      "id": "form_autocomplete",
+      "categoria": "formularios",
+      "peso": 2,
+      "titulo": "autocomplete em campos de e-mail, nome e telefone",
+      "por_que": "O atributo autocomplete diz o tipo de dado de forma padronizada.",
+      "fonte": [
+        "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#autofill"
+      ],
+      "status": "na",
+      "detalhe": "sem formulário nas páginas lidas",
+      "pontos": null
+    },
+    {
+      "id": "robots_treino",
+      "categoria": "informativo",
+      "peso": 0,
+      "titulo": "Robôs de treino (GPTBot, ClaudeBot, Google-Extended)",
+      "por_que": "Bloquear treino é escolha do dono e em geral não tira da busca. Google-Extended não afeta a Busca do Google.",
+      "fonte": [
+        "https://developers.google.com/search/docs/crawling-indexing/google-common-crawlers"
+      ],
+      "status": "info",
+      "detalhe": "nenhum bloqueado",
+      "pontos": null
+    },
+    {
+      "id": "content_signal",
+      "categoria": "informativo",
+      "peso": 0,
+      "titulo": "Content-Signal no robots.txt",
+      "por_que": "Proposta da Cloudflare para declarar uso permitido (busca, treino). Adoção baixa; não é padrão. [a confirmar: página oficial da política]",
+      "fonte": [
+        "https://blog.cloudflare.com/agent-readiness/"
+      ],
+      "status": "info",
+      "detalhe": "não declarado",
+      "pontos": null
+    },
+    {
+      "id": "markdown",
+      "categoria": "informativo",
+      "peso": 0,
+      "titulo": "Resposta em Markdown com Accept: text/markdown",
+      "por_que": "O scanner da Cloudflare checa essa negociação. Sem evidência pública de efeito em citação.",
+      "fonte": [
+        "https://blog.cloudflare.com/agent-readiness/"
+      ],
+      "status": "info",
+      "detalhe": "Content-Type devolvido: text/html",
+      "pontos": null
+    }
+  ]
+}

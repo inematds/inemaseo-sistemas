@@ -1,0 +1,9 @@
+Entrada dos exemplos do agente-ready (leitura real, 19/10/2026, só GET em sites públicos do INEMA, pausa 1 s,
+home + 4 páginas do sitemap, pesos.json v1.0.0). Rodado a partir de ferramentas/:
+
+python3 agente-ready/agente-ready.py https://inema.club --saida ../exemplos/agente-ready/inema.club
+python3 agente-ready/agente-ready.py https://eventos.inema.pro --saida ../exemplos/agente-ready/eventos.inema.pro
+python3 agente-ready/agente-ready.py https://news.inema.pro --saida ../exemplos/agente-ready/news.inema.pro
+python3 agente-ready/agente-ready.py https://inematds.github.io/rea-engenharia-reversa/guia/ --saida ../exemplos/agente-ready/github.io-rea-engenharia-reversa
+
+Cada pasta: relatorio.html, agente-ready.json, criterios.csv.
