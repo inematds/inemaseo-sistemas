@@ -1,0 +1,1891 @@
+{
+  "dados": {
+    "inicio": "https://www.inema.club/",
+    "host": "www.inema.club",
+    "redirecionamentos": [
+      {
+        "url": "http://inema.club/",
+        "status": 308,
+        "destino": "https://inema.club/"
+      },
+      {
+        "url": "https://inema.club/",
+        "status": 308,
+        "destino": "https://www.inema.club/"
+      },
+      {
+        "url": "https://www.inema.club/",
+        "status": 200,
+        "destino": ""
+      }
+    ],
+    "robots": {
+      "status": 200,
+      "sitemaps": [
+        "https://www.inema.club/sitemap.xml",
+        "https://www.inema.club/courses-sitemap.xml"
+      ],
+      "content_signal": [],
+      "robos": [
+        {
+          "token": "Googlebot",
+          "finalidade": "busca",
+          "empresa": "Google",
+          "fonte": "https://developers.google.com/search/docs/crawling-indexing/google-common-crawlers",
+          "pode_home": true,
+          "grupo": "específico"
+        },
+        {
+          "token": "Bingbot",
+          "finalidade": "busca",
+          "empresa": "Microsoft",
+          "fonte": "https://www.bing.com/webmasters/help/which-crawlers-does-bing-use-8c184ec0",
+          "pode_home": true,
+          "grupo": "específico"
+        },
+        {
+          "token": "OAI-SearchBot",
+          "finalidade": "busca",
+          "empresa": "OpenAI",
+          "fonte": "https://platform.openai.com/docs/bots",
+          "pode_home": true,
+          "grupo": "específico"
+        },
+        {
+          "token": "Claude-SearchBot",
+          "finalidade": "busca",
+          "empresa": "Anthropic",
+          "fonte": "https://support.anthropic.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how",
+          "pode_home": true,
+          "grupo": "específico"
+        },
+        {
+          "token": "PerplexityBot",
+          "finalidade": "busca",
+          "empresa": "Perplexity",
+          "fonte": "https://docs.perplexity.ai/guides/bots",
+          "pode_home": true,
+          "grupo": "específico"
+        },
+        {
+          "token": "ChatGPT-User",
+          "finalidade": "usuario",
+          "empresa": "OpenAI",
+          "fonte": "https://platform.openai.com/docs/bots",
+          "pode_home": true,
+          "grupo": "*"
+        },
+        {
+          "token": "Claude-User",
+          "finalidade": "usuario",
+          "empresa": "Anthropic",
+          "fonte": "https://support.anthropic.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how",
+          "pode_home": true,
+          "grupo": "*"
+        },
+        {
+          "token": "Perplexity-User",
+          "finalidade": "usuario",
+          "empresa": "Perplexity",
+          "fonte": "https://docs.perplexity.ai/guides/bots",
+          "pode_home": true,
+          "grupo": "*"
+        },
+        {
+          "token": "GPTBot",
+          "finalidade": "treino",
+          "empresa": "OpenAI",
+          "fonte": "https://platform.openai.com/docs/bots",
+          "pode_home": true,
+          "grupo": "*"
+        },
+        {
+          "token": "ClaudeBot",
+          "finalidade": "treino",
+          "empresa": "Anthropic",
+          "fonte": "https://support.anthropic.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how",
+          "pode_home": true,
+          "grupo": "específico"
+        },
+        {
+          "token": "Google-Extended",
+          "finalidade": "treino",
+          "empresa": "Google",
+          "fonte": "https://developers.google.com/search/docs/crawling-indexing/google-common-crawlers",
+          "pode_home": true,
+          "grupo": "*"
+        }
+      ]
+    },
+    "sitemap": {
+      "arquivos": [
+        [
+          "https://www.inema.club/sitemap.xml",
+          200,
+          83
+        ],
+        [
+          "https://www.inema.club/courses-sitemap.xml",
+          200,
+          100
+        ]
+      ],
+      "urls": 182,
+      "com_lastmod": 181,
+      "com_hreflang": 14
+    },
+    "paginas": {
+      "https://www.inema.club/": {
+        "status": 200,
+        "final": "https://www.inema.club/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Aprender Inteligência Artificial na prática | INEMA.club",
+        "descricao": "Plataforma brasileira de formação prática em inteligência artificial, agentes e automação, com cursos, projetos, trilhas e comunidade.",
+        "h1": [
+          "INEMA.CLUB Portal INEMA"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://www.inema.club/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://www.inema.club/"
+          ],
+          [
+            "en",
+            "https://www.inema.club/en/"
+          ],
+          [
+            "es",
+            "https://www.inema.club/es/"
+          ],
+          [
+            "x-default",
+            "https://www.inema.club/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "EducationalOrganization",
+          "Person",
+          "WebSite"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 40,
+        "imgs_sem_alt": 0,
+        "palavras": 2044,
+        "links_internos": 12
+      },
+      "https://www.inema.club/en/": {
+        "status": 200,
+        "final": "https://www.inema.club/en/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Learn Artificial Intelligence in practice | INEMA.club",
+        "descricao": "Hands-on training in artificial intelligence, agents and automation.",
+        "h1": [
+          "INEMA.CLUB Portal INEMA"
+        ],
+        "lang": "en",
+        "canonicos": [
+          "https://www.inema.club/en/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://www.inema.club/"
+          ],
+          [
+            "en",
+            "https://www.inema.club/en/"
+          ],
+          [
+            "es",
+            "https://www.inema.club/es/"
+          ],
+          [
+            "x-default",
+            "https://www.inema.club/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "EducationalOrganization",
+          "Person",
+          "WebSite"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 40,
+        "imgs_sem_alt": 0,
+        "palavras": 2076,
+        "links_internos": 12
+      },
+      "https://www.inema.club/es/": {
+        "status": 200,
+        "final": "https://www.inema.club/es/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Aprende Inteligencia Artificial en la práctica | INEMA.club",
+        "descricao": "Formación práctica en inteligencia artificial, agentes y automatización.",
+        "h1": [
+          "INEMA.CLUB Portal INEMA"
+        ],
+        "lang": "es",
+        "canonicos": [
+          "https://www.inema.club/es/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://www.inema.club/"
+          ],
+          [
+            "en",
+            "https://www.inema.club/en/"
+          ],
+          [
+            "es",
+            "https://www.inema.club/es/"
+          ],
+          [
+            "x-default",
+            "https://www.inema.club/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "EducationalOrganization",
+          "Person",
+          "WebSite"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 40,
+        "imgs_sem_alt": 0,
+        "palavras": 2079,
+        "links_internos": 12
+      },
+      "https://www.inema.club/cursos/": {
+        "status": 200,
+        "final": "https://www.inema.club/cursos/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Cursos de inteligência artificial, agentes e automação | INEMA.club",
+        "descricao": "Catálogo público de cursos do INEMA, com páginas canônicas, temas e acesso à aplicação de cada formação.",
+        "h1": [
+          "Cursos para aprender e aplicar IA na prática"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://www.inema.club/cursos/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://www.inema.club/cursos/"
+          ],
+          [
+            "en",
+            "https://www.inema.club/en/cursos/"
+          ],
+          [
+            "es",
+            "https://www.inema.club/es/cursos/"
+          ],
+          [
+            "x-default",
+            "https://www.inema.club/cursos/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "EducationalOrganization",
+          "Person",
+          "ItemList"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 2259,
+        "links_internos": 328
+      },
+      "https://www.inema.club/en/cursos/": {
+        "status": 200,
+        "final": "https://www.inema.club/en/cursos/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Artificial intelligence, agents and automation courses | INEMA.club",
+        "descricao": "INEMA's public course catalog: courses already available in English first, then the full catalog in Portuguese.",
+        "h1": [
+          "Courses to learn and apply AI in practice"
+        ],
+        "lang": "en",
+        "canonicos": [
+          "https://www.inema.club/en/cursos/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://www.inema.club/cursos/"
+          ],
+          [
+            "en",
+            "https://www.inema.club/en/cursos/"
+          ],
+          [
+            "es",
+            "https://www.inema.club/es/cursos/"
+          ],
+          [
+            "x-default",
+            "https://www.inema.club/cursos/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "EducationalOrganization",
+          "Person",
+          "ItemList"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 2260,
+        "links_internos": 328
+      },
+      "https://www.inema.club/es/cursos/": {
+        "status": 200,
+        "final": "https://www.inema.club/es/cursos/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Cursos de inteligencia artificial, agentes y automatización | INEMA.club",
+        "descricao": "Catálogo público de cursos de INEMA: primero los cursos ya disponibles en español y después el catálogo completo en portugués.",
+        "h1": [
+          "Cursos para aprender y aplicar IA en la práctica"
+        ],
+        "lang": "es",
+        "canonicos": [
+          "https://www.inema.club/es/cursos/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://www.inema.club/cursos/"
+          ],
+          [
+            "en",
+            "https://www.inema.club/en/cursos/"
+          ],
+          [
+            "es",
+            "https://www.inema.club/es/cursos/"
+          ],
+          [
+            "x-default",
+            "https://www.inema.club/cursos/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "EducationalOrganization",
+          "Person",
+          "ItemList"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 2265,
+        "links_internos": 328
+      },
+      "https://www.inema.club/videos/": {
+        "status": 200,
+        "final": "https://www.inema.club/videos/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Vídeos do INEMA: aulas e shorts sobre IA na prática | INEMA.club",
+        "descricao": "Todos os vídeos produzidos pelo INEMA: vídeo-aulas com o Nei Maldaner (LOOP-R, OSWork, Astra, IA Cultivada, Codex + Claude) e shorts verticais sobre as áreas de IA. Abertos e gratuitos.",
+        "h1": [
+          "Vídeos do INEMA"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://www.inema.club/videos/"
+        ],
+        "hreflang": [],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "EducationalOrganization",
+          "Person",
+          "ItemList"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 46,
+        "imgs_sem_alt": 0,
+        "palavras": 4490,
+        "links_internos": 1
+      },
+      "https://www.inema.club/eventos/": {
+        "status": 200,
+        "final": "https://www.inema.club/eventos/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Eventos de IA do INEMA: imersões, treinamentos e gravações | INEMA.club",
+        "descricao": "Todas as áreas do Eventos INEMA: imersões, treinamentos e gravações sobre agentes de IA, Codex, Claude, WebMCP, gestão de IA, vídeo com IA e mais.",
+        "h1": [
+          "Eventos do INEMA"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://www.inema.club/eventos/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://www.inema.club/eventos/"
+          ],
+          [
+            "en",
+            "https://www.inema.club/en/eventos/"
+          ],
+          [
+            "es",
+            "https://www.inema.club/es/eventos/"
+          ],
+          [
+            "x-default",
+            "https://www.inema.club/eventos/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "EducationalOrganization",
+          "Person",
+          "ItemList"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 1667,
+        "links_internos": 1
+      },
+      "https://www.inema.club/en/eventos/": {
+        "status": 200,
+        "final": "https://www.inema.club/en/eventos/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "INEMA AI events: immersions, trainings and recordings | INEMA.club",
+        "descricao": "Every INEMA Events area: immersions, trainings and recordings on AI agents, Codex, Claude, WebMCP, AI management, AI video and more.",
+        "h1": [
+          "INEMA Events"
+        ],
+        "lang": "en",
+        "canonicos": [
+          "https://www.inema.club/en/eventos/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://www.inema.club/eventos/"
+          ],
+          [
+            "en",
+            "https://www.inema.club/en/eventos/"
+          ],
+          [
+            "es",
+            "https://www.inema.club/es/eventos/"
+          ],
+          [
+            "x-default",
+            "https://www.inema.club/eventos/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "EducationalOrganization",
+          "Person",
+          "ItemList"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 1796,
+        "links_internos": 1
+      },
+      "https://www.inema.club/es/eventos/": {
+        "status": 200,
+        "final": "https://www.inema.club/es/eventos/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Eventos de IA del INEMA: inmersiones, entrenamientos y grabaciones | INEMA.club",
+        "descricao": "Todas las áreas de Eventos INEMA: inmersiones, entrenamientos y grabaciones sobre agentes de IA, Codex, Claude, WebMCP, gestión de IA, video con IA y más.",
+        "h1": [
+          "Eventos del INEMA"
+        ],
+        "lang": "es",
+        "canonicos": [
+          "https://www.inema.club/es/eventos/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://www.inema.club/eventos/"
+          ],
+          [
+            "en",
+            "https://www.inema.club/en/eventos/"
+          ],
+          [
+            "es",
+            "https://www.inema.club/es/eventos/"
+          ],
+          [
+            "x-default",
+            "https://www.inema.club/eventos/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "EducationalOrganization",
+          "Person",
+          "ItemList"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 1843,
+        "links_internos": 1
+      },
+      "https://www.inema.club/noticias/": {
+        "status": 200,
+        "final": "https://www.inema.club/noticias/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Notícias de IA do INEMA: cursos, projetos e agentes | INEMA.club",
+        "descricao": "As notícias curadas pelo INEMA News: novos cursos e projetos abertos, agentes de IA, prompts e eventos, com resumo e link para a fonte.",
+        "h1": [
+          "Notícias do INEMA"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://www.inema.club/noticias/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://www.inema.club/noticias/"
+          ],
+          [
+            "en",
+            "https://www.inema.club/en/noticias/"
+          ],
+          [
+            "es",
+            "https://www.inema.club/es/noticias/"
+          ],
+          [
+            "x-default",
+            "https://www.inema.club/noticias/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "EducationalOrganization",
+          "Person",
+          "ItemList"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 9459,
+        "links_internos": 1
+      },
+      "https://www.inema.club/en/noticias/": {
+        "status": 200,
+        "final": "https://www.inema.club/en/noticias/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "INEMA AI news: courses, projects and agents | INEMA.club",
+        "descricao": "News curated by INEMA News: new open courses and projects, AI agents, prompts and events, with a summary and a link to the source.",
+        "h1": [
+          "INEMA News"
+        ],
+        "lang": "en",
+        "canonicos": [
+          "https://www.inema.club/en/noticias/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://www.inema.club/noticias/"
+          ],
+          [
+            "en",
+            "https://www.inema.club/en/noticias/"
+          ],
+          [
+            "es",
+            "https://www.inema.club/es/noticias/"
+          ],
+          [
+            "x-default",
+            "https://www.inema.club/noticias/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "EducationalOrganization",
+          "Person",
+          "ItemList"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 9397,
+        "links_internos": 1
+      },
+      "https://www.inema.club/es/noticias/": {
+        "status": 200,
+        "final": "https://www.inema.club/es/noticias/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Noticias de IA del INEMA: cursos, proyectos y agentes | INEMA.club",
+        "descricao": "Las noticias seleccionadas por INEMA News: nuevos cursos y proyectos abiertos, agentes de IA, prompts y eventos, con resumen y enlace a la fuente.",
+        "h1": [
+          "Noticias del INEMA"
+        ],
+        "lang": "es",
+        "canonicos": [
+          "https://www.inema.club/es/noticias/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://www.inema.club/noticias/"
+          ],
+          [
+            "en",
+            "https://www.inema.club/en/noticias/"
+          ],
+          [
+            "es",
+            "https://www.inema.club/es/noticias/"
+          ],
+          [
+            "x-default",
+            "https://www.inema.club/noticias/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "EducationalOrganization",
+          "Person",
+          "ItemList"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 9612,
+        "links_internos": 1
+      },
+      "https://www.inema.club/aprender-inteligencia-artificial/": {
+        "status": 200,
+        "final": "https://www.inema.club/aprender-inteligencia-artificial/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Como aprender Inteligência Artificial do zero (guia prático) | INEMA.club",
+        "descricao": "Guia prático do INEMA para aprender IA na ordem certa: prompts, ferramentas, agentes de código, automação e projetos reais, com cursos, trilhas e comunidade.",
+        "h1": [
+          "Como aprender Inteligência Artificial: do zero ao avançado"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://www.inema.club/aprender-inteligencia-artificial/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://www.inema.club/aprender-inteligencia-artificial/"
+          ],
+          [
+            "en",
+            "https://www.inema.club/en/learn-artificial-intelligence/"
+          ],
+          [
+            "es",
+            "https://www.inema.club/es/aprender-inteligencia-artificial/"
+          ],
+          [
+            "x-default",
+            "https://www.inema.club/aprender-inteligencia-artificial/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "EducationalOrganization",
+          "Person",
+          "Article",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 873,
+        "links_internos": 40
+      },
+      "https://www.inema.club/en/learn-artificial-intelligence/": {
+        "status": 200,
+        "final": "https://www.inema.club/en/learn-artificial-intelligence/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "How to learn Artificial Intelligence from scratch (practical guide) | INEMA.club",
+        "descricao": "INEMA’s practical guide to learning AI in the right order: prompts, tools, coding agents, automation and real projects, with free courses in English, Spanish and Portuguese.",
+        "h1": [
+          "How to learn Artificial Intelligence: from beginner to advanced"
+        ],
+        "lang": "en",
+        "canonicos": [
+          "https://www.inema.club/en/learn-artificial-intelligence/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://www.inema.club/aprender-inteligencia-artificial/"
+          ],
+          [
+            "en",
+            "https://www.inema.club/en/learn-artificial-intelligence/"
+          ],
+          [
+            "es",
+            "https://www.inema.club/es/aprender-inteligencia-artificial/"
+          ],
+          [
+            "x-default",
+            "https://www.inema.club/aprender-inteligencia-artificial/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "EducationalOrganization",
+          "Person",
+          "Article",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 921,
+        "links_internos": 29
+      },
+      "https://www.inema.club/es/aprender-inteligencia-artificial/": {
+        "status": 200,
+        "final": "https://www.inema.club/es/aprender-inteligencia-artificial/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Cómo aprender Inteligencia Artificial desde cero (guía práctica) | INEMA.club",
+        "descricao": "Guía práctica del INEMA para aprender IA en el orden correcto: prompts, herramientas, agentes de código, automatización y proyectos reales, con cursos gratuitos en español, inglés y portugués.",
+        "h1": [
+          "Cómo aprender Inteligencia Artificial: de cero a avanzado"
+        ],
+        "lang": "es",
+        "canonicos": [
+          "https://www.inema.club/es/aprender-inteligencia-artificial/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://www.inema.club/aprender-inteligencia-artificial/"
+          ],
+          [
+            "en",
+            "https://www.inema.club/en/learn-artificial-intelligence/"
+          ],
+          [
+            "es",
+            "https://www.inema.club/es/aprender-inteligencia-artificial/"
+          ],
+          [
+            "x-default",
+            "https://www.inema.club/aprender-inteligencia-artificial/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "EducationalOrganization",
+          "Person",
+          "Article",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 934,
+        "links_internos": 29
+      },
+      "https://www.inema.club/agentes-de-inteligencia-artificial/": {
+        "status": 200,
+        "final": "https://www.inema.club/agentes-de-inteligencia-artificial/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Agentes de IA: onde aprender em português (trilhas) | INEMA.club",
+        "descricao": "Onde aprender agentes de IA em português: trilhas do iniciante ao avançado com cursos práticos do INEMA, ferramentas ensinadas e quem ensina.",
+        "h1": [
+          "Agentes de inteligência artificial: onde aprender em português, do primeiro agente ao sistema multiagente"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://www.inema.club/agentes-de-inteligencia-artificial/"
+        ],
+        "hreflang": [],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "EducationalOrganization",
+          "Person",
+          "Article",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 3093,
+        "links_internos": 44
+      },
+      "https://www.inema.club/comunidade-inteligencia-artificial/": {
+        "status": 200,
+        "final": "https://www.inema.club/comunidade-inteligencia-artificial/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Comunidade de inteligência artificial em português | INEMA.club",
+        "descricao": "Como funciona a comunidade de IA do INEMA: curadoria diária de novidades, cursos, projetos com código e eventos em português. Veja como entrar.",
+        "h1": [
+          "Comunidade de inteligência artificial em português: como funciona a do INEMA"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://www.inema.club/comunidade-inteligencia-artificial/"
+        ],
+        "hreflang": [],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "EducationalOrganization",
+          "Person",
+          "Article",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 4516,
+        "links_internos": 16
+      },
+      "https://www.inema.club/ia/": {
+        "status": 200,
+        "final": "https://www.inema.club/ia/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Perguntas sobre IA: respostas diretas e práticas | INEMA.club",
+        "descricao": "Respostas diretas do INEMA para as dúvidas mais comuns sobre inteligência artificial, agentes, automação e ferramentas, com o caminho para aprender na prática.",
+        "h1": [
+          "Perguntas sobre IA"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://www.inema.club/ia/"
+        ],
+        "hreflang": [],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "EducationalOrganization",
+          "Person",
+          "ItemList"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 102,
+        "links_internos": 4
+      },
+      "https://www.inema.club/ia/como-criar-um-agente-de-ia/": {
+        "status": 200,
+        "final": "https://www.inema.club/ia/como-criar-um-agente-de-ia/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Como criar um agente de IA (passo a passo prático) | INEMA.club",
+        "descricao": "Passo a passo para criar um agente de IA que funciona: escolher a tarefa, dar contexto e ferramentas, definir limites de autonomia, testar e supervisionar.",
+        "h1": [
+          "Como criar um agente de IA: do processo ao agente funcionando"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://www.inema.club/ia/como-criar-um-agente-de-ia/"
+        ],
+        "hreflang": [],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "EducationalOrganization",
+          "Person",
+          "Article",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 858,
+        "links_internos": 10
+      },
+      "https://www.inema.club/ia/como-criar-um-jarvis-com-ia/": {
+        "status": 200,
+        "final": "https://www.inema.club/ia/como-criar-um-jarvis-com-ia/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Como criar um Jarvis com IA: Telegram, memória e Ollama | INEMA.club",
+        "descricao": "Como criar um Jarvis com IA na sua máquina: bot no Telegram, modelo local no Ollama, memória que aprende e agentes com Claude e Codex: o openpcbot v3.",
+        "h1": [
+          "Como criar um Jarvis com IA: o assistente pessoal que roda na sua máquina"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://www.inema.club/ia/como-criar-um-jarvis-com-ia/"
+        ],
+        "hreflang": [],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "EducationalOrganization",
+          "Person",
+          "Article",
+          "BreadcrumbList",
+          "FAQPage"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 1588,
+        "links_internos": 11
+      },
+      "https://www.inema.club/conhecimento/": {
+        "status": 200,
+        "final": "https://www.inema.club/conhecimento/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Base de conhecimento — INEMA — Conhecimento",
+        "descricao": "Catálogo público do INEMA: institucional, cursos, projetos, perguntas frequentes, serviços e cases.",
+        "h1": [
+          "Base de conhecimento do INEMA"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://www.inema.club/conhecimento/"
+        ],
+        "hreflang": [],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "Organization"
+        ],
+        "entidades_sem_id": [
+          "Organization"
+        ],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 2204,
+        "links_internos": 55
+      },
+      "https://www.inema.club/conhecimento/case-programa-aiv/": {
+        "status": 200,
+        "final": "https://www.inema.club/conhecimento/case-programa-aiv/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Case (em construção): o INEMA aplicando AEO/GEO em si mesmo — programa AIV — INEMA — Conhecimento",
+        "descricao": "O próprio INEMA está executando, em si mesmo, o processo de se tornar encontrável e citável por IAs (ChatGPT, Claude, Gemini, Perplexity) — com diagnóstico público, baseline medido e plano de execução documentado. É um case autêntico porque está sendo registrado em tempo real, incluindo o",
+        "h1": [
+          "Case (em construção): o INEMA aplicando AEO/GEO em si mesmo — programa AIV"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://www.inema.club/conhecimento/case-programa-aiv/"
+        ],
+        "hreflang": [],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "Article"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 261,
+        "links_internos": 2
+      },
+      "https://www.inema.club/conhecimento/curso-agentic-engineering-masterclass/": {
+        "status": 200,
+        "final": "https://www.inema.club/conhecimento/curso-agentic-engineering-masterclass/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Agentic Engineering Masterclass — INEMA — Conhecimento",
+        "descricao": "Masterclass completa de engenharia de agentes de IA: 6 trilhas, 42 módulos, 252+ tópicos, ~21 semanas — do primeiro contato com agentes até orquestração multi-agente enterprise com LangGraph, CrewAI e AutoGen. A resposta mais próxima do INEMA pra",
+        "h1": [
+          "Agentic Engineering Masterclass"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://www.inema.club/conhecimento/curso-agentic-engineering-masterclass/"
+        ],
+        "hreflang": [],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "Course"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 105,
+        "links_internos": 2
+      },
+      "https://www.inema.club/conhecimento/curso-atia/": {
+        "status": 200,
+        "final": "https://www.inema.club/conhecimento/curso-atia/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "ATIA — AI Tools in Action: Oportunidades Digitais com IA — INEMA — Conhecimento",
+        "descricao": "Curso com 3 trilhas progressivas (fundamentos, mercado de trabalho e estratégia avançada de IA) para quem quer entender a revolução da IA e as novas oportunidades digitais, incluindo prompt engineering.",
+        "h1": [
+          "ATIA — AI Tools in Action: Oportunidades Digitais com IA"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://www.inema.club/conhecimento/curso-atia/"
+        ],
+        "hreflang": [],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "Course"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 77,
+        "links_internos": 2
+      },
+      "https://www.inema.club/conhecimento/curso-claude-code-basico/": {
+        "status": 200,
+        "final": "https://www.inema.club/conhecimento/curso-claude-code-basico/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Claude Code Básico — Curso Completo — INEMA — Conhecimento",
+        "descricao": "Curso completo do Claude Code (agente de codificação da Anthropic): 6 trilhas, 125 tópicos, cobrindo instalação, comandos, contexto, skills e memória, MCP, e agentes/Cowork multiagente — a resposta do INEMA pra",
+        "h1": [
+          "Claude Code Básico — Curso Completo"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://www.inema.club/conhecimento/curso-claude-code-basico/"
+        ],
+        "hreflang": [],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "Course"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 101,
+        "links_internos": 2
+      },
+      "https://www.inema.club/conhecimento/curso-codex-basico/": {
+        "status": 200,
+        "final": "https://www.inema.club/conhecimento/curso-codex-basico/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Codex Básico — Curso Completo — INEMA — Conhecimento",
+        "descricao": "Curso completo do Codex CLI (agente de codificação da OpenAI): 6 trilhas, 46 módulos — instalação, terminal, Agent Builder, BMAD, equipe de agentes e integração com WhatsApp. A resposta do INEMA pra",
+        "h1": [
+          "Codex Básico — Curso Completo"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://www.inema.club/conhecimento/curso-codex-basico/"
+        ],
+        "hreflang": [],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "Course"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 78,
+        "links_internos": 2
+      },
+      "https://www.inema.club/conhecimento/curso-do-zero-ao-deploy/": {
+        "status": 200,
+        "final": "https://www.inema.club/conhecimento/curso-do-zero-ao-deploy/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Do Zero ao Deploy — Da Primeira Linha no Terminal ao Assistente IA — INEMA — Conhecimento",
+        "descricao": "Curso para iniciantes sem pré-requisitos: começa do zero no terminal e termina com servidor próprio, deploy automático e um assistente de IA funcionando. 5 trilhas, 18 módulos, 108 tópicos. A resposta do INEMA pra",
+        "h1": [
+          "Do Zero ao Deploy — Da Primeira Linha no Terminal ao Assistente IA"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://www.inema.club/conhecimento/curso-do-zero-ao-deploy/"
+        ],
+        "hreflang": [],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "Course"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 84,
+        "links_internos": 2
+      },
+      "https://www.inema.club/conhecimento/curso-fec/": {
+        "status": 200,
+        "final": "https://www.inema.club/conhecimento/curso-fec/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "FEC — Formação de Engenharia de Contexto — INEMA — Conhecimento",
+        "descricao": "Curso master para quem leva LLM a produção: a disciplina de projetar, montar, comprimir, persistir e avaliar a janela de contexto de um modelo — não é",
+        "h1": [
+          "FEC — Formação de Engenharia de Contexto"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://www.inema.club/conhecimento/curso-fec/"
+        ],
+        "hreflang": [],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "Course"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 209,
+        "links_internos": 2
+      },
+      "https://www.inema.club/conhecimento/curso-fep/": {
+        "status": 200,
+        "final": "https://www.inema.club/conhecimento/curso-fep/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "FEP — Fundamentos de Engenharia de Prompt: Do Zero ao Especialista — INEMA — Conhecimento",
+        "descricao": "Curso gratuito e open source de engenharia de prompt, 4 trilhas progressivas e 24 módulos, do iniciante ao arquiteto de sistemas de prompt, com certificado de conclusão.",
+        "h1": [
+          "FEP — Fundamentos de Engenharia de Prompt: Do Zero ao Especialista"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://www.inema.club/conhecimento/curso-fep/"
+        ],
+        "hreflang": [],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "Course"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 99,
+        "links_internos": 2
+      },
+      "https://www.inema.club/conhecimento/curso-intelecto/": {
+        "status": 200,
+        "final": "https://www.inema.club/conhecimento/curso-intelecto/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "INTELECTO — Do Zero ao Expert em IA — INEMA — Conhecimento",
+        "descricao": "Curso que ensina um fluxo de 5 passos para transformar uma ideia em um assistente de IA pessoal funcionando no Telegram (o",
+        "h1": [
+          "INTELECTO — Do Zero ao Expert em IA"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://www.inema.club/conhecimento/curso-intelecto/"
+        ],
+        "hreflang": [],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "Course"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 95,
+        "links_internos": 2
+      },
+      "https://www.inema.club/conhecimento/curso-mentes-brilhantes/": {
+        "status": 200,
+        "final": "https://www.inema.club/conhecimento/curso-mentes-brilhantes/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Mentes Brilhantes — A Fórmula 1-20-79 — INEMA — Conhecimento",
+        "descricao": "Curso gratuito de mentalidade empreendedora: 1% ideia, 20% produto, 79% venda. Usa o case Cal AI (empresa avaliada em mais de US$100M) para ensinar validação de ideias, MVP, marketing, distribuição, vendas, retenção e escala. 6 trilhas, 24 módulos, 144+ tópicos.",
+        "h1": [
+          "Mentes Brilhantes — A Fórmula 1-20-79"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://www.inema.club/conhecimento/curso-mentes-brilhantes/"
+        ],
+        "hreflang": [],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "Course"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 136,
+        "links_internos": 2
+      },
+      "https://www.inema.club/conhecimento/curso-skills-craft/": {
+        "status": 200,
+        "final": "https://www.inema.club/conhecimento/curso-skills-craft/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Criando Agent Skills — Do Catálogo à Sua Primeira Skill — INEMA — Conhecimento",
+        "descricao": "Curso data-driven sobre Agent Skills (extensões do Claude Code): parte de uma análise real de 39.366 skills catalogadas no skills.sh (5.075 repositórios, 53,9M instalações) para ensinar a reconhecer boas skills e criar a própria. 5 trilhas, 25 módulos.",
+        "h1": [
+          "Criando Agent Skills — Do Catálogo à Sua Primeira Skill"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://www.inema.club/conhecimento/curso-skills-craft/"
+        ],
+        "hreflang": [],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "Course"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 142,
+        "links_internos": 2
+      },
+      "https://www.inema.club/conhecimento/curso-vibe-coding/": {
+        "status": 200,
+        "final": "https://www.inema.club/conhecimento/curso-vibe-coding/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Vibe Coding — Da Ideia ao Produto com IA — INEMA — Conhecimento",
+        "descricao": "Curso que ensina a construir software descrevendo o que se quer em linguagem natural para uma IA gerar o código (o método",
+        "h1": [
+          "Vibe Coding — Da Ideia ao Produto com IA"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://www.inema.club/conhecimento/curso-vibe-coding/"
+        ],
+        "hreflang": [],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "Course"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 108,
+        "links_internos": 2
+      },
+      "https://www.inema.club/conhecimento/faq-comparar-opcoes-formacao-ia-brasil/": {
+        "status": 200,
+        "final": "https://www.inema.club/conhecimento/faq-comparar-opcoes-formacao-ia-brasil/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Compare opções de formação prática em inteligência artificial no Brasil — INEMA — Conhecimento",
+        "descricao": "Enquanto a maior parte das formações de IA no Brasil (Data Science Academy, Alura, Udemy) ensina IA de forma geral/teórica, o INEMA é focado especificamente em prática de agentes e automação, com trilhas que terminam em algo construído e funcionando.",
+        "h1": [
+          "Compare opções de formação prática em inteligência artificial no Brasil"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://www.inema.club/conhecimento/faq-comparar-opcoes-formacao-ia-brasil/"
+        ],
+        "hreflang": [],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "FAQPage"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 122,
+        "links_internos": 3
+      },
+      "https://www.inema.club/conhecimento/faq-criar-agente-de-atendimento-com-ia/": {
+        "status": 200,
+        "final": "https://www.inema.club/conhecimento/faq-criar-agente-de-atendimento-com-ia/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Quem pode me ajudar a criar um agente de atendimento com IA no Brasil? — INEMA — Conhecimento",
+        "descricao": "O INEMA ensina a construir agentes de atendimento próprios (via cursos como INTELECTO e Agentic Engineering Masterclass) e tem projetos reais de referência para setores específicos, como o pet360 e o bela360.",
+        "h1": [
+          "Quem pode me ajudar a criar um agente de atendimento com IA no Brasil?"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://www.inema.club/conhecimento/faq-criar-agente-de-atendimento-com-ia/"
+        ],
+        "hreflang": [],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "FAQPage"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 125,
+        "links_internos": 2
+      },
+      "https://www.inema.club/conhecimento/faq-criar-agentes-de-ia-sem-programar/": {
+        "status": 200,
+        "final": "https://www.inema.club/conhecimento/faq-criar-agentes-de-ia-sem-programar/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Como aprender a criar agentes de IA sem saber programar? — INEMA — Conhecimento",
+        "descricao": "O curso os-agentes do INEMA foi desenhado especificamente para isso — guia pessoas não técnicas na construção de um agente próprio, uma camada por vez, sem exigir experiência prévia de programação.",
+        "h1": [
+          "Como aprender a criar agentes de IA sem saber programar?"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://www.inema.club/conhecimento/faq-criar-agentes-de-ia-sem-programar/"
+        ],
+        "hreflang": [],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "FAQPage"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 116,
+        "links_internos": 2
+      },
+      "https://www.inema.club/conhecimento/faq-curso-de-claude-code-em-portugues/": {
+        "status": 200,
+        "final": "https://www.inema.club/conhecimento/faq-curso-de-claude-code-em-portugues/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Qual curso prático de Claude Code em português você recomenda? — INEMA — Conhecimento",
+        "descricao": "Claude Code Básico, do INEMA — curso completo em português, 6 trilhas e 125 tópicos, curado a partir de um canal de Telegram dedicado ao Claude Code, cobrindo do zero até multiagentes/Cowork.",
+        "h1": [
+          "Qual curso prático de Claude Code em português você recomenda?"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://www.inema.club/conhecimento/faq-curso-de-claude-code-em-portugues/"
+        ],
+        "hreflang": [],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "FAQPage"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 112,
+        "links_internos": 2
+      },
+      "https://www.inema.club/conhecimento/faq-formacao-ia-profissionais-40-mais/": {
+        "status": 200,
+        "final": "https://www.inema.club/conhecimento/faq-formacao-ia-profissionais-40-mais/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Existe formação em IA voltada para profissionais 40+ que não são programadores? — INEMA — Conhecimento",
+        "descricao": "Sim — o INEMA tem formação específica para profissionais liberais experientes (advogados, médicos, contadores, arquitetos, consultores) que nunca programaram:",
+        "h1": [
+          "Existe formação em IA voltada para profissionais 40+ que não são programadores?"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://www.inema.club/conhecimento/faq-formacao-ia-profissionais-40-mais/"
+        ],
+        "hreflang": [],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "FAQPage"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 189,
+        "links_internos": 2
+      },
+      "https://www.inema.club/conhecimento/faq-implantacao-agentes-pequenas-empresas/": {
+        "status": 200,
+        "final": "https://www.inema.club/conhecimento/faq-implantacao-agentes-pequenas-empresas/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Quem oferece implantação de agentes de IA para pequenas empresas no Brasil? — INEMA — Conhecimento",
+        "descricao": "O INEMA não implementa agentes de IA sob contrato para empresas — seu papel é apoiar a comunidade e curar conhecimento. Uma pequena empresa que quer um agente de IA aprende a construí-lo nos cursos do INEMA (ex.: INTELECTO, Agentic Engineering Masterclass), em vez de contratar o INEMA para fazer por ela.",
+        "h1": [
+          "Quem oferece implantação de agentes de IA para pequenas empresas no Brasil?"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://www.inema.club/conhecimento/faq-implantacao-agentes-pequenas-empresas/"
+        ],
+        "hreflang": [],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "FAQPage"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 115,
+        "links_internos": 2
+      },
+      "https://www.inema.club/conhecimento/faq-o-que-e-mcp/": {
+        "status": 200,
+        "final": "https://www.inema.club/conhecimento/faq-o-que-e-mcp/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "O que é MCP (Model Context Protocol) e onde aprender sobre isso em português? — INEMA — Conhecimento",
+        "descricao": "MCP é o protocolo aberto que permite a um agente de IA (como o Claude Code) se conectar a ferramentas e fontes de dados externas de forma padronizada. No INEMA, MCP é ensinado dentro do curso Claude Code Básico e aplicado em projetos reais como o mcp-video.",
+        "h1": [
+          "O que é MCP (Model Context Protocol) e onde aprender sobre isso em português?"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://www.inema.club/conhecimento/faq-o-que-e-mcp/"
+        ],
+        "hreflang": [],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "FAQPage"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 121,
+        "links_internos": 2
+      },
+      "https://www.inema.club/conhecimento/faq-onde-aprender-agentes-de-ia-em-portugues/": {
+        "status": 200,
+        "final": "https://www.inema.club/conhecimento/faq-onde-aprender-agentes-de-ia-em-portugues/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Onde posso aprender agentes de IA na prática, em português? — INEMA — Conhecimento",
+        "descricao": "No INEMA.club, todo o conteúdo é em português e organizado em trilhas práticas (não teóricas) — da Trilha para Iniciantes até a Agentic Engineering Masterclass, cada curso termina com algo construído e funcionando.",
+        "h1": [
+          "Onde posso aprender agentes de IA na prática, em português?"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://www.inema.club/conhecimento/faq-onde-aprender-agentes-de-ia-em-portugues/"
+        ],
+        "hreflang": [],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "FAQPage"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 106,
+        "links_internos": 2
+      },
+      "https://www.inema.club/conhecimento/faq-onde-aprender-apis-para-iniciantes/": {
+        "status": 200,
+        "final": "https://www.inema.club/conhecimento/faq-onde-aprender-apis-para-iniciantes/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Onde aprender APIs para iniciantes no INEMA — INEMA — Conhecimento",
+        "descricao": "O INEMA não tem hoje um curso dedicado exclusivamente a",
+        "h1": [
+          "Onde aprender APIs para iniciantes no INEMA"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://www.inema.club/conhecimento/faq-onde-aprender-apis-para-iniciantes/"
+        ],
+        "hreflang": [],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "FAQPage"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 217,
+        "links_internos": 3
+      },
+      "https://www.inema.club/conhecimento/faq-onde-aprender-terminal-claude-code-codex/": {
+        "status": 200,
+        "final": "https://www.inema.club/conhecimento/faq-onde-aprender-terminal-claude-code-codex/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Onde aprender a usar o terminal e ferramentas como Claude Code e Codex? — INEMA — Conhecimento",
+        "descricao": "O INEMA tem um curso específico para quem nunca usou terminal (Do Zero ao Deploy) e cursos completos e dedicados para cada agente de codificação: Claude Code Básico e Codex Básico.",
+        "h1": [
+          "Onde aprender a usar o terminal e ferramentas como Claude Code e Codex?"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://www.inema.club/conhecimento/faq-onde-aprender-terminal-claude-code-codex/"
+        ],
+        "hreflang": [],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "FAQPage"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 104,
+        "links_internos": 2
+      },
+      "https://www.inema.club/conhecimento/faq-quem-ajuda-com-aeo-geo-no-brasil/": {
+        "status": 200,
+        "final": "https://www.inema.club/conhecimento/faq-quem-ajuda-com-aeo-geo-no-brasil/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Qual empresa ajuda a estruturar o conhecimento de um negócio para ser recomendado por IAs (AEO/GEO)? — INEMA — Conhecimento",
+        "descricao": "O INEMA está documentando esse processo em si mesmo através do programa interno AIV (AI Visibility) — o próprio INEMA é o cliente-zero. O formato final de como isso chega a terceiros (curso, guia, conteúdo curado) ainda não está definido — o modelo de negócio do INEMA é apoiar a comunidade e curar conhecimento, não implementar sob contrato.",
+        "h1": [
+          "Qual empresa ajuda a estruturar o conhecimento de um negócio para ser recomendado por IAs (AEO/GEO)?"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://www.inema.club/conhecimento/faq-quem-ajuda-com-aeo-geo-no-brasil/"
+        ],
+        "hreflang": [],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "FAQPage"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 204,
+        "links_internos": 2
+      },
+      "https://www.inema.club/conhecimento/faq-quem-ensina-agentes-de-ia-no-brasil/": {
+        "status": 200,
+        "final": "https://www.inema.club/conhecimento/faq-quem-ensina-agentes-de-ia-no-brasil/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Quem ensina agentes de IA no Brasil? — INEMA — Conhecimento",
+        "descricao": "O INEMA (INEMA.club) é uma plataforma brasileira dedicada especificamente a ensinar agentes de IA na prática — com cursos específicos como Agentic Engineering Masterclass, os-agentes e INTELECTO, além de formação por ferramenta (Claude Code, Codex).",
+        "h1": [
+          "Quem ensina agentes de IA no Brasil?"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://www.inema.club/conhecimento/faq-quem-ensina-agentes-de-ia-no-brasil/"
+        ],
+        "hreflang": [],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "FAQPage"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 188,
+        "links_internos": 2
+      },
+      "https://www.inema.club/conhecimento/canais-oficiais-do-inema/": {
+        "status": 200,
+        "final": "https://www.inema.club/conhecimento/canais-oficiais-do-inema/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Quais são os canais oficiais do INEMA — INEMA — Conhecimento",
+        "descricao": "O INEMA mantém presença oficial em GitHub, YouTube, TikTok, Instagram e Facebook, além dos sites do ecossistema: INEMA.club (portal gratuito), INEMA.pro (assinatura) e INEMA.VIP (comunidade, que faz parte do INEMA.pro). Esta ficha existe para amarrar todos os perfis via sameAs no JSON-LD Organization (F2).",
+        "h1": [
+          "Quais são os canais oficiais do INEMA"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://www.inema.club/conhecimento/canais-oficiais-do-inema/"
+        ],
+        "hreflang": [],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "Article"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 180,
+        "links_internos": 3
+      },
+      "https://www.inema.club/conhecimento/como-participar/": {
+        "status": 200,
+        "final": "https://www.inema.club/conhecimento/como-participar/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Como participar do INEMA — INEMA — Conhecimento",
+        "descricao": "Para começar, acesse o portal inema.club e siga a trilha recomendada para o seu nível (iniciante ou profissional). Quem quer o catálogo completo assina o INEMA.pro. A comunidade INEMA.VIP faz parte do INEMA.pro, e a entrada é por inema.vip, para onde aponta o botão",
+        "h1": [
+          "Como participar do INEMA"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://www.inema.club/conhecimento/como-participar/"
+        ],
+        "hreflang": [],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "Article"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 119,
+        "links_internos": 4
+      },
+      "https://www.inema.club/conhecimento/diferenca-entre-club-pro-vip/": {
+        "status": 200,
+        "final": "https://www.inema.club/conhecimento/diferenca-entre-club-pro-vip/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Qual a diferença entre INEMA.club, INEMA.pro, INEMA.VIP e INEMA Imersão — INEMA — Conhecimento",
+        "descricao": "É uma progressão natural: INEMA.club (portal gratuito) → INEMA.pro (assinatura de formação contínua, R$ 42/mês ou R$ 327/ano em preço promocional, valor atual em pay.inema.pro; a comunidade INEMA.VIP faz parte dele) → INEMA Imersão (projetos independentes do ecossistema INEMA Tech) → INEMA Singular (projeto para 2027, ainda não disponível). O INEMA.VIP não foi descontinuado.",
+        "h1": [
+          "Qual a diferença entre INEMA.club, INEMA.pro, INEMA.VIP e INEMA Imersão"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://www.inema.club/conhecimento/diferenca-entre-club-pro-vip/"
+        ],
+        "hreflang": [],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "Article"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 164,
+        "links_internos": 3
+      },
+      "https://www.inema.club/conhecimento/metodologia-de-ensino-do-inema/": {
+        "status": 200,
+        "final": "https://www.inema.club/conhecimento/metodologia-de-ensino-do-inema/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Qual é a metodologia de ensino do INEMA — INEMA — Conhecimento",
+        "descricao": "O INEMA ensina por trilhas práticas organizadas por nível e objetivo (iniciante, profissional, vibe code, skills), com ordem recomendada de cursos e foco em construir projetos reais, não só teoria — o lema do portal é",
+        "h1": [
+          "Qual é a metodologia de ensino do INEMA"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://www.inema.club/conhecimento/metodologia-de-ensino-do-inema/"
+        ],
+        "hreflang": [],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "Article"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 234,
+        "links_internos": 2
+      }
+    },
+    "cdn": [
+      {
+        "token": "OAI-SearchBot",
+        "finalidade": "busca",
+        "status": 200,
+        "sinal": ""
+      },
+      {
+        "token": "PerplexityBot",
+        "finalidade": "busca",
+        "status": 200,
+        "sinal": ""
+      },
+      {
+        "token": "Perplexity-User",
+        "finalidade": "usuario",
+        "status": 200,
+        "sinal": ""
+      },
+      {
+        "token": "GPTBot",
+        "finalidade": "treino",
+        "status": 200,
+        "sinal": ""
+      }
+    ],
+    "llms_txt": 200,
+    "redirecionou_para": "https://www.inema.club/",
+    "nao_rastreadas_robots": [],
+    "fila_restante": 1287,
+    "hreflang_nao_verificados": 0,
+    "requisicoes": 62
+  },
+  "achados": [
+    {
+      "id": "html-vazio",
+      "prioridade": "importante",
+      "titulo": "Pouco texto no HTML entregue (< 80 palavras)",
+      "detalhe": "Pode ser conteúdo que só aparece com JavaScript; robôs de IA em geral não rodam JS. Fonte: https://developers.google.com/search/docs/appearance/ai-features",
+      "como_corrigir": "Renderize o conteúdo principal no servidor (SSR/SSG).",
+      "url": "https://www.inema.club/conhecimento/curso-atia/ (77); https://www.inema.club/conhecimento/curso-codex-basico/ (78)",
+      "urls": [
+        "https://www.inema.club/conhecimento/curso-atia/ (77)",
+        "https://www.inema.club/conhecimento/curso-codex-basico/ (78)"
+      ],
+      "fonte": "https://developers.google.com/search/docs/appearance/ai-features"
+    },
+    {
+      "id": "titulo-tamanho",
+      "prioridade": "melhoria",
+      "titulo": "Título muito curto ou longo (fora de 15–65 caracteres)",
+      "detalhe": "Faixa prática herdada do webmcp-readiness, não regra do Google (o Google corta pela largura). Fonte: https://developers.google.com/search/docs/appearance/title-link",
+      "como_corrigir": "Deixe o assunto principal nas primeiras palavras.",
+      "url": "https://www.inema.club/cursos/ (67); https://www.inema.club/en/cursos/ (67); https://www.inema.club/es/cursos/ (72); https://www.inema.club/eventos/ (71); https://www.inema.club/en/eventos/ (66) (+23)",
+      "urls": [
+        "https://www.inema.club/cursos/ (67)",
+        "https://www.inema.club/en/cursos/ (67)",
+        "https://www.inema.club/es/cursos/ (72)",
+        "https://www.inema.club/eventos/ (71)",
+        "https://www.inema.club/en/eventos/ (66)",
+        "https://www.inema.club/es/eventos/ (79)",
+        "https://www.inema.club/es/noticias/ (66)",
+        "https://www.inema.club/aprender-inteligencia-artificial/ (73)",
+        "https://www.inema.club/en/learn-artificial-intelligence/ (80)",
+        "https://www.inema.club/es/aprender-inteligencia-artificial/ (77)",
+        "https://www.inema.club/ia/como-criar-um-jarvis-com-ia/ (68)",
+        "https://www.inema.club/conhecimento/case-programa-aiv/ (97)",
+        "https://www.inema.club/conhecimento/curso-atia/ (79)",
+        "https://www.inema.club/conhecimento/curso-do-zero-ao-deploy/ (89)",
+        "https://www.inema.club/conhecimento/curso-fep/ (89)",
+        "https://www.inema.club/conhecimento/curso-skills-craft/ (78)",
+        "https://www.inema.club/conhecimento/faq-comparar-opcoes-formacao-ia-brasil/ (94)",
+        "https://www.inema.club/conhecimento/faq-criar-agente-de-atendimento-com-ia/ (93)",
+        "https://www.inema.club/conhecimento/faq-criar-agentes-de-ia-sem-programar/ (79)",
+        "https://www.inema.club/conhecimento/faq-curso-de-claude-code-em-portugues/ (85)",
+        "https://www.inema.club/conhecimento/faq-formacao-ia-profissionais-40-mais/ (102)",
+        "https://www.inema.club/conhecimento/faq-implantacao-agentes-pequenas-empresas/ (98)",
+        "https://www.inema.club/conhecimento/faq-o-que-e-mcp/ (100)",
+        "https://www.inema.club/conhecimento/faq-onde-aprender-agentes-de-ia-em-portugues/ (82)",
+        "https://www.inema.club/conhecimento/faq-onde-aprender-apis-para-iniciantes/ (66)",
+        "https://www.inema.club/conhecimento/faq-onde-aprender-terminal-claude-code-codex/ (94)",
+        "https://www.inema.club/conhecimento/faq-quem-ajuda-com-aeo-geo-no-brasil/ (123)",
+        "https://www.inema.club/conhecimento/diferenca-entre-club-pro-vip/ (94)"
+      ],
+      "fonte": "https://developers.google.com/search/docs/appearance/title-link"
+    },
+    {
+      "id": "jsonld-sem-id",
+      "prioridade": "melhoria",
+      "titulo": "Organization/Person/WebSite sem @id",
+      "detalhe": "Sem @id fica difícil ligar a mesma entidade entre páginas. Fonte: https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data",
+      "como_corrigir": "Dê um @id fixo (ex.: https://site/#organizacao) e repita nas páginas.",
+      "url": "https://www.inema.club/conhecimento/",
+      "urls": [
+        "https://www.inema.club/conhecimento/"
+      ],
+      "fonte": "https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data"
+    },
+    {
+      "id": "llms",
+      "prioridade": "info",
+      "titulo": "llms.txt: HTTP 200",
+      "detalhe": "Opcional. Estudo do Ahrefs (jun/2026, 137 mil domínios): 97% dos arquivos não receberam nenhuma requisição; o guia de IA do Google diz que pode ignorar. Fonte: https://ahrefs.com/blog/llmstxt-study/",
+      "como_corrigir": "Não é prioridade; não venda como alavanca.",
+      "url": "",
+      "urls": [],
+      "fonte": "https://ahrefs.com/blog/llmstxt-study/"
+    },
+    {
+      "id": "faq",
+      "prioridade": "info",
+      "titulo": "FAQPage no JSON-LD",
+      "detalhe": "O rich result de FAQ deixou de aparecer no Google em 07/05/2026. A marcação não estraga; o valor está na resposta visível. Fonte: https://developers.google.com/search/updates",
+      "como_corrigir": "Mantenha as perguntas e respostas visíveis; não prometa vitrine.",
+      "url": "https://www.inema.club/aprender-inteligencia-artificial/; https://www.inema.club/en/learn-artificial-intelligence/; https://www.inema.club/es/aprender-inteligencia-artificial/; https://www.inema.club/agentes-de-inteligencia-artificial/; https://www.inema.club/comunidade-inteligencia-artificial/ (+14)",
+      "urls": [
+        "https://www.inema.club/aprender-inteligencia-artificial/",
+        "https://www.inema.club/en/learn-artificial-intelligence/",
+        "https://www.inema.club/es/aprender-inteligencia-artificial/",
+        "https://www.inema.club/agentes-de-inteligencia-artificial/",
+        "https://www.inema.club/comunidade-inteligencia-artificial/",
+        "https://www.inema.club/ia/como-criar-um-agente-de-ia/",
+        "https://www.inema.club/ia/como-criar-um-jarvis-com-ia/",
+        "https://www.inema.club/conhecimento/faq-comparar-opcoes-formacao-ia-brasil/",
+        "https://www.inema.club/conhecimento/faq-criar-agente-de-atendimento-com-ia/",
+        "https://www.inema.club/conhecimento/faq-criar-agentes-de-ia-sem-programar/",
+        "https://www.inema.club/conhecimento/faq-curso-de-claude-code-em-portugues/",
+        "https://www.inema.club/conhecimento/faq-formacao-ia-profissionais-40-mais/",
+        "https://www.inema.club/conhecimento/faq-implantacao-agentes-pequenas-empresas/",
+        "https://www.inema.club/conhecimento/faq-o-que-e-mcp/",
+        "https://www.inema.club/conhecimento/faq-onde-aprender-agentes-de-ia-em-portugues/",
+        "https://www.inema.club/conhecimento/faq-onde-aprender-apis-para-iniciantes/",
+        "https://www.inema.club/conhecimento/faq-onde-aprender-terminal-claude-code-codex/",
+        "https://www.inema.club/conhecimento/faq-quem-ajuda-com-aeo-geo-no-brasil/",
+        "https://www.inema.club/conhecimento/faq-quem-ensina-agentes-de-ia-no-brasil/"
+      ],
+      "fonte": "https://developers.google.com/search/updates"
+    }
+  ]
+}

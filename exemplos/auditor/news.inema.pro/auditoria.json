@@ -1,0 +1,2388 @@
+{
+  "dados": {
+    "inicio": "https://news.inema.pro/",
+    "host": "news.inema.pro",
+    "redirecionamentos": [
+      {
+        "url": "http://news.inema.pro/",
+        "status": 308,
+        "destino": "https://news.inema.pro/"
+      },
+      {
+        "url": "https://news.inema.pro/",
+        "status": 200,
+        "destino": ""
+      },
+      {
+        "url": "https://www.news.inema.pro/",
+        "status": "URLError: <urlopen error [Errno -2] Name or service not known>",
+        "destino": ""
+      }
+    ],
+    "robots": {
+      "status": 200,
+      "sitemaps": [
+        "https://news.inema.pro/sitemap.xml"
+      ],
+      "content_signal": [],
+      "robos": [
+        {
+          "token": "Googlebot",
+          "finalidade": "busca",
+          "empresa": "Google",
+          "fonte": "https://developers.google.com/search/docs/crawling-indexing/google-common-crawlers",
+          "pode_home": true,
+          "grupo": "*"
+        },
+        {
+          "token": "Bingbot",
+          "finalidade": "busca",
+          "empresa": "Microsoft",
+          "fonte": "https://www.bing.com/webmasters/help/which-crawlers-does-bing-use-8c184ec0",
+          "pode_home": true,
+          "grupo": "*"
+        },
+        {
+          "token": "OAI-SearchBot",
+          "finalidade": "busca",
+          "empresa": "OpenAI",
+          "fonte": "https://platform.openai.com/docs/bots",
+          "pode_home": true,
+          "grupo": "*"
+        },
+        {
+          "token": "Claude-SearchBot",
+          "finalidade": "busca",
+          "empresa": "Anthropic",
+          "fonte": "https://support.anthropic.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how",
+          "pode_home": true,
+          "grupo": "*"
+        },
+        {
+          "token": "PerplexityBot",
+          "finalidade": "busca",
+          "empresa": "Perplexity",
+          "fonte": "https://docs.perplexity.ai/guides/bots",
+          "pode_home": true,
+          "grupo": "*"
+        },
+        {
+          "token": "ChatGPT-User",
+          "finalidade": "usuario",
+          "empresa": "OpenAI",
+          "fonte": "https://platform.openai.com/docs/bots",
+          "pode_home": true,
+          "grupo": "*"
+        },
+        {
+          "token": "Claude-User",
+          "finalidade": "usuario",
+          "empresa": "Anthropic",
+          "fonte": "https://support.anthropic.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how",
+          "pode_home": true,
+          "grupo": "*"
+        },
+        {
+          "token": "Perplexity-User",
+          "finalidade": "usuario",
+          "empresa": "Perplexity",
+          "fonte": "https://docs.perplexity.ai/guides/bots",
+          "pode_home": true,
+          "grupo": "*"
+        },
+        {
+          "token": "GPTBot",
+          "finalidade": "treino",
+          "empresa": "OpenAI",
+          "fonte": "https://platform.openai.com/docs/bots",
+          "pode_home": true,
+          "grupo": "*"
+        },
+        {
+          "token": "ClaudeBot",
+          "finalidade": "treino",
+          "empresa": "Anthropic",
+          "fonte": "https://support.anthropic.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how",
+          "pode_home": true,
+          "grupo": "*"
+        },
+        {
+          "token": "Google-Extended",
+          "finalidade": "treino",
+          "empresa": "Google",
+          "fonte": "https://developers.google.com/search/docs/crawling-indexing/google-common-crawlers",
+          "pode_home": true,
+          "grupo": "*"
+        }
+      ]
+    },
+    "sitemap": {
+      "arquivos": [
+        [
+          "https://news.inema.pro/sitemap.xml",
+          200,
+          690
+        ]
+      ],
+      "urls": 690,
+      "com_lastmod": 690,
+      "com_hreflang": 690
+    },
+    "paginas": {
+      "https://news.inema.pro/": {
+        "status": 200,
+        "final": "https://news.inema.pro/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "news.inema.pro — O que mudou em IA esta semana, explicado pra quem não é da área",
+        "descricao": "Briefing diário de inteligência artificial em linguagem simples, eventos do ecossistema INEMA e trilhas gratuitas para aprender.",
+        "h1": [
+          "O que mudou em IA esta semana, explicado pra quem não é da área."
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://news.inema.pro/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://news.inema.pro/"
+          ],
+          [
+            "en",
+            "https://news.inema.pro/en/"
+          ],
+          [
+            "es",
+            "https://news.inema.pro/es/"
+          ],
+          [
+            "x-default",
+            "https://news.inema.pro/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "CollectionPage"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 1531,
+        "links_internos": 39
+      },
+      "https://news.inema.pro/en/": {
+        "status": 200,
+        "final": "https://news.inema.pro/en/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "news.inema.pro — What changed in AI this week, explained for people outside the field",
+        "descricao": "A daily artificial intelligence briefing in plain language, events from the INEMA ecosystem and free learning tracks.",
+        "h1": [
+          "What changed in AI this week, explained for people outside the field."
+        ],
+        "lang": "en",
+        "canonicos": [
+          "https://news.inema.pro/en/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://news.inema.pro/"
+          ],
+          [
+            "en",
+            "https://news.inema.pro/en/"
+          ],
+          [
+            "es",
+            "https://news.inema.pro/es/"
+          ],
+          [
+            "x-default",
+            "https://news.inema.pro/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "CollectionPage"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 1580,
+        "links_internos": 39
+      },
+      "https://news.inema.pro/es/": {
+        "status": 200,
+        "final": "https://news.inema.pro/es/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "news.inema.pro — Lo que cambió en IA esta semana, explicado para quien no es del área",
+        "descricao": "Briefing diario de inteligencia artificial en lenguaje simple, eventos del ecosistema INEMA y rutas gratuitas para aprender.",
+        "h1": [
+          "Lo que cambió en IA esta semana, explicado para quien no es del área."
+        ],
+        "lang": "es",
+        "canonicos": [
+          "https://news.inema.pro/es/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://news.inema.pro/"
+          ],
+          [
+            "en",
+            "https://news.inema.pro/en/"
+          ],
+          [
+            "es",
+            "https://news.inema.pro/es/"
+          ],
+          [
+            "x-default",
+            "https://news.inema.pro/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "CollectionPage"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 1611,
+        "links_internos": 39
+      },
+      "https://news.inema.pro/noticias/video-viral-9x16/": {
+        "status": 200,
+        "final": "https://news.inema.pro/noticias/video-viral-9x16/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "video-viral-9x16 — crie vídeos verticais com cenas, legendas e áudio sincronizados | news.inema.pro",
+        "descricao": "Projeto para montar vídeos verticais com cenas, legendas e áudio sincronizados.",
+        "h1": [
+          "video-viral-9x16 — crie vídeos verticais com cenas, legendas e áudio sincronizados"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://news.inema.pro/noticias/video-viral-9x16/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://news.inema.pro/noticias/video-viral-9x16/"
+          ],
+          [
+            "en",
+            "https://news.inema.pro/en/noticias/video-viral-9x16/"
+          ],
+          [
+            "es",
+            "https://news.inema.pro/es/noticias/video-viral-9x16/"
+          ],
+          [
+            "x-default",
+            "https://news.inema.pro/noticias/video-viral-9x16/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "NewsArticle"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 523,
+        "links_internos": 8
+      },
+      "https://news.inema.pro/en/noticias/video-viral-9x16/": {
+        "status": 200,
+        "final": "https://news.inema.pro/en/noticias/video-viral-9x16/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "video-viral-9x16 — create vertical videos with synchronized scenes, captions and audio | news.inema.pro",
+        "descricao": "A project for creating vertical videos with synchronized scenes, captions and audio.",
+        "h1": [
+          "video-viral-9x16 — create vertical videos with synchronized scenes, captions and audio"
+        ],
+        "lang": "en",
+        "canonicos": [
+          "https://news.inema.pro/en/noticias/video-viral-9x16/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://news.inema.pro/noticias/video-viral-9x16/"
+          ],
+          [
+            "en",
+            "https://news.inema.pro/en/noticias/video-viral-9x16/"
+          ],
+          [
+            "es",
+            "https://news.inema.pro/es/noticias/video-viral-9x16/"
+          ],
+          [
+            "x-default",
+            "https://news.inema.pro/noticias/video-viral-9x16/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "NewsArticle"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 557,
+        "links_internos": 8
+      },
+      "https://news.inema.pro/es/noticias/video-viral-9x16/": {
+        "status": 200,
+        "final": "https://news.inema.pro/es/noticias/video-viral-9x16/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "video-viral-9x16 — crea vídeos verticales con escenas, subtítulos y audio sincronizados | news.inema.pro",
+        "descricao": "Proyecto para crear vídeos verticales con escenas, subtítulos y audio sincronizados.",
+        "h1": [
+          "video-viral-9x16 — crea vídeos verticales con escenas, subtítulos y audio sincronizados"
+        ],
+        "lang": "es",
+        "canonicos": [
+          "https://news.inema.pro/es/noticias/video-viral-9x16/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://news.inema.pro/noticias/video-viral-9x16/"
+          ],
+          [
+            "en",
+            "https://news.inema.pro/en/noticias/video-viral-9x16/"
+          ],
+          [
+            "es",
+            "https://news.inema.pro/es/noticias/video-viral-9x16/"
+          ],
+          [
+            "x-default",
+            "https://news.inema.pro/noticias/video-viral-9x16/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "NewsArticle"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 557,
+        "links_internos": 8
+      },
+      "https://news.inema.pro/noticias/r7ex/": {
+        "status": 200,
+        "final": "https://news.inema.pro/noticias/r7ex/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "r7ex — transforme uma tese em reel vertical com 7 etapas | news.inema.pro",
+        "descricao": "Projeto para transformar uma tese em reel 9:16 com sete etapas de gatilho e visual de telejornal.",
+        "h1": [
+          "r7ex — transforme uma tese em reel vertical com 7 etapas"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://news.inema.pro/noticias/r7ex/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://news.inema.pro/noticias/r7ex/"
+          ],
+          [
+            "en",
+            "https://news.inema.pro/en/noticias/r7ex/"
+          ],
+          [
+            "es",
+            "https://news.inema.pro/es/noticias/r7ex/"
+          ],
+          [
+            "x-default",
+            "https://news.inema.pro/noticias/r7ex/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "NewsArticle"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 583,
+        "links_internos": 8
+      },
+      "https://news.inema.pro/en/noticias/r7ex/": {
+        "status": 200,
+        "final": "https://news.inema.pro/en/noticias/r7ex/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "r7ex — turn a thesis into a vertical reel in 7 steps | news.inema.pro",
+        "descricao": "A project for turning a thesis into a 9:16 reel with seven hook-building steps and a TV news look.",
+        "h1": [
+          "r7ex — turn a thesis into a vertical reel in 7 steps"
+        ],
+        "lang": "en",
+        "canonicos": [
+          "https://news.inema.pro/en/noticias/r7ex/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://news.inema.pro/noticias/r7ex/"
+          ],
+          [
+            "en",
+            "https://news.inema.pro/en/noticias/r7ex/"
+          ],
+          [
+            "es",
+            "https://news.inema.pro/es/noticias/r7ex/"
+          ],
+          [
+            "x-default",
+            "https://news.inema.pro/noticias/r7ex/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "NewsArticle"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 609,
+        "links_internos": 8
+      },
+      "https://news.inema.pro/es/noticias/r7ex/": {
+        "status": 200,
+        "final": "https://news.inema.pro/es/noticias/r7ex/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "r7ex — convierte una tesis en un reel vertical en 7 pasos | news.inema.pro",
+        "descricao": "Proyecto para transformar una tesis en un reel 9:16 con siete etapas de gancho y aspecto de noticiero.",
+        "h1": [
+          "r7ex — convierte una tesis en un reel vertical en 7 pasos"
+        ],
+        "lang": "es",
+        "canonicos": [
+          "https://news.inema.pro/es/noticias/r7ex/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://news.inema.pro/noticias/r7ex/"
+          ],
+          [
+            "en",
+            "https://news.inema.pro/en/noticias/r7ex/"
+          ],
+          [
+            "es",
+            "https://news.inema.pro/es/noticias/r7ex/"
+          ],
+          [
+            "x-default",
+            "https://news.inema.pro/noticias/r7ex/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "NewsArticle"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 617,
+        "links_internos": 8
+      },
+      "https://news.inema.pro/noticias/motor-videos-narrativos/": {
+        "status": 200,
+        "final": "https://news.inema.pro/noticias/motor-videos-narrativos/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "motor-videos-narrativos — planos de vídeo com cenas, voz e prompts | news.inema.pro",
+        "descricao": "Projeto para criar planos de vídeo com cenas, voz e prompts.",
+        "h1": [
+          "motor-videos-narrativos — planos de vídeo com cenas, voz e prompts"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://news.inema.pro/noticias/motor-videos-narrativos/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://news.inema.pro/noticias/motor-videos-narrativos/"
+          ],
+          [
+            "en",
+            "https://news.inema.pro/en/noticias/motor-videos-narrativos/"
+          ],
+          [
+            "es",
+            "https://news.inema.pro/es/noticias/motor-videos-narrativos/"
+          ],
+          [
+            "x-default",
+            "https://news.inema.pro/noticias/motor-videos-narrativos/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "NewsArticle"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 561,
+        "links_internos": 8
+      },
+      "https://news.inema.pro/en/noticias/motor-videos-narrativos/": {
+        "status": 200,
+        "final": "https://news.inema.pro/en/noticias/motor-videos-narrativos/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "motor-videos-narrativos — video plans with scenes, voice and prompts | news.inema.pro",
+        "descricao": "A project for creating video plans with scenes, voice and prompts.",
+        "h1": [
+          "motor-videos-narrativos — video plans with scenes, voice and prompts"
+        ],
+        "lang": "en",
+        "canonicos": [
+          "https://news.inema.pro/en/noticias/motor-videos-narrativos/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://news.inema.pro/noticias/motor-videos-narrativos/"
+          ],
+          [
+            "en",
+            "https://news.inema.pro/en/noticias/motor-videos-narrativos/"
+          ],
+          [
+            "es",
+            "https://news.inema.pro/es/noticias/motor-videos-narrativos/"
+          ],
+          [
+            "x-default",
+            "https://news.inema.pro/noticias/motor-videos-narrativos/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "NewsArticle"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 581,
+        "links_internos": 8
+      },
+      "https://news.inema.pro/es/noticias/motor-videos-narrativos/": {
+        "status": 200,
+        "final": "https://news.inema.pro/es/noticias/motor-videos-narrativos/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "motor-videos-narrativos — planes de vídeo con escenas, voz e instrucciones | news.inema.pro",
+        "descricao": "Proyecto para crear planes de vídeo con escenas, voz e instrucciones.",
+        "h1": [
+          "motor-videos-narrativos — planes de vídeo con escenas, voz e instrucciones"
+        ],
+        "lang": "es",
+        "canonicos": [
+          "https://news.inema.pro/es/noticias/motor-videos-narrativos/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://news.inema.pro/noticias/motor-videos-narrativos/"
+          ],
+          [
+            "en",
+            "https://news.inema.pro/en/noticias/motor-videos-narrativos/"
+          ],
+          [
+            "es",
+            "https://news.inema.pro/es/noticias/motor-videos-narrativos/"
+          ],
+          [
+            "x-default",
+            "https://news.inema.pro/noticias/motor-videos-narrativos/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "NewsArticle"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 591,
+        "links_internos": 8
+      },
+      "https://news.inema.pro/noticias/mostratec-2/": {
+        "status": 200,
+        "final": "https://news.inema.pro/noticias/mostratec-2/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "mostratec — 7 projetos com ESP32 e IA para montar e vender | news.inema.pro",
+        "descricao": "Projeto com sete soluções usando ESP32 e IA, com orientações para montar e vender.",
+        "h1": [
+          "mostratec — 7 projetos com ESP32 e IA para montar e vender"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://news.inema.pro/noticias/mostratec-2/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://news.inema.pro/noticias/mostratec-2/"
+          ],
+          [
+            "en",
+            "https://news.inema.pro/en/noticias/mostratec-2/"
+          ],
+          [
+            "es",
+            "https://news.inema.pro/es/noticias/mostratec-2/"
+          ],
+          [
+            "x-default",
+            "https://news.inema.pro/noticias/mostratec-2/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "NewsArticle"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 563,
+        "links_internos": 8
+      },
+      "https://news.inema.pro/en/noticias/mostratec-2/": {
+        "status": 200,
+        "final": "https://news.inema.pro/en/noticias/mostratec-2/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "mostratec — 7 ESP32 and AI projects to build and sell | news.inema.pro",
+        "descricao": "A project featuring seven solutions that use ESP32 and AI, with guidance on building and selling them.",
+        "h1": [
+          "mostratec — 7 ESP32 and AI projects to build and sell"
+        ],
+        "lang": "en",
+        "canonicos": [
+          "https://news.inema.pro/en/noticias/mostratec-2/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://news.inema.pro/noticias/mostratec-2/"
+          ],
+          [
+            "en",
+            "https://news.inema.pro/en/noticias/mostratec-2/"
+          ],
+          [
+            "es",
+            "https://news.inema.pro/es/noticias/mostratec-2/"
+          ],
+          [
+            "x-default",
+            "https://news.inema.pro/noticias/mostratec-2/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "NewsArticle"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 594,
+        "links_internos": 8
+      },
+      "https://news.inema.pro/es/noticias/mostratec-2/": {
+        "status": 200,
+        "final": "https://news.inema.pro/es/noticias/mostratec-2/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "mostratec — 7 proyectos con ESP32 e IA para montar y vender | news.inema.pro",
+        "descricao": "Proyecto con siete soluciones que usan ESP32 e IA, con orientaciones para montarlas y venderlas.",
+        "h1": [
+          "mostratec — 7 proyectos con ESP32 e IA para montar y vender"
+        ],
+        "lang": "es",
+        "canonicos": [
+          "https://news.inema.pro/es/noticias/mostratec-2/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://news.inema.pro/noticias/mostratec-2/"
+          ],
+          [
+            "en",
+            "https://news.inema.pro/en/noticias/mostratec-2/"
+          ],
+          [
+            "es",
+            "https://news.inema.pro/es/noticias/mostratec-2/"
+          ],
+          [
+            "x-default",
+            "https://news.inema.pro/noticias/mostratec-2/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "NewsArticle"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 595,
+        "links_internos": 8
+      },
+      "https://news.inema.pro/noticias/kit-15-comandos/": {
+        "status": 200,
+        "final": "https://news.inema.pro/noticias/kit-15-comandos/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "kit-15-comandos — 15 comandos do Claude, como aplicar e baixar | news.inema.pro",
+        "descricao": "Kit com 15 comandos do Claude, instruções para aplicá-los e arquivos para baixar.",
+        "h1": [
+          "kit-15-comandos — 15 comandos do Claude, como aplicar e baixar"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://news.inema.pro/noticias/kit-15-comandos/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://news.inema.pro/noticias/kit-15-comandos/"
+          ],
+          [
+            "en",
+            "https://news.inema.pro/en/noticias/kit-15-comandos/"
+          ],
+          [
+            "es",
+            "https://news.inema.pro/es/noticias/kit-15-comandos/"
+          ],
+          [
+            "x-default",
+            "https://news.inema.pro/noticias/kit-15-comandos/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "NewsArticle"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 605,
+        "links_internos": 8
+      },
+      "https://news.inema.pro/en/noticias/kit-15-comandos/": {
+        "status": 200,
+        "final": "https://news.inema.pro/en/noticias/kit-15-comandos/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "kit-15-comandos — 15 Claude commands, how to use them and a download kit | news.inema.pro",
+        "descricao": "A kit with 15 Claude commands, instructions for using them and files to download.",
+        "h1": [
+          "kit-15-comandos — 15 Claude commands, how to use them and a download kit"
+        ],
+        "lang": "en",
+        "canonicos": [
+          "https://news.inema.pro/en/noticias/kit-15-comandos/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://news.inema.pro/noticias/kit-15-comandos/"
+          ],
+          [
+            "en",
+            "https://news.inema.pro/en/noticias/kit-15-comandos/"
+          ],
+          [
+            "es",
+            "https://news.inema.pro/es/noticias/kit-15-comandos/"
+          ],
+          [
+            "x-default",
+            "https://news.inema.pro/noticias/kit-15-comandos/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "NewsArticle"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 644,
+        "links_internos": 8
+      },
+      "https://news.inema.pro/es/noticias/kit-15-comandos/": {
+        "status": 200,
+        "final": "https://news.inema.pro/es/noticias/kit-15-comandos/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "kit-15-comandos — 15 comandos de Claude, cómo aplicarlos y descargarlos | news.inema.pro",
+        "descricao": "Kit con 15 comandos de Claude, instrucciones para aplicarlos y archivos para descargar.",
+        "h1": [
+          "kit-15-comandos — 15 comandos de Claude, cómo aplicarlos y descargarlos"
+        ],
+        "lang": "es",
+        "canonicos": [
+          "https://news.inema.pro/es/noticias/kit-15-comandos/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://news.inema.pro/noticias/kit-15-comandos/"
+          ],
+          [
+            "en",
+            "https://news.inema.pro/en/noticias/kit-15-comandos/"
+          ],
+          [
+            "es",
+            "https://news.inema.pro/es/noticias/kit-15-comandos/"
+          ],
+          [
+            "x-default",
+            "https://news.inema.pro/noticias/kit-15-comandos/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "NewsArticle"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 633,
+        "links_internos": 8
+      },
+      "https://news.inema.pro/noticias/do-chat-ao-agente-degrau-4/": {
+        "status": 200,
+        "final": "https://news.inema.pro/noticias/do-chat-ao-agente-degrau-4/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Do chat ao agente, degrau 4 — redes automáticas com fontes na tela (8 aulas) | news.inema.pro",
+        "descricao": "Curso de 8 aulas sobre como automatizar buscas em redes e mostrar as fontes na tela.",
+        "h1": [
+          "Do chat ao agente, degrau 4 — redes automáticas com fontes na tela (8 aulas)"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://news.inema.pro/noticias/do-chat-ao-agente-degrau-4/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://news.inema.pro/noticias/do-chat-ao-agente-degrau-4/"
+          ],
+          [
+            "en",
+            "https://news.inema.pro/en/noticias/do-chat-ao-agente-degrau-4/"
+          ],
+          [
+            "es",
+            "https://news.inema.pro/es/noticias/do-chat-ao-agente-degrau-4/"
+          ],
+          [
+            "x-default",
+            "https://news.inema.pro/noticias/do-chat-ao-agente-degrau-4/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "NewsArticle"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 587,
+        "links_internos": 8
+      },
+      "https://news.inema.pro/en/noticias/do-chat-ao-agente-degrau-4/": {
+        "status": 200,
+        "final": "https://news.inema.pro/en/noticias/do-chat-ao-agente-degrau-4/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "From chat to agent, step 4 — automated social searches with sources on screen (8 lessons) | news.inema.pro",
+        "descricao": "An 8-lesson course on automating searches on social networks and showing sources on screen.",
+        "h1": [
+          "From chat to agent, step 4 — automated social searches with sources on screen (8 lessons)"
+        ],
+        "lang": "en",
+        "canonicos": [
+          "https://news.inema.pro/en/noticias/do-chat-ao-agente-degrau-4/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://news.inema.pro/noticias/do-chat-ao-agente-degrau-4/"
+          ],
+          [
+            "en",
+            "https://news.inema.pro/en/noticias/do-chat-ao-agente-degrau-4/"
+          ],
+          [
+            "es",
+            "https://news.inema.pro/es/noticias/do-chat-ao-agente-degrau-4/"
+          ],
+          [
+            "x-default",
+            "https://news.inema.pro/noticias/do-chat-ao-agente-degrau-4/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "NewsArticle"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 611,
+        "links_internos": 8
+      },
+      "https://news.inema.pro/es/noticias/do-chat-ao-agente-degrau-4/": {
+        "status": 200,
+        "final": "https://news.inema.pro/es/noticias/do-chat-ao-agente-degrau-4/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Del chat al agente, nivel 4 — redes automáticas con fuentes en pantalla (8 clases) | news.inema.pro",
+        "descricao": "Curso de 8 clases sobre cómo automatizar búsquedas en redes y mostrar las fuentes en pantalla.",
+        "h1": [
+          "Del chat al agente, nivel 4 — redes automáticas con fuentes en pantalla (8 clases)"
+        ],
+        "lang": "es",
+        "canonicos": [
+          "https://news.inema.pro/es/noticias/do-chat-ao-agente-degrau-4/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://news.inema.pro/noticias/do-chat-ao-agente-degrau-4/"
+          ],
+          [
+            "en",
+            "https://news.inema.pro/en/noticias/do-chat-ao-agente-degrau-4/"
+          ],
+          [
+            "es",
+            "https://news.inema.pro/es/noticias/do-chat-ao-agente-degrau-4/"
+          ],
+          [
+            "x-default",
+            "https://news.inema.pro/noticias/do-chat-ao-agente-degrau-4/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "NewsArticle"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 614,
+        "links_internos": 8
+      },
+      "https://news.inema.pro/noticias/do-chat-ao-agente-degrau-3/": {
+        "status": 200,
+        "final": "https://news.inema.pro/noticias/do-chat-ao-agente-degrau-3/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Do chat ao agente, degrau 3 — filas: dez tarefas para deixar rodando (7 aulas) | news.inema.pro",
+        "descricao": "Curso de 7 aulas para organizar tarefas em filas e deixá-las rodando enquanto você descansa.",
+        "h1": [
+          "Do chat ao agente, degrau 3 — filas: dez tarefas para deixar rodando (7 aulas)"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://news.inema.pro/noticias/do-chat-ao-agente-degrau-3/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://news.inema.pro/noticias/do-chat-ao-agente-degrau-3/"
+          ],
+          [
+            "en",
+            "https://news.inema.pro/en/noticias/do-chat-ao-agente-degrau-3/"
+          ],
+          [
+            "es",
+            "https://news.inema.pro/es/noticias/do-chat-ao-agente-degrau-3/"
+          ],
+          [
+            "x-default",
+            "https://news.inema.pro/noticias/do-chat-ao-agente-degrau-3/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "NewsArticle"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 606,
+        "links_internos": 8
+      },
+      "https://news.inema.pro/en/noticias/do-chat-ao-agente-degrau-3/": {
+        "status": 200,
+        "final": "https://news.inema.pro/en/noticias/do-chat-ao-agente-degrau-3/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "From chat to agent, step 3 — queues: ten tasks to run while you rest (7 lessons) | news.inema.pro",
+        "descricao": "A 7-lesson course on organizing tasks in queues and letting them run while you rest.",
+        "h1": [
+          "From chat to agent, step 3 — queues: ten tasks to run while you rest (7 lessons)"
+        ],
+        "lang": "en",
+        "canonicos": [
+          "https://news.inema.pro/en/noticias/do-chat-ao-agente-degrau-3/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://news.inema.pro/noticias/do-chat-ao-agente-degrau-3/"
+          ],
+          [
+            "en",
+            "https://news.inema.pro/en/noticias/do-chat-ao-agente-degrau-3/"
+          ],
+          [
+            "es",
+            "https://news.inema.pro/es/noticias/do-chat-ao-agente-degrau-3/"
+          ],
+          [
+            "x-default",
+            "https://news.inema.pro/noticias/do-chat-ao-agente-degrau-3/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "NewsArticle"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 633,
+        "links_internos": 8
+      },
+      "https://news.inema.pro/es/noticias/do-chat-ao-agente-degrau-3/": {
+        "status": 200,
+        "final": "https://news.inema.pro/es/noticias/do-chat-ao-agente-degrau-3/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Del chat al agente, nivel 3 — colas: diez tareas para dejar en marcha (7 clases) | news.inema.pro",
+        "descricao": "Curso de 7 clases para organizar tareas en colas y dejarlas en marcha mientras descansas.",
+        "h1": [
+          "Del chat al agente, nivel 3 — colas: diez tareas para dejar en marcha (7 clases)"
+        ],
+        "lang": "es",
+        "canonicos": [
+          "https://news.inema.pro/es/noticias/do-chat-ao-agente-degrau-3/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://news.inema.pro/noticias/do-chat-ao-agente-degrau-3/"
+          ],
+          [
+            "en",
+            "https://news.inema.pro/en/noticias/do-chat-ao-agente-degrau-3/"
+          ],
+          [
+            "es",
+            "https://news.inema.pro/es/noticias/do-chat-ao-agente-degrau-3/"
+          ],
+          [
+            "x-default",
+            "https://news.inema.pro/noticias/do-chat-ao-agente-degrau-3/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "NewsArticle"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 639,
+        "links_internos": 8
+      },
+      "https://news.inema.pro/noticias/do-chat-ao-agente-degrau-2/": {
+        "status": 200,
+        "final": "https://news.inema.pro/noticias/do-chat-ao-agente-degrau-2/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Do chat ao agente, degrau 2 — seu Jarvis com memória no Telegram (8 aulas) | news.inema.pro",
+        "descricao": "Curso de 8 aulas para criar seu Jarvis com memória no Telegram.",
+        "h1": [
+          "Do chat ao agente, degrau 2 — seu Jarvis com memória no Telegram (8 aulas)"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://news.inema.pro/noticias/do-chat-ao-agente-degrau-2/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://news.inema.pro/noticias/do-chat-ao-agente-degrau-2/"
+          ],
+          [
+            "en",
+            "https://news.inema.pro/en/noticias/do-chat-ao-agente-degrau-2/"
+          ],
+          [
+            "es",
+            "https://news.inema.pro/es/noticias/do-chat-ao-agente-degrau-2/"
+          ],
+          [
+            "x-default",
+            "https://news.inema.pro/noticias/do-chat-ao-agente-degrau-2/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "NewsArticle"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 574,
+        "links_internos": 8
+      },
+      "https://news.inema.pro/en/noticias/do-chat-ao-agente-degrau-2/": {
+        "status": 200,
+        "final": "https://news.inema.pro/en/noticias/do-chat-ao-agente-degrau-2/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "From chat to agent, step 2 — your Jarvis with memory on Telegram (8 lessons) | news.inema.pro",
+        "descricao": "An 8-lesson course on creating your Jarvis with memory on Telegram.",
+        "h1": [
+          "From chat to agent, step 2 — your Jarvis with memory on Telegram (8 lessons)"
+        ],
+        "lang": "en",
+        "canonicos": [
+          "https://news.inema.pro/en/noticias/do-chat-ao-agente-degrau-2/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://news.inema.pro/noticias/do-chat-ao-agente-degrau-2/"
+          ],
+          [
+            "en",
+            "https://news.inema.pro/en/noticias/do-chat-ao-agente-degrau-2/"
+          ],
+          [
+            "es",
+            "https://news.inema.pro/es/noticias/do-chat-ao-agente-degrau-2/"
+          ],
+          [
+            "x-default",
+            "https://news.inema.pro/noticias/do-chat-ao-agente-degrau-2/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "NewsArticle"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 600,
+        "links_internos": 8
+      },
+      "https://news.inema.pro/es/noticias/do-chat-ao-agente-degrau-2/": {
+        "status": 200,
+        "final": "https://news.inema.pro/es/noticias/do-chat-ao-agente-degrau-2/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Del chat al agente, nivel 2 — tu Jarvis con memoria en Telegram (8 clases) | news.inema.pro",
+        "descricao": "Curso de 8 clases para crear tu Jarvis con memoria en Telegram.",
+        "h1": [
+          "Del chat al agente, nivel 2 — tu Jarvis con memoria en Telegram (8 clases)"
+        ],
+        "lang": "es",
+        "canonicos": [
+          "https://news.inema.pro/es/noticias/do-chat-ao-agente-degrau-2/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://news.inema.pro/noticias/do-chat-ao-agente-degrau-2/"
+          ],
+          [
+            "en",
+            "https://news.inema.pro/en/noticias/do-chat-ao-agente-degrau-2/"
+          ],
+          [
+            "es",
+            "https://news.inema.pro/es/noticias/do-chat-ao-agente-degrau-2/"
+          ],
+          [
+            "x-default",
+            "https://news.inema.pro/noticias/do-chat-ao-agente-degrau-2/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "NewsArticle"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 599,
+        "links_internos": 8
+      },
+      "https://news.inema.pro/noticias/do-chat-ao-agente-degrau-1/": {
+        "status": 200,
+        "final": "https://news.inema.pro/noticias/do-chat-ao-agente-degrau-1/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Do chat ao agente, degrau 1 — do zero no terminal à VPS (8 aulas) | news.inema.pro",
+        "descricao": "Curso de 8 aulas para aprender a usar o terminal do zero e chegar à VPS.",
+        "h1": [
+          "Do chat ao agente, degrau 1 — do zero no terminal à VPS (8 aulas)"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://news.inema.pro/noticias/do-chat-ao-agente-degrau-1/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://news.inema.pro/noticias/do-chat-ao-agente-degrau-1/"
+          ],
+          [
+            "en",
+            "https://news.inema.pro/en/noticias/do-chat-ao-agente-degrau-1/"
+          ],
+          [
+            "es",
+            "https://news.inema.pro/es/noticias/do-chat-ao-agente-degrau-1/"
+          ],
+          [
+            "x-default",
+            "https://news.inema.pro/noticias/do-chat-ao-agente-degrau-1/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "NewsArticle"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 565,
+        "links_internos": 8
+      },
+      "https://news.inema.pro/en/noticias/do-chat-ao-agente-degrau-1/": {
+        "status": 200,
+        "final": "https://news.inema.pro/en/noticias/do-chat-ao-agente-degrau-1/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "From chat to agent, step 1 — from terminal basics to the VPS (8 lessons) | news.inema.pro",
+        "descricao": "An 8-lesson course on learning to use the terminal from scratch and reaching the VPS.",
+        "h1": [
+          "From chat to agent, step 1 — from terminal basics to the VPS (8 lessons)"
+        ],
+        "lang": "en",
+        "canonicos": [
+          "https://news.inema.pro/en/noticias/do-chat-ao-agente-degrau-1/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://news.inema.pro/noticias/do-chat-ao-agente-degrau-1/"
+          ],
+          [
+            "en",
+            "https://news.inema.pro/en/noticias/do-chat-ao-agente-degrau-1/"
+          ],
+          [
+            "es",
+            "https://news.inema.pro/es/noticias/do-chat-ao-agente-degrau-1/"
+          ],
+          [
+            "x-default",
+            "https://news.inema.pro/noticias/do-chat-ao-agente-degrau-1/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "NewsArticle"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 597,
+        "links_internos": 8
+      },
+      "https://news.inema.pro/es/noticias/do-chat-ao-agente-degrau-1/": {
+        "status": 200,
+        "final": "https://news.inema.pro/es/noticias/do-chat-ao-agente-degrau-1/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Del chat al agente, nivel 1 — del terminal desde cero hasta la VPS (8 clases) | news.inema.pro",
+        "descricao": "Curso de 8 clases para aprender a usar el terminal desde cero y llegar a la VPS.",
+        "h1": [
+          "Del chat al agente, nivel 1 — del terminal desde cero hasta la VPS (8 clases)"
+        ],
+        "lang": "es",
+        "canonicos": [
+          "https://news.inema.pro/es/noticias/do-chat-ao-agente-degrau-1/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://news.inema.pro/noticias/do-chat-ao-agente-degrau-1/"
+          ],
+          [
+            "en",
+            "https://news.inema.pro/en/noticias/do-chat-ao-agente-degrau-1/"
+          ],
+          [
+            "es",
+            "https://news.inema.pro/es/noticias/do-chat-ao-agente-degrau-1/"
+          ],
+          [
+            "x-default",
+            "https://news.inema.pro/noticias/do-chat-ao-agente-degrau-1/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "NewsArticle"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 590,
+        "links_internos": 8
+      },
+      "https://news.inema.pro/noticias/do-chat-ao-agente/": {
+        "status": 200,
+        "final": "https://news.inema.pro/noticias/do-chat-ao-agente/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Do chat ao agente — terminal, Jarvis, filas e redes automáticas (6 aulas) | news.inema.pro",
+        "descricao": "Curso de 6 aulas que reúne conteúdos sobre terminal, Jarvis, filas de tarefas e redes automáticas.",
+        "h1": [
+          "Do chat ao agente — terminal, Jarvis, filas e redes automáticas (6 aulas)"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://news.inema.pro/noticias/do-chat-ao-agente/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://news.inema.pro/noticias/do-chat-ao-agente/"
+          ],
+          [
+            "en",
+            "https://news.inema.pro/en/noticias/do-chat-ao-agente/"
+          ],
+          [
+            "es",
+            "https://news.inema.pro/es/noticias/do-chat-ao-agente/"
+          ],
+          [
+            "x-default",
+            "https://news.inema.pro/noticias/do-chat-ao-agente/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "NewsArticle"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 576,
+        "links_internos": 8
+      },
+      "https://news.inema.pro/en/noticias/do-chat-ao-agente/": {
+        "status": 200,
+        "final": "https://news.inema.pro/en/noticias/do-chat-ao-agente/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "From chat to agent — terminal, Jarvis, queues and automated social searches (6 lessons) | news.inema.pro",
+        "descricao": "A 6-lesson course covering the terminal, Jarvis, task queues and automated social searches.",
+        "h1": [
+          "From chat to agent — terminal, Jarvis, queues and automated social searches (6 lessons)"
+        ],
+        "lang": "en",
+        "canonicos": [
+          "https://news.inema.pro/en/noticias/do-chat-ao-agente/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://news.inema.pro/noticias/do-chat-ao-agente/"
+          ],
+          [
+            "en",
+            "https://news.inema.pro/en/noticias/do-chat-ao-agente/"
+          ],
+          [
+            "es",
+            "https://news.inema.pro/es/noticias/do-chat-ao-agente/"
+          ],
+          [
+            "x-default",
+            "https://news.inema.pro/noticias/do-chat-ao-agente/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "NewsArticle"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 597,
+        "links_internos": 8
+      },
+      "https://news.inema.pro/es/noticias/do-chat-ao-agente/": {
+        "status": 200,
+        "final": "https://news.inema.pro/es/noticias/do-chat-ao-agente/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Del chat al agente — terminal, Jarvis, colas y redes automáticas (6 clases) | news.inema.pro",
+        "descricao": "Curso de 6 clases que reúne contenidos sobre el terminal, Jarvis, colas de tareas y redes automáticas.",
+        "h1": [
+          "Del chat al agente — terminal, Jarvis, colas y redes automáticas (6 clases)"
+        ],
+        "lang": "es",
+        "canonicos": [
+          "https://news.inema.pro/es/noticias/do-chat-ao-agente/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://news.inema.pro/noticias/do-chat-ao-agente/"
+          ],
+          [
+            "en",
+            "https://news.inema.pro/en/noticias/do-chat-ao-agente/"
+          ],
+          [
+            "es",
+            "https://news.inema.pro/es/noticias/do-chat-ao-agente/"
+          ],
+          [
+            "x-default",
+            "https://news.inema.pro/noticias/do-chat-ao-agente/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "NewsArticle"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 596,
+        "links_internos": 8
+      },
+      "https://news.inema.pro/noticias/robotica-do-zero-ao-expert/": {
+        "status": 200,
+        "final": "https://news.inema.pro/noticias/robotica-do-zero-ao-expert/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Robótica do Zero ao Expert: do ESP32 ao braço que aprende | news.inema.pro",
+        "descricao": "Curso refeito em 2026 com 31 módulos, que vai do ESP32 à criação de um braço robótico que aprende.",
+        "h1": [
+          "Robótica do Zero ao Expert: do ESP32 ao braço que aprende"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://news.inema.pro/noticias/robotica-do-zero-ao-expert/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://news.inema.pro/noticias/robotica-do-zero-ao-expert/"
+          ],
+          [
+            "en",
+            "https://news.inema.pro/en/noticias/robotica-do-zero-ao-expert/"
+          ],
+          [
+            "es",
+            "https://news.inema.pro/es/noticias/robotica-do-zero-ao-expert/"
+          ],
+          [
+            "x-default",
+            "https://news.inema.pro/noticias/robotica-do-zero-ao-expert/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "NewsArticle"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 575,
+        "links_internos": 8
+      },
+      "https://news.inema.pro/en/noticias/robotica-do-zero-ao-expert/": {
+        "status": 200,
+        "final": "https://news.inema.pro/en/noticias/robotica-do-zero-ao-expert/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Robótica do Zero ao Expert: from ESP32 to a learning robotic arm | news.inema.pro",
+        "descricao": "A course revamped in 2026 with 31 modules, covering the path from ESP32 to building a robotic arm that learns.",
+        "h1": [
+          "Robótica do Zero ao Expert: from ESP32 to a learning robotic arm"
+        ],
+        "lang": "en",
+        "canonicos": [
+          "https://news.inema.pro/en/noticias/robotica-do-zero-ao-expert/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://news.inema.pro/noticias/robotica-do-zero-ao-expert/"
+          ],
+          [
+            "en",
+            "https://news.inema.pro/en/noticias/robotica-do-zero-ao-expert/"
+          ],
+          [
+            "es",
+            "https://news.inema.pro/es/noticias/robotica-do-zero-ao-expert/"
+          ],
+          [
+            "x-default",
+            "https://news.inema.pro/noticias/robotica-do-zero-ao-expert/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "NewsArticle"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 587,
+        "links_internos": 8
+      },
+      "https://news.inema.pro/es/noticias/robotica-do-zero-ao-expert/": {
+        "status": 200,
+        "final": "https://news.inema.pro/es/noticias/robotica-do-zero-ao-expert/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Robótica do Zero ao Expert: del ESP32 al brazo que aprende | news.inema.pro",
+        "descricao": "Curso renovado en 2026 con 31 módulos, que va desde el ESP32 hasta la creación de un brazo robótico que aprende.",
+        "h1": [
+          "Robótica do Zero ao Expert: del ESP32 al brazo que aprende"
+        ],
+        "lang": "es",
+        "canonicos": [
+          "https://news.inema.pro/es/noticias/robotica-do-zero-ao-expert/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://news.inema.pro/noticias/robotica-do-zero-ao-expert/"
+          ],
+          [
+            "en",
+            "https://news.inema.pro/en/noticias/robotica-do-zero-ao-expert/"
+          ],
+          [
+            "es",
+            "https://news.inema.pro/es/noticias/robotica-do-zero-ao-expert/"
+          ],
+          [
+            "x-default",
+            "https://news.inema.pro/noticias/robotica-do-zero-ao-expert/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "NewsArticle"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 592,
+        "links_internos": 8
+      },
+      "https://news.inema.pro/noticias/git-jardineiro/": {
+        "status": 200,
+        "final": "https://news.inema.pro/noticias/git-jardineiro/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "git-jardineiro: aprenda Git com a imagem de um jardim | news.inema.pro",
+        "descricao": "Projeto explica clone, commit, branch, merge e push usando a comparação com um jardim.",
+        "h1": [
+          "git-jardineiro: aprenda Git com a imagem de um jardim"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://news.inema.pro/noticias/git-jardineiro/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://news.inema.pro/noticias/git-jardineiro/"
+          ],
+          [
+            "en",
+            "https://news.inema.pro/en/noticias/git-jardineiro/"
+          ],
+          [
+            "es",
+            "https://news.inema.pro/es/noticias/git-jardineiro/"
+          ],
+          [
+            "x-default",
+            "https://news.inema.pro/noticias/git-jardineiro/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "NewsArticle"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 569,
+        "links_internos": 8
+      },
+      "https://news.inema.pro/en/noticias/git-jardineiro/": {
+        "status": 200,
+        "final": "https://news.inema.pro/en/noticias/git-jardineiro/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "git-jardineiro: learn Git through the image of a garden | news.inema.pro",
+        "descricao": "The project explains clone, commit, branch, merge, and push using a garden analogy.",
+        "h1": [
+          "git-jardineiro: learn Git through the image of a garden"
+        ],
+        "lang": "en",
+        "canonicos": [
+          "https://news.inema.pro/en/noticias/git-jardineiro/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://news.inema.pro/noticias/git-jardineiro/"
+          ],
+          [
+            "en",
+            "https://news.inema.pro/en/noticias/git-jardineiro/"
+          ],
+          [
+            "es",
+            "https://news.inema.pro/es/noticias/git-jardineiro/"
+          ],
+          [
+            "x-default",
+            "https://news.inema.pro/noticias/git-jardineiro/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "NewsArticle"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 597,
+        "links_internos": 8
+      },
+      "https://news.inema.pro/es/noticias/git-jardineiro/": {
+        "status": 200,
+        "final": "https://news.inema.pro/es/noticias/git-jardineiro/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "git-jardineiro: aprende Git con la imagen de un jardín | news.inema.pro",
+        "descricao": "El proyecto explica clone, commit, branch, merge y push mediante la comparación con un jardín.",
+        "h1": [
+          "git-jardineiro: aprende Git con la imagen de un jardín"
+        ],
+        "lang": "es",
+        "canonicos": [
+          "https://news.inema.pro/es/noticias/git-jardineiro/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://news.inema.pro/noticias/git-jardineiro/"
+          ],
+          [
+            "en",
+            "https://news.inema.pro/en/noticias/git-jardineiro/"
+          ],
+          [
+            "es",
+            "https://news.inema.pro/es/noticias/git-jardineiro/"
+          ],
+          [
+            "x-default",
+            "https://news.inema.pro/noticias/git-jardineiro/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "NewsArticle"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 600,
+        "links_internos": 8
+      },
+      "https://news.inema.pro/noticias/longcat-video/": {
+        "status": 200,
+        "final": "https://news.inema.pro/noticias/longcat-video/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "LongCat-Video cria vídeos de minutos e avatares falantes com IA aberta | news.inema.pro",
+        "descricao": "Projeto da Meituan com IA aberta para criar vídeos de vários minutos e avatares falantes, sob licença MIT.",
+        "h1": [
+          "LongCat-Video cria vídeos de minutos e avatares falantes com IA aberta"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://news.inema.pro/noticias/longcat-video/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://news.inema.pro/noticias/longcat-video/"
+          ],
+          [
+            "en",
+            "https://news.inema.pro/en/noticias/longcat-video/"
+          ],
+          [
+            "es",
+            "https://news.inema.pro/es/noticias/longcat-video/"
+          ],
+          [
+            "x-default",
+            "https://news.inema.pro/noticias/longcat-video/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "NewsArticle"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 622,
+        "links_internos": 8
+      },
+      "https://news.inema.pro/en/noticias/longcat-video/": {
+        "status": 200,
+        "final": "https://news.inema.pro/en/noticias/longcat-video/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "LongCat-Video creates multi-minute videos and talking avatars with open AI | news.inema.pro",
+        "descricao": "Meituan project using open AI to create videos several minutes long and talking avatars under the MIT license.",
+        "h1": [
+          "LongCat-Video creates multi-minute videos and talking avatars with open AI"
+        ],
+        "lang": "en",
+        "canonicos": [
+          "https://news.inema.pro/en/noticias/longcat-video/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://news.inema.pro/noticias/longcat-video/"
+          ],
+          [
+            "en",
+            "https://news.inema.pro/en/noticias/longcat-video/"
+          ],
+          [
+            "es",
+            "https://news.inema.pro/es/noticias/longcat-video/"
+          ],
+          [
+            "x-default",
+            "https://news.inema.pro/noticias/longcat-video/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "NewsArticle"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 644,
+        "links_internos": 8
+      },
+      "https://news.inema.pro/es/noticias/longcat-video/": {
+        "status": 200,
+        "final": "https://news.inema.pro/es/noticias/longcat-video/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "LongCat-Video crea vídeos de varios minutos y avatares parlantes con IA abierta | news.inema.pro",
+        "descricao": "Proyecto de Meituan con IA abierta para crear vídeos de varios minutos y avatares parlantes, bajo licencia MIT.",
+        "h1": [
+          "LongCat-Video crea vídeos de varios minutos y avatares parlantes con IA abierta"
+        ],
+        "lang": "es",
+        "canonicos": [
+          "https://news.inema.pro/es/noticias/longcat-video/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://news.inema.pro/noticias/longcat-video/"
+          ],
+          [
+            "en",
+            "https://news.inema.pro/en/noticias/longcat-video/"
+          ],
+          [
+            "es",
+            "https://news.inema.pro/es/noticias/longcat-video/"
+          ],
+          [
+            "x-default",
+            "https://news.inema.pro/noticias/longcat-video/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "NewsArticle"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 639,
+        "links_internos": 8
+      },
+      "https://news.inema.pro/noticias/ftd/": {
+        "status": 200,
+        "final": "https://news.inema.pro/noticias/ftd/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "FTD — Formação em Transformação Digital: 3 níveis e 27 módulos | news.inema.pro",
+        "descricao": "Curso reformulado em três níveis e 27 módulos, com exemplos para apoiar a Formação em Transformação Digital.",
+        "h1": [
+          "FTD — Formação em Transformação Digital: 3 níveis e 27 módulos"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://news.inema.pro/noticias/ftd/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://news.inema.pro/noticias/ftd/"
+          ],
+          [
+            "en",
+            "https://news.inema.pro/en/noticias/ftd/"
+          ],
+          [
+            "es",
+            "https://news.inema.pro/es/noticias/ftd/"
+          ],
+          [
+            "x-default",
+            "https://news.inema.pro/noticias/ftd/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "NewsArticle"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 570,
+        "links_internos": 8
+      },
+      "https://news.inema.pro/en/noticias/ftd/": {
+        "status": 200,
+        "final": "https://news.inema.pro/en/noticias/ftd/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "FTD — Formação em Transformação Digital: 3 levels and 27 modules | news.inema.pro",
+        "descricao": "Redesigned course with three levels and 27 modules, with examples to support Formação em Transformação Digital.",
+        "h1": [
+          "FTD — Formação em Transformação Digital: 3 levels and 27 modules"
+        ],
+        "lang": "en",
+        "canonicos": [
+          "https://news.inema.pro/en/noticias/ftd/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://news.inema.pro/noticias/ftd/"
+          ],
+          [
+            "en",
+            "https://news.inema.pro/en/noticias/ftd/"
+          ],
+          [
+            "es",
+            "https://news.inema.pro/es/noticias/ftd/"
+          ],
+          [
+            "x-default",
+            "https://news.inema.pro/noticias/ftd/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "NewsArticle"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 594,
+        "links_internos": 8
+      },
+      "https://news.inema.pro/es/noticias/ftd/": {
+        "status": 200,
+        "final": "https://news.inema.pro/es/noticias/ftd/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "FTD — Formação em Transformação Digital: 3 niveles y 27 módulos | news.inema.pro",
+        "descricao": "Curso renovado en tres niveles y 27 módulos, con ejemplos para apoyar la Formación em Transformação Digital.",
+        "h1": [
+          "FTD — Formação em Transformação Digital: 3 niveles y 27 módulos"
+        ],
+        "lang": "es",
+        "canonicos": [
+          "https://news.inema.pro/es/noticias/ftd/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://news.inema.pro/noticias/ftd/"
+          ],
+          [
+            "en",
+            "https://news.inema.pro/en/noticias/ftd/"
+          ],
+          [
+            "es",
+            "https://news.inema.pro/es/noticias/ftd/"
+          ],
+          [
+            "x-default",
+            "https://news.inema.pro/noticias/ftd/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "NewsArticle"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 591,
+        "links_internos": 8
+      },
+      "https://news.inema.pro/noticias/voicestudio/": {
+        "status": 200,
+        "final": "https://news.inema.pro/noticias/voicestudio/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "VoiceStudio: clone de voz, dublagem e transcrição no próprio computador | news.inema.pro",
+        "descricao": "O VoiceStudio oferece clonagem de voz, dublagem e transcrição local como alternativa ao ElevenLabs.",
+        "h1": [
+          "VoiceStudio: clone de voz, dublagem e transcrição no próprio computador"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://news.inema.pro/noticias/voicestudio/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://news.inema.pro/noticias/voicestudio/"
+          ],
+          [
+            "en",
+            "https://news.inema.pro/en/noticias/voicestudio/"
+          ],
+          [
+            "es",
+            "https://news.inema.pro/es/noticias/voicestudio/"
+          ],
+          [
+            "x-default",
+            "https://news.inema.pro/noticias/voicestudio/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "NewsArticle"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 580,
+        "links_internos": 8
+      },
+      "https://news.inema.pro/en/noticias/voicestudio/": {
+        "status": 200,
+        "final": "https://news.inema.pro/en/noticias/voicestudio/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "VoiceStudio: voice cloning, dubbing, and transcription on your own computer | news.inema.pro",
+        "descricao": "VoiceStudio provides local voice cloning, dubbing, and transcription as an alternative to ElevenLabs.",
+        "h1": [
+          "VoiceStudio: voice cloning, dubbing, and transcription on your own computer"
+        ],
+        "lang": "en",
+        "canonicos": [
+          "https://news.inema.pro/en/noticias/voicestudio/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://news.inema.pro/noticias/voicestudio/"
+          ],
+          [
+            "en",
+            "https://news.inema.pro/en/noticias/voicestudio/"
+          ],
+          [
+            "es",
+            "https://news.inema.pro/es/noticias/voicestudio/"
+          ],
+          [
+            "x-default",
+            "https://news.inema.pro/noticias/voicestudio/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "NewsArticle"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 596,
+        "links_internos": 8
+      },
+      "https://news.inema.pro/es/noticias/voicestudio/": {
+        "status": 200,
+        "final": "https://news.inema.pro/es/noticias/voicestudio/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "VoiceStudio: clonación de voz, doblaje y transcripción en tu propio equipo | news.inema.pro",
+        "descricao": "VoiceStudio ofrece clonación de voz, doblaje y transcripción local como alternativa a ElevenLabs.",
+        "h1": [
+          "VoiceStudio: clonación de voz, doblaje y transcripción en tu propio equipo"
+        ],
+        "lang": "es",
+        "canonicos": [
+          "https://news.inema.pro/es/noticias/voicestudio/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://news.inema.pro/noticias/voicestudio/"
+          ],
+          [
+            "en",
+            "https://news.inema.pro/en/noticias/voicestudio/"
+          ],
+          [
+            "es",
+            "https://news.inema.pro/es/noticias/voicestudio/"
+          ],
+          [
+            "x-default",
+            "https://news.inema.pro/noticias/voicestudio/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "NewsArticle"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 593,
+        "links_internos": 8
+      },
+      "https://news.inema.pro/noticias/sala-multiplayer/": {
+        "status": 200,
+        "final": "https://news.inema.pro/noticias/sala-multiplayer/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "sala-multiplayer: pessoas, Claude, Codex e Telegram na mesma conversa | news.inema.pro",
+        "descricao": "Projeto reúne pessoas, Claude, Codex e Telegram em uma conversa com painel ao vivo.",
+        "h1": [
+          "sala-multiplayer: pessoas, Claude, Codex e Telegram na mesma conversa"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://news.inema.pro/noticias/sala-multiplayer/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://news.inema.pro/noticias/sala-multiplayer/"
+          ],
+          [
+            "en",
+            "https://news.inema.pro/en/noticias/sala-multiplayer/"
+          ],
+          [
+            "es",
+            "https://news.inema.pro/es/noticias/sala-multiplayer/"
+          ],
+          [
+            "x-default",
+            "https://news.inema.pro/noticias/sala-multiplayer/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "NewsArticle"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 555,
+        "links_internos": 8
+      },
+      "https://news.inema.pro/en/noticias/sala-multiplayer/": {
+        "status": 200,
+        "final": "https://news.inema.pro/en/noticias/sala-multiplayer/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "sala-multiplayer: people, Claude, Codex, and Telegram in one conversation | news.inema.pro",
+        "descricao": "The project brings people, Claude, Codex, and Telegram together in a conversation with a live dashboard.",
+        "h1": [
+          "sala-multiplayer: people, Claude, Codex, and Telegram in one conversation"
+        ],
+        "lang": "en",
+        "canonicos": [
+          "https://news.inema.pro/en/noticias/sala-multiplayer/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://news.inema.pro/noticias/sala-multiplayer/"
+          ],
+          [
+            "en",
+            "https://news.inema.pro/en/noticias/sala-multiplayer/"
+          ],
+          [
+            "es",
+            "https://news.inema.pro/es/noticias/sala-multiplayer/"
+          ],
+          [
+            "x-default",
+            "https://news.inema.pro/noticias/sala-multiplayer/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "NewsArticle"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 578,
+        "links_internos": 8
+      }
+    },
+    "cdn": [
+      {
+        "token": "OAI-SearchBot",
+        "finalidade": "busca",
+        "status": 200,
+        "sinal": ""
+      },
+      {
+        "token": "PerplexityBot",
+        "finalidade": "busca",
+        "status": 200,
+        "sinal": ""
+      },
+      {
+        "token": "Perplexity-User",
+        "finalidade": "usuario",
+        "status": 200,
+        "sinal": ""
+      },
+      {
+        "token": "GPTBot",
+        "finalidade": "treino",
+        "status": 200,
+        "sinal": ""
+      }
+    ],
+    "llms_txt": 200,
+    "nao_rastreadas_robots": [],
+    "fila_restante": 726,
+    "hreflang_nao_verificados": 2,
+    "requisicoes": 61
+  },
+  "achados": [
+    {
+      "id": "titulo-tamanho",
+      "prioridade": "melhoria",
+      "titulo": "Título muito curto ou longo (fora de 15–65 caracteres)",
+      "detalhe": "Faixa prática herdada do webmcp-readiness, não regra do Google (o Google corta pela largura). Fonte: https://developers.google.com/search/docs/appearance/title-link",
+      "como_corrigir": "Deixe o assunto principal nas primeiras palavras.",
+      "url": "https://news.inema.pro/ (80); https://news.inema.pro/en/ (85); https://news.inema.pro/es/ (85); https://news.inema.pro/noticias/video-viral-9x16/ (99); https://news.inema.pro/en/noticias/video-viral-9x16/ (103) (+45)",
+      "urls": [
+        "https://news.inema.pro/ (80)",
+        "https://news.inema.pro/en/ (85)",
+        "https://news.inema.pro/es/ (85)",
+        "https://news.inema.pro/noticias/video-viral-9x16/ (99)",
+        "https://news.inema.pro/en/noticias/video-viral-9x16/ (103)",
+        "https://news.inema.pro/es/noticias/video-viral-9x16/ (104)",
+        "https://news.inema.pro/noticias/r7ex/ (73)",
+        "https://news.inema.pro/en/noticias/r7ex/ (69)",
+        "https://news.inema.pro/es/noticias/r7ex/ (74)",
+        "https://news.inema.pro/noticias/motor-videos-narrativos/ (83)",
+        "https://news.inema.pro/en/noticias/motor-videos-narrativos/ (85)",
+        "https://news.inema.pro/es/noticias/motor-videos-narrativos/ (91)",
+        "https://news.inema.pro/noticias/mostratec-2/ (75)",
+        "https://news.inema.pro/en/noticias/mostratec-2/ (70)",
+        "https://news.inema.pro/es/noticias/mostratec-2/ (76)",
+        "https://news.inema.pro/noticias/kit-15-comandos/ (79)",
+        "https://news.inema.pro/en/noticias/kit-15-comandos/ (89)",
+        "https://news.inema.pro/es/noticias/kit-15-comandos/ (88)",
+        "https://news.inema.pro/noticias/do-chat-ao-agente-degrau-4/ (93)",
+        "https://news.inema.pro/en/noticias/do-chat-ao-agente-degrau-4/ (106)",
+        "https://news.inema.pro/es/noticias/do-chat-ao-agente-degrau-4/ (99)",
+        "https://news.inema.pro/noticias/do-chat-ao-agente-degrau-3/ (95)",
+        "https://news.inema.pro/en/noticias/do-chat-ao-agente-degrau-3/ (97)",
+        "https://news.inema.pro/es/noticias/do-chat-ao-agente-degrau-3/ (97)",
+        "https://news.inema.pro/noticias/do-chat-ao-agente-degrau-2/ (91)",
+        "https://news.inema.pro/en/noticias/do-chat-ao-agente-degrau-2/ (93)",
+        "https://news.inema.pro/es/noticias/do-chat-ao-agente-degrau-2/ (91)",
+        "https://news.inema.pro/noticias/do-chat-ao-agente-degrau-1/ (82)",
+        "https://news.inema.pro/en/noticias/do-chat-ao-agente-degrau-1/ (89)",
+        "https://news.inema.pro/es/noticias/do-chat-ao-agente-degrau-1/ (94)",
+        "https://news.inema.pro/noticias/do-chat-ao-agente/ (90)",
+        "https://news.inema.pro/en/noticias/do-chat-ao-agente/ (104)",
+        "https://news.inema.pro/es/noticias/do-chat-ao-agente/ (92)",
+        "https://news.inema.pro/noticias/robotica-do-zero-ao-expert/ (74)",
+        "https://news.inema.pro/en/noticias/robotica-do-zero-ao-expert/ (81)",
+        "https://news.inema.pro/es/noticias/robotica-do-zero-ao-expert/ (75)",
+        "https://news.inema.pro/noticias/git-jardineiro/ (70)",
+        "https://news.inema.pro/en/noticias/git-jardineiro/ (72)",
+        "https://news.inema.pro/es/noticias/git-jardineiro/ (71)",
+        "https://news.inema.pro/noticias/longcat-video/ (87)",
+        "https://news.inema.pro/en/noticias/longcat-video/ (91)",
+        "https://news.inema.pro/es/noticias/longcat-video/ (96)",
+        "https://news.inema.pro/noticias/ftd/ (79)",
+        "https://news.inema.pro/en/noticias/ftd/ (81)",
+        "https://news.inema.pro/es/noticias/ftd/ (80)",
+        "https://news.inema.pro/noticias/voicestudio/ (88)",
+        "https://news.inema.pro/en/noticias/voicestudio/ (92)",
+        "https://news.inema.pro/es/noticias/voicestudio/ (91)",
+        "https://news.inema.pro/noticias/sala-multiplayer/ (86)",
+        "https://news.inema.pro/en/noticias/sala-multiplayer/ (90)"
+      ],
+      "fonte": "https://developers.google.com/search/docs/appearance/title-link"
+    },
+    {
+      "id": "llms",
+      "prioridade": "info",
+      "titulo": "llms.txt: HTTP 200",
+      "detalhe": "Opcional. Estudo do Ahrefs (jun/2026, 137 mil domínios): 97% dos arquivos não receberam nenhuma requisição; o guia de IA do Google diz que pode ignorar. Fonte: https://ahrefs.com/blog/llmstxt-study/",
+      "como_corrigir": "Não é prioridade; não venda como alavanca.",
+      "url": "",
+      "urls": [],
+      "fonte": "https://ahrefs.com/blog/llmstxt-study/"
+    }
+  ]
+}

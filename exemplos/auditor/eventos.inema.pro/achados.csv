@@ -1,0 +1,72 @@
+prioridade,id,titulo,como_corrigir,url
+melhoria,titulo-tamanho,Título muito curto ou longo (fora de 15–65 caracteres),Deixe o assunto principal nas primeiras palavras.,https://eventos.inema.pro/agb2030/conversao/ (79)
+melhoria,titulo-tamanho,Título muito curto ou longo (fora de 15–65 caracteres),Deixe o assunto principal nas primeiras palavras.,https://eventos.inema.pro/agb2030/conversao/en/ (84)
+melhoria,titulo-tamanho,Título muito curto ou longo (fora de 15–65 caracteres),Deixe o assunto principal nas primeiras palavras.,https://eventos.inema.pro/agb2030/conversao/es/ (80)
+melhoria,titulo-tamanho,Título muito curto ou longo (fora de 15–65 caracteres),Deixe o assunto principal nas primeiras palavras.,https://eventos.inema.pro/agb2030/incompany/ (81)
+melhoria,titulo-tamanho,Título muito curto ou longo (fora de 15–65 caracteres),Deixe o assunto principal nas primeiras palavras.,https://eventos.inema.pro/agb2030/incompany/en/ (87)
+melhoria,titulo-tamanho,Título muito curto ou longo (fora de 15–65 caracteres),Deixe o assunto principal nas primeiras palavras.,https://eventos.inema.pro/agb2030/incompany/es/ (81)
+melhoria,titulo-tamanho,Título muito curto ou longo (fora de 15–65 caracteres),Deixe o assunto principal nas primeiras palavras.,https://eventos.inema.pro/agb2030/inema/ (76)
+melhoria,titulo-tamanho,Título muito curto ou longo (fora de 15–65 caracteres),Deixe o assunto principal nas primeiras palavras.,https://eventos.inema.pro/agb2030/inema/en/ (79)
+melhoria,titulo-tamanho,Título muito curto ou longo (fora de 15–65 caracteres),Deixe o assunto principal nas primeiras palavras.,https://eventos.inema.pro/agb2030/inema/es/ (77)
+melhoria,titulo-tamanho,Título muito curto ou longo (fora de 15–65 caracteres),Deixe o assunto principal nas primeiras palavras.,https://eventos.inema.pro/agi-ready/ (72)
+melhoria,titulo-tamanho,Título muito curto ou longo (fora de 15–65 caracteres),Deixe o assunto principal nas primeiras palavras.,https://eventos.inema.pro/agi-ready/en/ (79)
+melhoria,titulo-tamanho,Título muito curto ou longo (fora de 15–65 caracteres),Deixe o assunto principal nas primeiras palavras.,https://eventos.inema.pro/agi-ready/es/ (70)
+melhoria,titulo-tamanho,Título muito curto ou longo (fora de 15–65 caracteres),Deixe o assunto principal nas primeiras palavras.,https://eventos.inema.pro/atendimento/ (103)
+melhoria,titulo-tamanho,Título muito curto ou longo (fora de 15–65 caracteres),Deixe o assunto principal nas primeiras palavras.,https://eventos.inema.pro/atendimento/en/ (95)
+melhoria,titulo-tamanho,Título muito curto ou longo (fora de 15–65 caracteres),Deixe o assunto principal nas primeiras palavras.,https://eventos.inema.pro/atendimento/es/ (101)
+melhoria,titulo-tamanho,Título muito curto ou longo (fora de 15–65 caracteres),Deixe o assunto principal nas primeiras palavras.,https://eventos.inema.pro/codex-claude/ (71)
+melhoria,titulo-tamanho,Título muito curto ou longo (fora de 15–65 caracteres),Deixe o assunto principal nas primeiras palavras.,https://eventos.inema.pro/codex-claude/en/ (66)
+melhoria,titulo-tamanho,Título muito curto ou longo (fora de 15–65 caracteres),Deixe o assunto principal nas primeiras palavras.,https://eventos.inema.pro/codex-claude/es/ (73)
+melhoria,titulo-tamanho,Título muito curto ou longo (fora de 15–65 caracteres),Deixe o assunto principal nas primeiras palavras.,https://eventos.inema.pro/consultoria-ia/ (92)
+melhoria,titulo-tamanho,Título muito curto ou longo (fora de 15–65 caracteres),Deixe o assunto principal nas primeiras palavras.,https://eventos.inema.pro/consultoria-ia/en/ (91)
+melhoria,titulo-tamanho,Título muito curto ou longo (fora de 15–65 caracteres),Deixe o assunto principal nas primeiras palavras.,https://eventos.inema.pro/consultoria-ia/es/ (92)
+melhoria,titulo-tamanho,Título muito curto ou longo (fora de 15–65 caracteres),Deixe o assunto principal nas primeiras palavras.,https://eventos.inema.pro/do-chat-ao-agente/ (77)
+melhoria,titulo-tamanho,Título muito curto ou longo (fora de 15–65 caracteres),Deixe o assunto principal nas primeiras palavras.,https://eventos.inema.pro/do-chat-ao-agente/en/ (68)
+melhoria,titulo-tamanho,Título muito curto ou longo (fora de 15–65 caracteres),Deixe o assunto principal nas primeiras palavras.,https://eventos.inema.pro/do-chat-ao-agente/es/ (77)
+melhoria,titulo-tamanho,Título muito curto ou longo (fora de 15–65 caracteres),Deixe o assunto principal nas primeiras palavras.,https://eventos.inema.pro/execucao-longa/ (77)
+melhoria,titulo-duplicado,2 título(s) repetido(s) em páginas diferentes,Cada página com título próprio.,https://eventos.inema.pro/agb2030/index2.html
+melhoria,titulo-duplicado,2 título(s) repetido(s) em páginas diferentes,Cada página com título próprio.,https://eventos.inema.pro/agb2030/en/index2.html
+melhoria,titulo-duplicado,2 título(s) repetido(s) em páginas diferentes,Cada página com título próprio.,https://eventos.inema.pro/agb2030/es/index2.html
+melhoria,titulo-duplicado,2 título(s) repetido(s) em páginas diferentes,Cada página com título próprio.,https://eventos.inema.pro/content2video.html
+melhoria,titulo-duplicado,2 título(s) repetido(s) em páginas diferentes,Cada página com título próprio.,https://eventos.inema.pro/en/content2video.html
+melhoria,h1-multiplo,Mais de um H1,Deixe um H1 e passe os outros para H2.,https://eventos.inema.pro/agb2030/index2.html
+melhoria,h1-multiplo,Mais de um H1,Deixe um H1 e passe os outros para H2.,https://eventos.inema.pro/agb2030/en/index2.html
+melhoria,h1-multiplo,Mais de um H1,Deixe um H1 e passe os outros para H2.,https://eventos.inema.pro/agb2030/es/index2.html
+melhoria,jsonld-ausente,Página sem dados estruturados (JSON-LD),Acrescente JSON-LD que bata com o texto visível.,https://eventos.inema.pro/
+melhoria,jsonld-ausente,Página sem dados estruturados (JSON-LD),Acrescente JSON-LD que bata com o texto visível.,https://eventos.inema.pro/agb2030/conversao/
+melhoria,jsonld-ausente,Página sem dados estruturados (JSON-LD),Acrescente JSON-LD que bata com o texto visível.,https://eventos.inema.pro/agb2030/conversao/en/
+melhoria,jsonld-ausente,Página sem dados estruturados (JSON-LD),Acrescente JSON-LD que bata com o texto visível.,https://eventos.inema.pro/agb2030/conversao/es/
+melhoria,jsonld-ausente,Página sem dados estruturados (JSON-LD),Acrescente JSON-LD que bata com o texto visível.,https://eventos.inema.pro/agb2030/criativa/
+melhoria,jsonld-ausente,Página sem dados estruturados (JSON-LD),Acrescente JSON-LD que bata com o texto visível.,https://eventos.inema.pro/agb2030/criativa/en/
+melhoria,jsonld-ausente,Página sem dados estruturados (JSON-LD),Acrescente JSON-LD que bata com o texto visível.,https://eventos.inema.pro/agb2030/criativa/es/
+melhoria,jsonld-ausente,Página sem dados estruturados (JSON-LD),Acrescente JSON-LD que bata com o texto visível.,https://eventos.inema.pro/agb2030/diagnostico/
+melhoria,jsonld-ausente,Página sem dados estruturados (JSON-LD),Acrescente JSON-LD que bata com o texto visível.,https://eventos.inema.pro/agb2030/diagnostico/en/
+melhoria,jsonld-ausente,Página sem dados estruturados (JSON-LD),Acrescente JSON-LD que bata com o texto visível.,https://eventos.inema.pro/agb2030/diagnostico/es/
+melhoria,jsonld-ausente,Página sem dados estruturados (JSON-LD),Acrescente JSON-LD que bata com o texto visível.,https://eventos.inema.pro/agb2030/incompany/
+melhoria,jsonld-ausente,Página sem dados estruturados (JSON-LD),Acrescente JSON-LD que bata com o texto visível.,https://eventos.inema.pro/agb2030/incompany/en/
+melhoria,jsonld-ausente,Página sem dados estruturados (JSON-LD),Acrescente JSON-LD que bata com o texto visível.,https://eventos.inema.pro/agb2030/incompany/es/
+melhoria,jsonld-ausente,Página sem dados estruturados (JSON-LD),Acrescente JSON-LD que bata com o texto visível.,https://eventos.inema.pro/agb2030/
+melhoria,jsonld-ausente,Página sem dados estruturados (JSON-LD),Acrescente JSON-LD que bata com o texto visível.,https://eventos.inema.pro/agb2030/en/
+melhoria,jsonld-ausente,Página sem dados estruturados (JSON-LD),Acrescente JSON-LD que bata com o texto visível.,https://eventos.inema.pro/agb2030/es/
+melhoria,jsonld-ausente,Página sem dados estruturados (JSON-LD),Acrescente JSON-LD que bata com o texto visível.,https://eventos.inema.pro/agb2030/index2.html
+melhoria,jsonld-ausente,Página sem dados estruturados (JSON-LD),Acrescente JSON-LD que bata com o texto visível.,https://eventos.inema.pro/agb2030/en/index2.html
+melhoria,jsonld-ausente,Página sem dados estruturados (JSON-LD),Acrescente JSON-LD que bata com o texto visível.,https://eventos.inema.pro/agb2030/es/index2.html
+melhoria,jsonld-ausente,Página sem dados estruturados (JSON-LD),Acrescente JSON-LD que bata com o texto visível.,https://eventos.inema.pro/agb2030/inema/
+melhoria,jsonld-ausente,Página sem dados estruturados (JSON-LD),Acrescente JSON-LD que bata com o texto visível.,https://eventos.inema.pro/agb2030/inema/en/
+melhoria,jsonld-ausente,Página sem dados estruturados (JSON-LD),Acrescente JSON-LD que bata com o texto visível.,https://eventos.inema.pro/agb2030/inema/es/
+melhoria,jsonld-ausente,Página sem dados estruturados (JSON-LD),Acrescente JSON-LD que bata com o texto visível.,https://eventos.inema.pro/agentes-hub-v.html
+melhoria,jsonld-ausente,Página sem dados estruturados (JSON-LD),Acrescente JSON-LD que bata com o texto visível.,https://eventos.inema.pro/en/agentes-hub-v.html
+melhoria,jsonld-ausente,Página sem dados estruturados (JSON-LD),Acrescente JSON-LD que bata com o texto visível.,https://eventos.inema.pro/es/agentes-hub-v.html
+melhoria,jsonld-ausente,Página sem dados estruturados (JSON-LD),Acrescente JSON-LD que bata com o texto visível.,https://eventos.inema.pro/agi-ready/
+melhoria,jsonld-ausente,Página sem dados estruturados (JSON-LD),Acrescente JSON-LD que bata com o texto visível.,https://eventos.inema.pro/agi-ready/en/
+melhoria,jsonld-ausente,Página sem dados estruturados (JSON-LD),Acrescente JSON-LD que bata com o texto visível.,https://eventos.inema.pro/agi-ready/es/
+melhoria,jsonld-ausente,Página sem dados estruturados (JSON-LD),Acrescente JSON-LD que bata com o texto visível.,https://eventos.inema.pro/arquitetura-de-intencao.html
+melhoria,jsonld-ausente,Página sem dados estruturados (JSON-LD),Acrescente JSON-LD que bata com o texto visível.,https://eventos.inema.pro/en/arquitetura-de-intencao.html
+melhoria,jsonld-ausente,Página sem dados estruturados (JSON-LD),Acrescente JSON-LD que bata com o texto visível.,https://eventos.inema.pro/es/arquitetura-de-intencao.html
+melhoria,jsonld-ausente,Página sem dados estruturados (JSON-LD),Acrescente JSON-LD que bata com o texto visível.,https://eventos.inema.pro/content2video.html
+melhoria,jsonld-ausente,Página sem dados estruturados (JSON-LD),Acrescente JSON-LD que bata com o texto visível.,https://eventos.inema.pro/en/content2video.html
+melhoria,jsonld-ausente,Página sem dados estruturados (JSON-LD),Acrescente JSON-LD que bata com o texto visível.,https://eventos.inema.pro/es/content2video.html
+melhoria,jsonld-ausente,Página sem dados estruturados (JSON-LD),Acrescente JSON-LD que bata com o texto visível.,https://eventos.inema.pro/do-chat-ao-agente/
+melhoria,jsonld-ausente,Página sem dados estruturados (JSON-LD),Acrescente JSON-LD que bata com o texto visível.,https://eventos.inema.pro/do-chat-ao-agente/en/
+melhoria,jsonld-ausente,Página sem dados estruturados (JSON-LD),Acrescente JSON-LD que bata com o texto visível.,https://eventos.inema.pro/do-chat-ao-agente/es/
+info,llms,llms.txt: HTTP 200,Não é prioridade; não venda como alavanca.,

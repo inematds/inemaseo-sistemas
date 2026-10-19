@@ -1,0 +1,9 @@
+Entrada dos exemplos do auditor (crawl real, 19/10/2026, só GET em sites públicos do INEMA, pausa 1 s, --max 50).
+Rodado a partir de ferramentas/:
+
+python3 auditor/auditor.py https://inema.club --max 50 -q --saida ../exemplos/auditor/inema.club
+python3 auditor/auditor.py https://eventos.inema.pro --max 50 -q --saida ../exemplos/auditor/eventos.inema.pro
+python3 auditor/auditor.py https://news.inema.pro --max 50 -q --saida ../exemplos/auditor/news.inema.pro
+python3 auditor/auditor.py https://inematds.github.io/rea-engenharia-reversa/guia/ --max 50 -q --saida ../exemplos/auditor/github.io-rea-engenharia-reversa
+
+Cada pasta: relatorio.html (abrir no navegador), auditoria.json, achados.csv, paginas.csv.

@@ -1,0 +1,10 @@
+prioridade,id,titulo,como_corrigir,url
+importante,sitemap-ausente,Sitemap não encontrado ou vazio,Publique sitemap.xml com as URLs canônicas e declare em robots.txt.,https://inematds.github.io/rea-engenharia-reversa/guia/sitemap.xml
+importante,canonico-ausente,Página sem link canônico,Declare um canônico absoluto apontando para a própria URL preferida.,https://inematds.github.io/rea-engenharia-reversa/guia/
+importante,canonico-ausente,Página sem link canônico,Declare um canônico absoluto apontando para a própria URL preferida.,https://inematds.github.io/rea-engenharia-reversa/guia/en/
+importante,canonico-ausente,Página sem link canônico,Declare um canônico absoluto apontando para a própria URL preferida.,https://inematds.github.io/rea-engenharia-reversa/guia/es/
+melhoria,robots-ausente,robots.txt não existe,Publique /robots.txt com as regras por robô e a linha Sitemap:.,https://inematds.github.io/robots.txt
+melhoria,jsonld-ausente,Página sem dados estruturados (JSON-LD),Acrescente JSON-LD que bata com o texto visível.,https://inematds.github.io/rea-engenharia-reversa/guia/
+melhoria,jsonld-ausente,Página sem dados estruturados (JSON-LD),Acrescente JSON-LD que bata com o texto visível.,https://inematds.github.io/rea-engenharia-reversa/guia/en/
+melhoria,jsonld-ausente,Página sem dados estruturados (JSON-LD),Acrescente JSON-LD que bata com o texto visível.,https://inematds.github.io/rea-engenharia-reversa/guia/es/
+info,llms,llms.txt: HTTP 404,Não é prioridade; não venda como alavanca.,

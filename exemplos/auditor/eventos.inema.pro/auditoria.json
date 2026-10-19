@@ -1,0 +1,2370 @@
+{
+  "dados": {
+    "inicio": "https://eventos.inema.pro/",
+    "host": "eventos.inema.pro",
+    "redirecionamentos": [
+      {
+        "url": "http://eventos.inema.pro/",
+        "status": 308,
+        "destino": "https://eventos.inema.pro/"
+      },
+      {
+        "url": "https://eventos.inema.pro/",
+        "status": 200,
+        "destino": ""
+      },
+      {
+        "url": "https://www.eventos.inema.pro/",
+        "status": "URLError: <urlopen error [Errno -2] Name or service not known>",
+        "destino": ""
+      }
+    ],
+    "robots": {
+      "status": 200,
+      "sitemaps": [
+        "https://eventos.inema.pro/sitemap.xml"
+      ],
+      "content_signal": [],
+      "robos": [
+        {
+          "token": "Googlebot",
+          "finalidade": "busca",
+          "empresa": "Google",
+          "fonte": "https://developers.google.com/search/docs/crawling-indexing/google-common-crawlers",
+          "pode_home": true,
+          "grupo": "*"
+        },
+        {
+          "token": "Bingbot",
+          "finalidade": "busca",
+          "empresa": "Microsoft",
+          "fonte": "https://www.bing.com/webmasters/help/which-crawlers-does-bing-use-8c184ec0",
+          "pode_home": true,
+          "grupo": "*"
+        },
+        {
+          "token": "OAI-SearchBot",
+          "finalidade": "busca",
+          "empresa": "OpenAI",
+          "fonte": "https://platform.openai.com/docs/bots",
+          "pode_home": true,
+          "grupo": "*"
+        },
+        {
+          "token": "Claude-SearchBot",
+          "finalidade": "busca",
+          "empresa": "Anthropic",
+          "fonte": "https://support.anthropic.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how",
+          "pode_home": true,
+          "grupo": "*"
+        },
+        {
+          "token": "PerplexityBot",
+          "finalidade": "busca",
+          "empresa": "Perplexity",
+          "fonte": "https://docs.perplexity.ai/guides/bots",
+          "pode_home": true,
+          "grupo": "*"
+        },
+        {
+          "token": "ChatGPT-User",
+          "finalidade": "usuario",
+          "empresa": "OpenAI",
+          "fonte": "https://platform.openai.com/docs/bots",
+          "pode_home": true,
+          "grupo": "*"
+        },
+        {
+          "token": "Claude-User",
+          "finalidade": "usuario",
+          "empresa": "Anthropic",
+          "fonte": "https://support.anthropic.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how",
+          "pode_home": true,
+          "grupo": "*"
+        },
+        {
+          "token": "Perplexity-User",
+          "finalidade": "usuario",
+          "empresa": "Perplexity",
+          "fonte": "https://docs.perplexity.ai/guides/bots",
+          "pode_home": true,
+          "grupo": "*"
+        },
+        {
+          "token": "GPTBot",
+          "finalidade": "treino",
+          "empresa": "OpenAI",
+          "fonte": "https://platform.openai.com/docs/bots",
+          "pode_home": true,
+          "grupo": "*"
+        },
+        {
+          "token": "ClaudeBot",
+          "finalidade": "treino",
+          "empresa": "Anthropic",
+          "fonte": "https://support.anthropic.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how",
+          "pode_home": true,
+          "grupo": "*"
+        },
+        {
+          "token": "Google-Extended",
+          "finalidade": "treino",
+          "empresa": "Google",
+          "fonte": "https://developers.google.com/search/docs/crawling-indexing/google-common-crawlers",
+          "pode_home": true,
+          "grupo": "*"
+        }
+      ]
+    },
+    "sitemap": {
+      "arquivos": [
+        [
+          "https://eventos.inema.pro/sitemap.xml",
+          200,
+          120
+        ]
+      ],
+      "urls": 120,
+      "com_lastmod": 120,
+      "com_hreflang": 120
+    },
+    "paginas": {
+      "https://eventos.inema.pro/": {
+        "status": 200,
+        "final": "https://eventos.inema.pro/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Eventos INEMA — imersões, treinamentos e gravações",
+        "descricao": "Agenda do ecossistema INEMA: em destaque as áreas IA Cultivada (não se programa, se cultiva) e Claude → Codex (migre ou fique agnóstico), a área Gestão de IA (2027 é o ano de gerenciar agentes), a área AGI-ready (comandar agentes, o fim do micro-prompting, cursos e projetos), o Curso INEMACCBOT com Promoavatar, as próximas imersões (Empresa Agentic, FTD, TDS e Vibe Code) e os treinamentos já gravados, com playlists no YouTube e material na Comunidade INEMA.",
+        "h1": [
+          "Escolha o seu próximo destino."
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://eventos.inema.pro/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://eventos.inema.pro/"
+          ],
+          [
+            "en",
+            "https://eventos.inema.pro/en/"
+          ],
+          [
+            "es",
+            "https://eventos.inema.pro/es/"
+          ],
+          [
+            "x-default",
+            "https://eventos.inema.pro/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [],
+        "entidades_sem_id": [],
+        "imgs": 33,
+        "imgs_sem_alt": 0,
+        "palavras": 1343,
+        "links_internos": 33
+      },
+      "https://eventos.inema.pro/agb2030/conversao/": {
+        "status": 200,
+        "final": "https://eventos.inema.pro/agb2030/conversao/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Imersão Empresa Agentic — seu negócio com um agente de IA funcionando em 5 dias",
+        "descricao": "Imersão prática para PMEs e profissionais independentes: monte o agente de IA da sua empresa — vendas, equipe e burocracia — com segurança e medição. Comece pelo diagnóstico gratuito.",
+        "h1": [
+          "Em 5 dias, sua empresa ganha um funcionário de IA que trabalha de verdade"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://eventos.inema.pro/agb2030/conversao/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://eventos.inema.pro/agb2030/conversao/"
+          ],
+          [
+            "en",
+            "https://eventos.inema.pro/agb2030/conversao/en/"
+          ],
+          [
+            "es",
+            "https://eventos.inema.pro/agb2030/conversao/es/"
+          ],
+          [
+            "x-default",
+            "https://eventos.inema.pro/agb2030/conversao/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 1549,
+        "links_internos": 35
+      },
+      "https://eventos.inema.pro/agb2030/conversao/en/": {
+        "status": 200,
+        "final": "https://eventos.inema.pro/agb2030/conversao/en/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Agentic Business Immersion — your business with an AI agent up and running in 5 days",
+        "descricao": "Hands‑on immersion for SMEs and independent professionals: build your company’s AI agent — sales, team, bureaucracy — with security and measurement. Start with the free diagnosis.",
+        "h1": [
+          "In 5 days, your company gets a AI employee that actually works"
+        ],
+        "lang": "en",
+        "canonicos": [
+          "https://eventos.inema.pro/agb2030/conversao/en/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://eventos.inema.pro/agb2030/conversao/"
+          ],
+          [
+            "en",
+            "https://eventos.inema.pro/agb2030/conversao/en/"
+          ],
+          [
+            "es",
+            "https://eventos.inema.pro/agb2030/conversao/es/"
+          ],
+          [
+            "x-default",
+            "https://eventos.inema.pro/agb2030/conversao/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 1635,
+        "links_internos": 35
+      },
+      "https://eventos.inema.pro/agb2030/conversao/es/": {
+        "status": 200,
+        "final": "https://eventos.inema.pro/agb2030/conversao/es/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Inmersión Empresa Agentic — tu negocio con un agente de IA funcionando en 5 días",
+        "descricao": "Inmersión práctica para PYMES y profesionales independientes: monta el agente de IA de tu empresa — ventas, equipo y burocracia — con seguridad y medición. Comienza con el diagnóstico gratuito.",
+        "h1": [
+          "En 5 días, tu empresa gana un empleado de IA que trabaja de verdad"
+        ],
+        "lang": "es",
+        "canonicos": [
+          "https://eventos.inema.pro/agb2030/conversao/es/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://eventos.inema.pro/agb2030/conversao/"
+          ],
+          [
+            "en",
+            "https://eventos.inema.pro/agb2030/conversao/en/"
+          ],
+          [
+            "es",
+            "https://eventos.inema.pro/agb2030/conversao/es/"
+          ],
+          [
+            "x-default",
+            "https://eventos.inema.pro/agb2030/conversao/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 1655,
+        "links_internos": 35
+      },
+      "https://eventos.inema.pro/agb2030/criativa/": {
+        "status": 200,
+        "final": "https://eventos.inema.pro/agb2030/criativa/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Funcionário Nº 001 — Imersão Empresa Agentic",
+        "descricao": "Contrate o funcionário que nunca dorme: em 5 dias de imersão, sua empresa sai com um agente de IA próprio, trabalhando com regras, aprovações e medição.",
+        "h1": [
+          "Contrate o funcionário que nunca dorme."
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://eventos.inema.pro/agb2030/criativa/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://eventos.inema.pro/agb2030/criativa/"
+          ],
+          [
+            "en",
+            "https://eventos.inema.pro/agb2030/criativa/en/"
+          ],
+          [
+            "es",
+            "https://eventos.inema.pro/agb2030/criativa/es/"
+          ],
+          [
+            "x-default",
+            "https://eventos.inema.pro/agb2030/criativa/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 904,
+        "links_internos": 35
+      },
+      "https://eventos.inema.pro/agb2030/criativa/en/": {
+        "status": 200,
+        "final": "https://eventos.inema.pro/agb2030/criativa/en/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Employee No. 001 — Agentic Business Immersion",
+        "descricao": "Hire the employee who never sleeps: in a 5‑day immersion, your company walks away with its own AI agent, operating with rules, approvals and measurement.",
+        "h1": [
+          "Hire the employee who never sleeps."
+        ],
+        "lang": "en",
+        "canonicos": [
+          "https://eventos.inema.pro/agb2030/criativa/en/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://eventos.inema.pro/agb2030/criativa/"
+          ],
+          [
+            "en",
+            "https://eventos.inema.pro/agb2030/criativa/en/"
+          ],
+          [
+            "es",
+            "https://eventos.inema.pro/agb2030/criativa/es/"
+          ],
+          [
+            "x-default",
+            "https://eventos.inema.pro/agb2030/criativa/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 909,
+        "links_internos": 35
+      },
+      "https://eventos.inema.pro/agb2030/criativa/es/": {
+        "status": 200,
+        "final": "https://eventos.inema.pro/agb2030/criativa/es/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Empleado Nº 001 — Inmersión Empresa Agentic",
+        "descricao": "Contrata al empleado que nunca duerme: en 5 días de inmersión, tu empresa sale con un agente de IA propio, trabajando con reglas, aprobaciones y medición.",
+        "h1": [
+          "Contrata al empleado que nunca duerme."
+        ],
+        "lang": "es",
+        "canonicos": [
+          "https://eventos.inema.pro/agb2030/criativa/es/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://eventos.inema.pro/agb2030/criativa/"
+          ],
+          [
+            "en",
+            "https://eventos.inema.pro/agb2030/criativa/en/"
+          ],
+          [
+            "es",
+            "https://eventos.inema.pro/agb2030/criativa/es/"
+          ],
+          [
+            "x-default",
+            "https://eventos.inema.pro/agb2030/criativa/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 941,
+        "links_internos": 35
+      },
+      "https://eventos.inema.pro/agb2030/diagnostico/": {
+        "status": 200,
+        "final": "https://eventos.inema.pro/agb2030/diagnostico/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Diagnóstico Agentic — onde sua empresa está, em 5 minutos",
+        "descricao": "Descubra o nível de maturidade da sua empresa para usar agentes de IA, quais são suas 3 maiores lacunas e por qual processo começar. Gratuito, sem cadastro para ver o resultado.",
+        "h1": [
+          "Onde a sua empresa está hoje — e por onde começar"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://eventos.inema.pro/agb2030/diagnostico/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://eventos.inema.pro/agb2030/diagnostico/"
+          ],
+          [
+            "en",
+            "https://eventos.inema.pro/agb2030/diagnostico/en/"
+          ],
+          [
+            "es",
+            "https://eventos.inema.pro/agb2030/diagnostico/es/"
+          ],
+          [
+            "x-default",
+            "https://eventos.inema.pro/agb2030/diagnostico/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 411,
+        "links_internos": 35
+      },
+      "https://eventos.inema.pro/agb2030/diagnostico/en/": {
+        "status": 200,
+        "final": "https://eventos.inema.pro/agb2030/diagnostico/en/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Agentic Diagnosis — where your company is, in 5 minutes",
+        "descricao": "Discover your company's AI agent maturity level, its three biggest gaps, and which process to start with. Free, no registration required to see the results.",
+        "h1": [
+          "Where your company is today — and where to start"
+        ],
+        "lang": "en",
+        "canonicos": [
+          "https://eventos.inema.pro/agb2030/diagnostico/en/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://eventos.inema.pro/agb2030/diagnostico/"
+          ],
+          [
+            "en",
+            "https://eventos.inema.pro/agb2030/diagnostico/en/"
+          ],
+          [
+            "es",
+            "https://eventos.inema.pro/agb2030/diagnostico/es/"
+          ],
+          [
+            "x-default",
+            "https://eventos.inema.pro/agb2030/diagnostico/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 403,
+        "links_internos": 35
+      },
+      "https://eventos.inema.pro/agb2030/diagnostico/es/": {
+        "status": 200,
+        "final": "https://eventos.inema.pro/agb2030/diagnostico/es/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Diagnóstico Agentic — dónde está tu empresa, en 5 minutos",
+        "descricao": "Descubre el nivel de madurez de tu empresa para usar agentes de IA, cuáles son tus 3 mayores brechas y por qué proceso empezar. Gratuito, sin registro para ver el resultado.",
+        "h1": [
+          "Dónde está tu empresa hoy — y por dónde empezar"
+        ],
+        "lang": "es",
+        "canonicos": [
+          "https://eventos.inema.pro/agb2030/diagnostico/es/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://eventos.inema.pro/agb2030/diagnostico/"
+          ],
+          [
+            "en",
+            "https://eventos.inema.pro/agb2030/diagnostico/en/"
+          ],
+          [
+            "es",
+            "https://eventos.inema.pro/agb2030/diagnostico/es/"
+          ],
+          [
+            "x-default",
+            "https://eventos.inema.pro/agb2030/diagnostico/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 404,
+        "links_internos": 35
+      },
+      "https://eventos.inema.pro/agb2030/incompany/": {
+        "status": 200,
+        "final": "https://eventos.inema.pro/agb2030/incompany/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Empresa Agentic In-Company — sua equipe operando agentes com governança e medição",
+        "descricao": "Programa de 5 dias in-company: 3 a 5 processos das suas áreas viram agentes governados e medidos, com a sua TI e o seu jurídico na sala. Começa por um diagnóstico executivo de meio dia.",
+        "h1": [
+          "Sua equipe operando agentes com governança e medição"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://eventos.inema.pro/agb2030/incompany/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://eventos.inema.pro/agb2030/incompany/"
+          ],
+          [
+            "en",
+            "https://eventos.inema.pro/agb2030/incompany/en/"
+          ],
+          [
+            "es",
+            "https://eventos.inema.pro/agb2030/incompany/es/"
+          ],
+          [
+            "x-default",
+            "https://eventos.inema.pro/agb2030/incompany/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 1921,
+        "links_internos": 36
+      },
+      "https://eventos.inema.pro/agb2030/incompany/en/": {
+        "status": 200,
+        "final": "https://eventos.inema.pro/agb2030/incompany/en/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Agentic In-Company Company — your team operating agents with governance and measurement",
+        "descricao": "5‑day in‑company program: 3 to 5 processes from your areas become governed and measured agents, with your IT and legal in the room. It starts with a half‑day executive diagnosis.",
+        "h1": [
+          "Your team operating agents with governance and measurement"
+        ],
+        "lang": "en",
+        "canonicos": [
+          "https://eventos.inema.pro/agb2030/incompany/en/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://eventos.inema.pro/agb2030/incompany/"
+          ],
+          [
+            "en",
+            "https://eventos.inema.pro/agb2030/incompany/en/"
+          ],
+          [
+            "es",
+            "https://eventos.inema.pro/agb2030/incompany/es/"
+          ],
+          [
+            "x-default",
+            "https://eventos.inema.pro/agb2030/incompany/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 2112,
+        "links_internos": 36
+      },
+      "https://eventos.inema.pro/agb2030/incompany/es/": {
+        "status": 200,
+        "final": "https://eventos.inema.pro/agb2030/incompany/es/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Empresa Agentic In-Company — su equipo operando agentes con gobernanza y medición",
+        "descricao": "Programa de 5 días in-company: 3 a 5 procesos de tus áreas se convierten en agentes gobernados y medidos, con tu TI y tu jurídico en la sala. Comienza con un diagnóstico ejecutivo de medio día.",
+        "h1": [
+          "Tu equipo operando agentes con gobernanza y medición"
+        ],
+        "lang": "es",
+        "canonicos": [
+          "https://eventos.inema.pro/agb2030/incompany/es/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://eventos.inema.pro/agb2030/incompany/"
+          ],
+          [
+            "en",
+            "https://eventos.inema.pro/agb2030/incompany/en/"
+          ],
+          [
+            "es",
+            "https://eventos.inema.pro/agb2030/incompany/es/"
+          ],
+          [
+            "x-default",
+            "https://eventos.inema.pro/agb2030/incompany/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 2122,
+        "links_internos": 36
+      },
+      "https://eventos.inema.pro/agb2030/": {
+        "status": 200,
+        "final": "https://eventos.inema.pro/agb2030/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Imersão Empresa Agentic — AGB2030 | INEMA",
+        "descricao": "Imersão Empresa Agentic: em 5 dias sua empresa sai com um agente de IA funcionando de verdade — vendas, gestão e burocracia, com segurança e medição. Comece pelo diagnóstico gratuito.",
+        "h1": [
+          "Em 5 dias, sua empresa ganha um funcionário de IA que trabalha de verdade"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://eventos.inema.pro/agb2030/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://eventos.inema.pro/agb2030/"
+          ],
+          [
+            "en",
+            "https://eventos.inema.pro/agb2030/en/"
+          ],
+          [
+            "es",
+            "https://eventos.inema.pro/agb2030/es/"
+          ],
+          [
+            "x-default",
+            "https://eventos.inema.pro/agb2030/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [],
+        "entidades_sem_id": [],
+        "imgs": 1,
+        "imgs_sem_alt": 0,
+        "palavras": 701,
+        "links_internos": 38
+      },
+      "https://eventos.inema.pro/agb2030/en/": {
+        "status": 200,
+        "final": "https://eventos.inema.pro/agb2030/en/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Agentic Company Immersion — AGB2030 | INEMA",
+        "descricao": "Agentic Enterprise Immersion: in 5 days, your company will come away with an AI agent that really works — for sales, management, and paperwork, with security and measurement. Start with the free assessment.",
+        "h1": [
+          "In 5 days, your company gets a AI employee that actually works"
+        ],
+        "lang": "en",
+        "canonicos": [
+          "https://eventos.inema.pro/agb2030/en/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://eventos.inema.pro/agb2030/"
+          ],
+          [
+            "en",
+            "https://eventos.inema.pro/agb2030/en/"
+          ],
+          [
+            "es",
+            "https://eventos.inema.pro/agb2030/es/"
+          ],
+          [
+            "x-default",
+            "https://eventos.inema.pro/agb2030/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [],
+        "entidades_sem_id": [],
+        "imgs": 1,
+        "imgs_sem_alt": 0,
+        "palavras": 707,
+        "links_internos": 38
+      },
+      "https://eventos.inema.pro/agb2030/es/": {
+        "status": 200,
+        "final": "https://eventos.inema.pro/agb2030/es/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Inmersión Empresa Agentic — AGB2030 | INEMA",
+        "descricao": "Inmersión Empresa Agentic: en 5 días tu empresa tendrá un agente de IA que realmente funciona — para ventas, gestión y trámites, con seguridad y medición. Empieza con el diagnóstico gratuito.",
+        "h1": [
+          "En 5 días, tu empresa gana un empleado de IA que trabaja de verdad"
+        ],
+        "lang": "es",
+        "canonicos": [
+          "https://eventos.inema.pro/agb2030/es/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://eventos.inema.pro/agb2030/"
+          ],
+          [
+            "en",
+            "https://eventos.inema.pro/agb2030/en/"
+          ],
+          [
+            "es",
+            "https://eventos.inema.pro/agb2030/es/"
+          ],
+          [
+            "x-default",
+            "https://eventos.inema.pro/agb2030/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [],
+        "entidades_sem_id": [],
+        "imgs": 1,
+        "imgs_sem_alt": 0,
+        "palavras": 702,
+        "links_internos": 38
+      },
+      "https://eventos.inema.pro/agb2030/index2.html": {
+        "status": 200,
+        "final": "https://eventos.inema.pro/agb2030/index2.html",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "AGB 2030 — Empresa Agentic | INEMA",
+        "descricao": "Imersao AGB 2030: quatro a cinco dias para sair com um agente da sua empresa rodando e um checklist de graduacao de 13 itens.",
+        "h1": [
+          "Em 5 dias, sua empresa ganha um funcionário de IA que trabalha de verdade",
+          "Em 5 dias, sua empresa ganha um funcionário de IA que trabalha de verdade"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://eventos.inema.pro/agb2030/index2.html"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://eventos.inema.pro/agb2030/index2.html"
+          ],
+          [
+            "en",
+            "https://eventos.inema.pro/agb2030/en/index2.html"
+          ],
+          [
+            "es",
+            "https://eventos.inema.pro/agb2030/es/index2.html"
+          ],
+          [
+            "x-default",
+            "https://eventos.inema.pro/agb2030/index2.html"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 2284,
+        "links_internos": 35
+      },
+      "https://eventos.inema.pro/agb2030/en/index2.html": {
+        "status": 200,
+        "final": "https://eventos.inema.pro/agb2030/en/index2.html",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "AGB 2030 — Empresa Agentic | INEMA",
+        "descricao": "AGB 2030 Immersion: four to five days to leave with an agent from your company running and a 13‑item graduation checklist.",
+        "h1": [
+          "In 5 days, your company gets a AI employee that actually works",
+          "In 5 days, your company gets a AI employee that actually works"
+        ],
+        "lang": "en",
+        "canonicos": [
+          "https://eventos.inema.pro/agb2030/en/index2.html"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://eventos.inema.pro/agb2030/index2.html"
+          ],
+          [
+            "en",
+            "https://eventos.inema.pro/agb2030/en/index2.html"
+          ],
+          [
+            "es",
+            "https://eventos.inema.pro/agb2030/es/index2.html"
+          ],
+          [
+            "x-default",
+            "https://eventos.inema.pro/agb2030/index2.html"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 2418,
+        "links_internos": 35
+      },
+      "https://eventos.inema.pro/agb2030/es/index2.html": {
+        "status": 200,
+        "final": "https://eventos.inema.pro/agb2030/es/index2.html",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "AGB 2030 — Empresa Agentic | INEMA",
+        "descricao": "Inmersión AGB 2030: cuatro a cinco días para salir con un agente de tu empresa funcionando y un checklist de graduación de 13 ítems.",
+        "h1": [
+          "En 5 días, tu empresa gana un empleado de IA que trabaja de verdad",
+          "En 5 días, tu empresa gana un empleado de IA que trabaja de verdad"
+        ],
+        "lang": "es",
+        "canonicos": [
+          "https://eventos.inema.pro/agb2030/es/index2.html"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://eventos.inema.pro/agb2030/index2.html"
+          ],
+          [
+            "en",
+            "https://eventos.inema.pro/agb2030/en/index2.html"
+          ],
+          [
+            "es",
+            "https://eventos.inema.pro/agb2030/es/index2.html"
+          ],
+          [
+            "x-default",
+            "https://eventos.inema.pro/agb2030/index2.html"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 2479,
+        "links_internos": 35
+      },
+      "https://eventos.inema.pro/agb2030/inema/": {
+        "status": 200,
+        "final": "https://eventos.inema.pro/agb2030/inema/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Imersão Empresa Agentic — construa a inteligência operacional do seu negócio",
+        "descricao": "Imersão de 4 a 5 dias para PMEs e profissionais independentes: saia com o agente da sua empresa funcionando — skills, ferramentas conectadas, governança e medição — mesmo sem ser técnico.",
+        "h1": [
+          "Sua empresa vai ganhar um agente próprio — e você sai daqui com ele funcionando"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://eventos.inema.pro/agb2030/inema/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://eventos.inema.pro/agb2030/inema/"
+          ],
+          [
+            "en",
+            "https://eventos.inema.pro/agb2030/inema/en/"
+          ],
+          [
+            "es",
+            "https://eventos.inema.pro/agb2030/inema/es/"
+          ],
+          [
+            "x-default",
+            "https://eventos.inema.pro/agb2030/inema/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [],
+        "entidades_sem_id": [],
+        "imgs": 1,
+        "imgs_sem_alt": 0,
+        "palavras": 1196,
+        "links_internos": 35
+      },
+      "https://eventos.inema.pro/agb2030/inema/en/": {
+        "status": 200,
+        "final": "https://eventos.inema.pro/agb2030/inema/en/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Agentic Company Immersion — build the operational intelligence of your business",
+        "descricao": "4‑ to 5‑day immersion for SMEs and independent professionals: walk away with your company’s agent running — skills, connected tools, governance and measurement — even without being technical.",
+        "h1": [
+          "Your company will get a own agent — and you’ll leave here with it up and running"
+        ],
+        "lang": "en",
+        "canonicos": [
+          "https://eventos.inema.pro/agb2030/inema/en/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://eventos.inema.pro/agb2030/inema/"
+          ],
+          [
+            "en",
+            "https://eventos.inema.pro/agb2030/inema/en/"
+          ],
+          [
+            "es",
+            "https://eventos.inema.pro/agb2030/inema/es/"
+          ],
+          [
+            "x-default",
+            "https://eventos.inema.pro/agb2030/inema/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [],
+        "entidades_sem_id": [],
+        "imgs": 1,
+        "imgs_sem_alt": 0,
+        "palavras": 1226,
+        "links_internos": 35
+      },
+      "https://eventos.inema.pro/agb2030/inema/es/": {
+        "status": 200,
+        "final": "https://eventos.inema.pro/agb2030/inema/es/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Inmersión Empresa Agentic — construye la inteligencia operativa de tu negocio",
+        "descricao": "Inmersión de 4 a 5 días para PYMES y profesionales independientes: sal con el agente de tu empresa funcionando — habilidades, herramientas conectadas, gobernanza y medición — incluso sin ser técnico.",
+        "h1": [
+          "Tu empresa ganará un agente propio — y sales de aquí con él funcionando"
+        ],
+        "lang": "es",
+        "canonicos": [
+          "https://eventos.inema.pro/agb2030/inema/es/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://eventos.inema.pro/agb2030/inema/"
+          ],
+          [
+            "en",
+            "https://eventos.inema.pro/agb2030/inema/en/"
+          ],
+          [
+            "es",
+            "https://eventos.inema.pro/agb2030/inema/es/"
+          ],
+          [
+            "x-default",
+            "https://eventos.inema.pro/agb2030/inema/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [],
+        "entidades_sem_id": [],
+        "imgs": 1,
+        "imgs_sem_alt": 0,
+        "palavras": 1251,
+        "links_internos": 35
+      },
+      "https://eventos.inema.pro/agentes-hub-v.html": {
+        "status": 200,
+        "final": "https://eventos.inema.pro/agentes-hub-v.html",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "INEMA Agentes Hub V — conteúdo dos 5 dias | Eventos INEMA",
+        "descricao": "Conteúdo completo do curso INEMA Agentes Hub V: cinco dias construindo um hub de agentes na VPS — infraestrutura, bot de entrada, filas e workers, agentes e skills, validação e publicação. Gravação disponível na Comunidade INEMA.",
+        "h1": [
+          "INEMA Agentes Hub V: o conteúdo dos 5 dias"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://eventos.inema.pro/agentes-hub-v.html"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://eventos.inema.pro/agentes-hub-v.html"
+          ],
+          [
+            "en",
+            "https://eventos.inema.pro/en/agentes-hub-v.html"
+          ],
+          [
+            "es",
+            "https://eventos.inema.pro/es/agentes-hub-v.html"
+          ],
+          [
+            "x-default",
+            "https://eventos.inema.pro/agentes-hub-v.html"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [],
+        "entidades_sem_id": [],
+        "imgs": 1,
+        "imgs_sem_alt": 0,
+        "palavras": 479,
+        "links_internos": 33
+      },
+      "https://eventos.inema.pro/en/agentes-hub-v.html": {
+        "status": 200,
+        "final": "https://eventos.inema.pro/en/agentes-hub-v.html",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "INEMA Agents Hub V — 5‑day content | INEMA Events",
+        "descricao": "Full content of the INEMA Agents Hub V course: five days building an agent hub on a VPS — infrastructure, entry bot, queues and workers, agents and skills, validation and publishing. Recording available in the INEMA Community.",
+        "h1": [
+          "INEMA Agents Hub V: the 5‑day content"
+        ],
+        "lang": "en",
+        "canonicos": [
+          "https://eventos.inema.pro/en/agentes-hub-v.html"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://eventos.inema.pro/agentes-hub-v.html"
+          ],
+          [
+            "en",
+            "https://eventos.inema.pro/en/agentes-hub-v.html"
+          ],
+          [
+            "es",
+            "https://eventos.inema.pro/es/agentes-hub-v.html"
+          ],
+          [
+            "x-default",
+            "https://eventos.inema.pro/agentes-hub-v.html"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [],
+        "entidades_sem_id": [],
+        "imgs": 1,
+        "imgs_sem_alt": 0,
+        "palavras": 446,
+        "links_internos": 33
+      },
+      "https://eventos.inema.pro/es/agentes-hub-v.html": {
+        "status": 200,
+        "final": "https://eventos.inema.pro/es/agentes-hub-v.html",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "INEMA Agentes Hub V — contenido de los 5 días | Eventos INEMA",
+        "descricao": "Contenido completo del curso INEMA Agentes Hub V: cinco días construyendo un hub de agentes en VPS — infraestructura, bot de entrada, colas y workers, agentes y habilidades, validación y publicación. Grabación disponible en la Comunidad INEMA.",
+        "h1": [
+          "INEMA Agentes Hub V: el contenido de los 5 días"
+        ],
+        "lang": "es",
+        "canonicos": [
+          "https://eventos.inema.pro/es/agentes-hub-v.html"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://eventos.inema.pro/agentes-hub-v.html"
+          ],
+          [
+            "en",
+            "https://eventos.inema.pro/en/agentes-hub-v.html"
+          ],
+          [
+            "es",
+            "https://eventos.inema.pro/es/agentes-hub-v.html"
+          ],
+          [
+            "x-default",
+            "https://eventos.inema.pro/agentes-hub-v.html"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [],
+        "entidades_sem_id": [],
+        "imgs": 1,
+        "imgs_sem_alt": 0,
+        "palavras": 465,
+        "links_internos": 33
+      },
+      "https://eventos.inema.pro/agi-ready/": {
+        "status": 200,
+        "final": "https://eventos.inema.pro/agi-ready/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "AGI-ready — AGI chegou: comandar agentes, não fazer tudo · Eventos INEMA",
+        "descricao": "A área AGI-ready do INEMA: o que muda no trabalho quando a IA deixa de esperar ordens, por que o prompt não morreu (morreu o micro-prompting), a arquitetura prompt + skills + contexto + tools + memória + evals, e os cursos e projetos para você comandar agentes.",
+        "h1": [
+          "A IA parou de esperar ordens. Seu trabalho vira comandar agentes."
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://eventos.inema.pro/agi-ready/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://eventos.inema.pro/agi-ready/"
+          ],
+          [
+            "en",
+            "https://eventos.inema.pro/agi-ready/en/"
+          ],
+          [
+            "es",
+            "https://eventos.inema.pro/agi-ready/es/"
+          ],
+          [
+            "x-default",
+            "https://eventos.inema.pro/agi-ready/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [],
+        "entidades_sem_id": [],
+        "imgs": 9,
+        "imgs_sem_alt": 0,
+        "palavras": 2632,
+        "links_internos": 39
+      },
+      "https://eventos.inema.pro/agi-ready/en/": {
+        "status": 200,
+        "final": "https://eventos.inema.pro/agi-ready/en/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "AGI‑ready — AGI has arrived: command agents, don’t do everything · INEMA Events",
+        "descricao": "INEMA's AGI-ready area: what changes at work when AI stops waiting for commands, why the prompt hasn't died (micro‑prompting has), the architecture prompt + skills + context + tools + memory + evals, and the courses and projects for you to command agents.",
+        "h1": [
+          "AI stopped waiting for orders. Your job becomes commanding agents."
+        ],
+        "lang": "en",
+        "canonicos": [
+          "https://eventos.inema.pro/agi-ready/en/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://eventos.inema.pro/agi-ready/"
+          ],
+          [
+            "en",
+            "https://eventos.inema.pro/agi-ready/en/"
+          ],
+          [
+            "es",
+            "https://eventos.inema.pro/agi-ready/es/"
+          ],
+          [
+            "x-default",
+            "https://eventos.inema.pro/agi-ready/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [],
+        "entidades_sem_id": [],
+        "imgs": 9,
+        "imgs_sem_alt": 0,
+        "palavras": 2806,
+        "links_internos": 39
+      },
+      "https://eventos.inema.pro/agi-ready/es/": {
+        "status": 200,
+        "final": "https://eventos.inema.pro/agi-ready/es/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "AGI-ready — AGI llegó: comandar agentes, no hacer todo · Eventos INEMA",
+        "descricao": "El área AGI-ready del INEMA: lo que cambia en el trabajo cuando la IA deja de esperar órdenes, por qué el prompt no murió (murió el micro-prompting), la arquitectura prompt + skills + contexto + tools + memoria + evals, y los cursos y proyectos para que comandes agentes.",
+        "h1": [
+          "La IA dejó de esperar órdenes. Tu trabajo se convierte en comandar agentes."
+        ],
+        "lang": "es",
+        "canonicos": [
+          "https://eventos.inema.pro/agi-ready/es/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://eventos.inema.pro/agi-ready/"
+          ],
+          [
+            "en",
+            "https://eventos.inema.pro/agi-ready/en/"
+          ],
+          [
+            "es",
+            "https://eventos.inema.pro/agi-ready/es/"
+          ],
+          [
+            "x-default",
+            "https://eventos.inema.pro/agi-ready/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [],
+        "entidades_sem_id": [],
+        "imgs": 9,
+        "imgs_sem_alt": 0,
+        "palavras": 2877,
+        "links_internos": 39
+      },
+      "https://eventos.inema.pro/arquitetura-de-intencao.html": {
+        "status": 200,
+        "final": "https://eventos.inema.pro/arquitetura-de-intencao.html",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Arquitetura de Intenção — Imersão de 3 dias | INEMA.CLUB",
+        "descricao": "Imersão autoguiada de 3 dias: pare de improvisar prompts e saia com um sistema seu que orienta a IA. Pirâmide, 5 pilares e o ciclo rodar→validar→ajustar→melhorar. De R$4.870 por R$2.997 na promoção.",
+        "h1": [
+          "Do prompt ao sistema em 3 dias"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://eventos.inema.pro/arquitetura-de-intencao.html"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://eventos.inema.pro/arquitetura-de-intencao.html"
+          ],
+          [
+            "en",
+            "https://eventos.inema.pro/en/arquitetura-de-intencao.html"
+          ],
+          [
+            "es",
+            "https://eventos.inema.pro/es/arquitetura-de-intencao.html"
+          ],
+          [
+            "x-default",
+            "https://eventos.inema.pro/arquitetura-de-intencao.html"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 1005,
+        "links_internos": 33
+      },
+      "https://eventos.inema.pro/en/arquitetura-de-intencao.html": {
+        "status": 200,
+        "final": "https://eventos.inema.pro/en/arquitetura-de-intencao.html",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Intention Architecture — 3‑day Immersion | INEMA.CLUB",
+        "descricao": "Self‑guided 3‑day immersion: stop improvising prompts and finish with your own system that guides the AI. Pyramid, 5 pillars and the cycle run→validate→adjust→improve. From R$4,870 to R$2,997 on promotion.",
+        "h1": [
+          "From prompt to system in 3 days"
+        ],
+        "lang": "en",
+        "canonicos": [
+          "https://eventos.inema.pro/en/arquitetura-de-intencao.html"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://eventos.inema.pro/arquitetura-de-intencao.html"
+          ],
+          [
+            "en",
+            "https://eventos.inema.pro/en/arquitetura-de-intencao.html"
+          ],
+          [
+            "es",
+            "https://eventos.inema.pro/es/arquitetura-de-intencao.html"
+          ],
+          [
+            "x-default",
+            "https://eventos.inema.pro/arquitetura-de-intencao.html"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 1072,
+        "links_internos": 33
+      },
+      "https://eventos.inema.pro/es/arquitetura-de-intencao.html": {
+        "status": 200,
+        "final": "https://eventos.inema.pro/es/arquitetura-de-intencao.html",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Arquitectura de Intención — Inmersión de 3 días | INEMA.CLUB",
+        "descricao": "Inmersión autoguiada de 3 días: deja de improvisar prompts y sal con un sistema propio que orienta la IA. Pirámide, 5 pilares y el ciclo rodar→validar→ajustar→mejorar. De R$4.870 a R$2.997 en promoción.",
+        "h1": [
+          "Del prompt a sistema en 3 días"
+        ],
+        "lang": "es",
+        "canonicos": [
+          "https://eventos.inema.pro/es/arquitetura-de-intencao.html"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://eventos.inema.pro/arquitetura-de-intencao.html"
+          ],
+          [
+            "en",
+            "https://eventos.inema.pro/en/arquitetura-de-intencao.html"
+          ],
+          [
+            "es",
+            "https://eventos.inema.pro/es/arquitetura-de-intencao.html"
+          ],
+          [
+            "x-default",
+            "https://eventos.inema.pro/arquitetura-de-intencao.html"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [],
+        "entidades_sem_id": [],
+        "imgs": 0,
+        "imgs_sem_alt": 0,
+        "palavras": 1032,
+        "links_internos": 33
+      },
+      "https://eventos.inema.pro/atendimento/": {
+        "status": 200,
+        "final": "https://eventos.inema.pro/atendimento/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Atendimento com Agentes: clínica, restaurante, hotel, academia, fisioterapia e nutrição · Eventos INEMA",
+        "descricao": "A área Atendimento com Agentes do INEMA: o sistema aberto de clínica (93/93 testes) e kits prontos para implementar reserva de restaurante, hotel, academia, fisioterapia e nutrição com WhatsApp pela Evolution, equipe no Telegram, LGPD e Docker — mais o método de execução longa e o agent runtime.",
+        "h1": [
+          "O cliente marca, confirma e tira dúvidas pelo WhatsApp. A equipe só entra quando precisa."
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://eventos.inema.pro/atendimento/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://eventos.inema.pro/atendimento/"
+          ],
+          [
+            "en",
+            "https://eventos.inema.pro/atendimento/en/"
+          ],
+          [
+            "es",
+            "https://eventos.inema.pro/atendimento/es/"
+          ],
+          [
+            "x-default",
+            "https://eventos.inema.pro/atendimento/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "ItemList"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 1,
+        "imgs_sem_alt": 0,
+        "palavras": 1908,
+        "links_internos": 33
+      },
+      "https://eventos.inema.pro/atendimento/en/": {
+        "status": 200,
+        "final": "https://eventos.inema.pro/atendimento/en/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "AI Customer Service: clinic, restaurant, hotel, gym, physiotherapy and nutrition · INEMA Events",
+        "descricao": "The INEMA AI Customer Service area: the open clinic system (93/93 tests) and ready-made kits to implement booking for restaurants, hotels, gyms, physiotherapy and nutrition, with WhatsApp through Evolution, a team on Telegram, privacy rules (LGPD, Brazil's privacy law) and Docker — plus the long-run method and the agent runtime.",
+        "h1": [
+          "Customers book, confirm and ask questions on WhatsApp. The team steps in only when needed."
+        ],
+        "lang": "en",
+        "canonicos": [
+          "https://eventos.inema.pro/atendimento/en/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://eventos.inema.pro/atendimento/"
+          ],
+          [
+            "en",
+            "https://eventos.inema.pro/atendimento/en/"
+          ],
+          [
+            "es",
+            "https://eventos.inema.pro/atendimento/es/"
+          ],
+          [
+            "x-default",
+            "https://eventos.inema.pro/atendimento/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "ItemList"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 1,
+        "imgs_sem_alt": 0,
+        "palavras": 2149,
+        "links_internos": 33
+      },
+      "https://eventos.inema.pro/atendimento/es/": {
+        "status": 200,
+        "final": "https://eventos.inema.pro/atendimento/es/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Atención con Agentes: clínica, restaurante, hotel, gimnasio, fisioterapia y nutrición · Eventos INEMA",
+        "descricao": "El área Atención con Agentes de INEMA: el sistema abierto de clínica (93/93 pruebas) y kits listos para implementar reserva de restaurante, hotel, gimnasio, fisioterapia y nutrición con WhatsApp por Evolution, equipo en Telegram, LGPD (ley de privacidad de Brasil) y Docker — más el método de ejecución larga y el agent runtime.",
+        "h1": [
+          "El cliente reserva, confirma y resuelve dudas por WhatsApp. El equipo solo entra cuando hace falta."
+        ],
+        "lang": "es",
+        "canonicos": [
+          "https://eventos.inema.pro/atendimento/es/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://eventos.inema.pro/atendimento/"
+          ],
+          [
+            "en",
+            "https://eventos.inema.pro/atendimento/en/"
+          ],
+          [
+            "es",
+            "https://eventos.inema.pro/atendimento/es/"
+          ],
+          [
+            "x-default",
+            "https://eventos.inema.pro/atendimento/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "ItemList"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 1,
+        "imgs_sem_alt": 0,
+        "palavras": 2128,
+        "links_internos": 33
+      },
+      "https://eventos.inema.pro/claude-codex/": {
+        "status": 200,
+        "final": "https://eventos.inema.pro/claude-codex/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Claude → Codex: migre ou fique agnóstico · Eventos INEMA",
+        "descricao": "A área Claude → Codex do INEMA: não migre o cérebro, separe o cérebro do modelo. Contexto, regras, skills, decisões e handoffs em Markdown portátil, com Claude Code, Codex CLI e modelo local como executores. O curso de 3 trilhas e 18 módulos, o kit agente-claude-codex e a página do tema.",
+        "h1": [
+          "Não migre o seu cérebro. Separe o cérebro do modelo."
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://eventos.inema.pro/claude-codex/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://eventos.inema.pro/claude-codex/"
+          ],
+          [
+            "en",
+            "https://eventos.inema.pro/claude-codex/en/"
+          ],
+          [
+            "es",
+            "https://eventos.inema.pro/claude-codex/es/"
+          ],
+          [
+            "x-default",
+            "https://eventos.inema.pro/claude-codex/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "ItemList"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 1,
+        "imgs_sem_alt": 0,
+        "palavras": 2707,
+        "links_internos": 33
+      },
+      "https://eventos.inema.pro/claude-codex/en/": {
+        "status": 200,
+        "final": "https://eventos.inema.pro/claude-codex/en/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Claude → Codex: migrate or stay agnostic · INEMA Events",
+        "descricao": "The INEMA Claude → Codex area: don't migrate the brain, separate the brain from the model. Context, rules, skills, decisions and handoffs in portable Markdown, with Claude Code, Codex CLI and a local model as executors. The 3-track, 18-module course, the agente-claude-codex kit and the topic page.",
+        "h1": [
+          "Don't migrate your brain. Separate the brain from the model."
+        ],
+        "lang": "en",
+        "canonicos": [
+          "https://eventos.inema.pro/claude-codex/en/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://eventos.inema.pro/claude-codex/"
+          ],
+          [
+            "en",
+            "https://eventos.inema.pro/claude-codex/en/"
+          ],
+          [
+            "es",
+            "https://eventos.inema.pro/claude-codex/es/"
+          ],
+          [
+            "x-default",
+            "https://eventos.inema.pro/claude-codex/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "ItemList"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 1,
+        "imgs_sem_alt": 0,
+        "palavras": 3045,
+        "links_internos": 33
+      },
+      "https://eventos.inema.pro/claude-codex/es/": {
+        "status": 200,
+        "final": "https://eventos.inema.pro/claude-codex/es/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Claude → Codex: migra o mantente agnóstico · Eventos INEMA",
+        "descricao": "El área Claude → Codex de INEMA: no migres el cerebro, separa el cerebro del modelo. Contexto, reglas, skills, decisiones y handoffs en Markdown portátil, con Claude Code, Codex CLI y un modelo local como ejecutores. El curso de 3 rutas y 18 módulos, el kit agente-claude-codex y la página del tema.",
+        "h1": [
+          "No migres tu cerebro. Separa el cerebro del modelo."
+        ],
+        "lang": "es",
+        "canonicos": [
+          "https://eventos.inema.pro/claude-codex/es/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://eventos.inema.pro/claude-codex/"
+          ],
+          [
+            "en",
+            "https://eventos.inema.pro/claude-codex/en/"
+          ],
+          [
+            "es",
+            "https://eventos.inema.pro/claude-codex/es/"
+          ],
+          [
+            "x-default",
+            "https://eventos.inema.pro/claude-codex/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "ItemList"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 1,
+        "imgs_sem_alt": 0,
+        "palavras": 3006,
+        "links_internos": 33
+      },
+      "https://eventos.inema.pro/codex-claude/": {
+        "status": 200,
+        "final": "https://eventos.inema.pro/codex-claude/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Codex + Claude: usar os dois juntos e todos os projetos · Eventos INEMA",
+        "descricao": "A área Codex + Claude do INEMA: como usar Claude e Codex juntos — os seis níveis do kit Use Both, quem faz o quê, o que o vídeo de Mark Kashef acrescenta, claudex × Use Both, imagem com o Codex — e todos os cursos e projetos do INEMA sobre as duas ferramentas.",
+        "h1": [
+          "Um planeja, o outro critica. Use os dois juntos."
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://eventos.inema.pro/codex-claude/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://eventos.inema.pro/codex-claude/"
+          ],
+          [
+            "en",
+            "https://eventos.inema.pro/codex-claude/en/"
+          ],
+          [
+            "es",
+            "https://eventos.inema.pro/codex-claude/es/"
+          ],
+          [
+            "x-default",
+            "https://eventos.inema.pro/codex-claude/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "ItemList"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 1,
+        "imgs_sem_alt": 0,
+        "palavras": 2878,
+        "links_internos": 33
+      },
+      "https://eventos.inema.pro/codex-claude/en/": {
+        "status": 200,
+        "final": "https://eventos.inema.pro/codex-claude/en/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Codex + Claude: use both together and every project · INEMA Events",
+        "descricao": "The INEMA Codex + Claude area: how to use Claude and Codex together — the six levels of the Use Both kit, who does what, what Mark Kashef's video adds, claudex × Use Both, images with Codex — and every INEMA course and project on the two tools.",
+        "h1": [
+          "One plans, the other critiques. Use both together."
+        ],
+        "lang": "en",
+        "canonicos": [
+          "https://eventos.inema.pro/codex-claude/en/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://eventos.inema.pro/codex-claude/"
+          ],
+          [
+            "en",
+            "https://eventos.inema.pro/codex-claude/en/"
+          ],
+          [
+            "es",
+            "https://eventos.inema.pro/codex-claude/es/"
+          ],
+          [
+            "x-default",
+            "https://eventos.inema.pro/codex-claude/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "ItemList"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 1,
+        "imgs_sem_alt": 0,
+        "palavras": 3077,
+        "links_internos": 33
+      },
+      "https://eventos.inema.pro/codex-claude/es/": {
+        "status": 200,
+        "final": "https://eventos.inema.pro/codex-claude/es/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Codex + Claude: usar los dos juntos y todos los proyectos · Eventos INEMA",
+        "descricao": "El área Codex + Claude de INEMA: cómo usar Claude y Codex juntos — los seis niveles del kit Use Both, quién hace qué, lo que añade el video de Mark Kashef, claudex × Use Both, imágenes con Codex — y todos los cursos y proyectos de INEMA sobre las dos herramientas.",
+        "h1": [
+          "Uno planifica, el otro critica. Usa los dos juntos."
+        ],
+        "lang": "es",
+        "canonicos": [
+          "https://eventos.inema.pro/codex-claude/es/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://eventos.inema.pro/codex-claude/"
+          ],
+          [
+            "en",
+            "https://eventos.inema.pro/codex-claude/en/"
+          ],
+          [
+            "es",
+            "https://eventos.inema.pro/codex-claude/es/"
+          ],
+          [
+            "x-default",
+            "https://eventos.inema.pro/codex-claude/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "ItemList"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 1,
+        "imgs_sem_alt": 0,
+        "palavras": 3149,
+        "links_internos": 33
+      },
+      "https://eventos.inema.pro/consultoria-ia/": {
+        "status": 200,
+        "final": "https://eventos.inema.pro/consultoria-ia/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Consultoria de IA: de construtor a consultor — papéis, método, cursos e kits · Eventos INEMA",
+        "descricao": "A área Consultoria de IA do INEMA: por que construir virou commodity, os quatro papéis do consultor de IA (consultor, quem acompanha, mentor e auditor), o método de diagnóstico antes da ferramenta, cursos para se posicionar, vender e entregar, kits abertos para usar com o cliente e vídeos.",
+        "h1": [
+          "Em 2027 o cliente vai ter o mesmo agente que você. A diferença está em quem sabe o que fazer com ele."
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://eventos.inema.pro/consultoria-ia/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://eventos.inema.pro/consultoria-ia/"
+          ],
+          [
+            "en",
+            "https://eventos.inema.pro/consultoria-ia/en/"
+          ],
+          [
+            "es",
+            "https://eventos.inema.pro/consultoria-ia/es/"
+          ],
+          [
+            "x-default",
+            "https://eventos.inema.pro/consultoria-ia/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "ItemList"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 1,
+        "imgs_sem_alt": 0,
+        "palavras": 2303,
+        "links_internos": 33
+      },
+      "https://eventos.inema.pro/consultoria-ia/en/": {
+        "status": 200,
+        "final": "https://eventos.inema.pro/consultoria-ia/en/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "AI Consulting: From Builder to Consultant — Roles, Method, Courses, and Kits · INEMA Events",
+        "descricao": "INEMA’s AI Consulting area: why building has become a commodity; the four roles of an AI consultant (consultant, guide, mentor, and auditor); the assessment method before choosing a tool; courses to position yourself, sell, and deliver; open kits to use with clients; and videos.",
+        "h1": [
+          "In 2027, your client will have the same agent you do. The difference lies in knowing what to do with it."
+        ],
+        "lang": "en",
+        "canonicos": [
+          "https://eventos.inema.pro/consultoria-ia/en/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://eventos.inema.pro/consultoria-ia/"
+          ],
+          [
+            "en",
+            "https://eventos.inema.pro/consultoria-ia/en/"
+          ],
+          [
+            "es",
+            "https://eventos.inema.pro/consultoria-ia/es/"
+          ],
+          [
+            "x-default",
+            "https://eventos.inema.pro/consultoria-ia/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "ItemList"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 1,
+        "imgs_sem_alt": 0,
+        "palavras": 2501,
+        "links_internos": 33
+      },
+      "https://eventos.inema.pro/consultoria-ia/es/": {
+        "status": 200,
+        "final": "https://eventos.inema.pro/consultoria-ia/es/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Consultoría de IA: de constructor a consultor — roles, método, cursos y kits · Eventos INEMA",
+        "descricao": "El área de Consultoría de IA de INEMA: por qué construir se volvió una commodity, los cuatro roles del consultor de IA (consultor, acompañante, mentor y auditor), el método de diagnóstico antes de elegir la herramienta, cursos para posicionarse, vender y entregar, kits abiertos para usar con el cliente y videos.",
+        "h1": [
+          "En 2027 el cliente tendrá el mismo agente que tú. La diferencia está en quién sabe qué hacer con él."
+        ],
+        "lang": "es",
+        "canonicos": [
+          "https://eventos.inema.pro/consultoria-ia/es/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://eventos.inema.pro/consultoria-ia/"
+          ],
+          [
+            "en",
+            "https://eventos.inema.pro/consultoria-ia/en/"
+          ],
+          [
+            "es",
+            "https://eventos.inema.pro/consultoria-ia/es/"
+          ],
+          [
+            "x-default",
+            "https://eventos.inema.pro/consultoria-ia/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "ItemList"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 1,
+        "imgs_sem_alt": 0,
+        "palavras": 2562,
+        "links_internos": 33
+      },
+      "https://eventos.inema.pro/content2video.html": {
+        "status": 200,
+        "final": "https://eventos.inema.pro/content2video.html",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Content2Video — transforme conteúdo em vídeo com controle | INEMA",
+        "descricao": "Content2Video transforma uma URL em direção visual, roteiro, voz, cenas editáveis e MP4. Conheça a bancada audiovisual com IA e aprovação humana da INEMA.",
+        "h1": [
+          "Um link entra.Um vídeo sai."
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://eventos.inema.pro/content2video.html"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://eventos.inema.pro/content2video.html"
+          ],
+          [
+            "en",
+            "https://eventos.inema.pro/en/content2video.html"
+          ],
+          [
+            "es",
+            "https://eventos.inema.pro/es/content2video.html"
+          ],
+          [
+            "x-default",
+            "https://eventos.inema.pro/content2video.html"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [],
+        "entidades_sem_id": [],
+        "imgs": 1,
+        "imgs_sem_alt": 0,
+        "palavras": 871,
+        "links_internos": 33
+      },
+      "https://eventos.inema.pro/en/content2video.html": {
+        "status": 200,
+        "final": "https://eventos.inema.pro/en/content2video.html",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Content2Video — transforme conteúdo em vídeo com controle | INEMA",
+        "descricao": "Content2Video turns a URL into visual direction, script, voice, editable scenes and MP4. Meet the AI-powered audiovisual bench with human approval from INEMA.",
+        "h1": [
+          "One link in.One video out."
+        ],
+        "lang": "en",
+        "canonicos": [
+          "https://eventos.inema.pro/en/content2video.html"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://eventos.inema.pro/content2video.html"
+          ],
+          [
+            "en",
+            "https://eventos.inema.pro/en/content2video.html"
+          ],
+          [
+            "es",
+            "https://eventos.inema.pro/es/content2video.html"
+          ],
+          [
+            "x-default",
+            "https://eventos.inema.pro/content2video.html"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [],
+        "entidades_sem_id": [],
+        "imgs": 1,
+        "imgs_sem_alt": 0,
+        "palavras": 892,
+        "links_internos": 33
+      },
+      "https://eventos.inema.pro/es/content2video.html": {
+        "status": 200,
+        "final": "https://eventos.inema.pro/es/content2video.html",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Content2Video — transforma contenido en vídeo con control | INEMA",
+        "descricao": "Content2Video transforma una URL en dirección visual, guion, voz, escenas editables y MP4. Conoce la bancada audiovisual con IA y aprobación humana de INEMA.",
+        "h1": [
+          "Un enlace entra.Un vídeo sale."
+        ],
+        "lang": "es",
+        "canonicos": [
+          "https://eventos.inema.pro/es/content2video.html"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://eventos.inema.pro/content2video.html"
+          ],
+          [
+            "en",
+            "https://eventos.inema.pro/en/content2video.html"
+          ],
+          [
+            "es",
+            "https://eventos.inema.pro/es/content2video.html"
+          ],
+          [
+            "x-default",
+            "https://eventos.inema.pro/content2video.html"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [],
+        "entidades_sem_id": [],
+        "imgs": 1,
+        "imgs_sem_alt": 0,
+        "palavras": 896,
+        "links_internos": 33
+      },
+      "https://eventos.inema.pro/do-chat-ao-agente/": {
+        "status": 200,
+        "final": "https://eventos.inema.pro/do-chat-ao-agente/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Do chat ao criador de agentes: aprenda rápido em 4 sequências · Eventos INEMA",
+        "descricao": "Saia do chat e crie agentes que trabalham por você em 4 sequências: OSWork (terminal), o seu Jarvis com o INTELECTO, filas com o inemaccbot e redes sociais no automático com r7e, promoavatar e os xviral. Cursos, projetos, vídeos e 23 exercícios práticos, abertos e gratuitos.",
+        "h1": [
+          "Do chat ao criador de agentes. Quatro sequências, um degrau por vez."
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://eventos.inema.pro/do-chat-ao-agente/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://eventos.inema.pro/do-chat-ao-agente/"
+          ],
+          [
+            "en",
+            "https://eventos.inema.pro/do-chat-ao-agente/en/"
+          ],
+          [
+            "es",
+            "https://eventos.inema.pro/do-chat-ao-agente/es/"
+          ],
+          [
+            "x-default",
+            "https://eventos.inema.pro/do-chat-ao-agente/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [],
+        "entidades_sem_id": [],
+        "imgs": 1,
+        "imgs_sem_alt": 0,
+        "palavras": 1485,
+        "links_internos": 33
+      },
+      "https://eventos.inema.pro/do-chat-ao-agente/en/": {
+        "status": 200,
+        "final": "https://eventos.inema.pro/do-chat-ao-agente/en/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "From Chat to Agent Builder: Learn Fast in 4 Sequences · INEMA Events",
+        "descricao": "Leave the chat and create agents that work for you across 4 sequences: OSWork (terminal), your Jarvis with INTELECTO, queues with inemaccbot, and social media on autopilot with r7e, promoavatar, and xviral. Open and free courses, projects, videos, and 23 practical exercises.",
+        "h1": [
+          "From chat to agent builder. Four sequences, one step at a time."
+        ],
+        "lang": "en",
+        "canonicos": [
+          "https://eventos.inema.pro/do-chat-ao-agente/en/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://eventos.inema.pro/do-chat-ao-agente/"
+          ],
+          [
+            "en",
+            "https://eventos.inema.pro/do-chat-ao-agente/en/"
+          ],
+          [
+            "es",
+            "https://eventos.inema.pro/do-chat-ao-agente/es/"
+          ],
+          [
+            "x-default",
+            "https://eventos.inema.pro/do-chat-ao-agente/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [],
+        "entidades_sem_id": [],
+        "imgs": 1,
+        "imgs_sem_alt": 0,
+        "palavras": 1623,
+        "links_internos": 34
+      },
+      "https://eventos.inema.pro/do-chat-ao-agente/es/": {
+        "status": 200,
+        "final": "https://eventos.inema.pro/do-chat-ao-agente/es/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Do chat al creador de agentes: aprende rápido en 4 secuencias · Eventos INEMA",
+        "descricao": "Sal del chat y crea agentes que trabajen por ti en 4 secuencias: OSWork (terminal), tu Jarvis con el INTELECTO, colas con el inemaccbot y redes sociales en automático con r7e, promoavatar y los xviral. Cursos, proyectos, videos y 23 ejercicios prácticos, abiertos y gratuitos.",
+        "h1": [
+          "Del chat al creador de agentes. Cuatro secuencias, un escalón a la vez."
+        ],
+        "lang": "es",
+        "canonicos": [
+          "https://eventos.inema.pro/do-chat-ao-agente/es/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://eventos.inema.pro/do-chat-ao-agente/"
+          ],
+          [
+            "en",
+            "https://eventos.inema.pro/do-chat-ao-agente/en/"
+          ],
+          [
+            "es",
+            "https://eventos.inema.pro/do-chat-ao-agente/es/"
+          ],
+          [
+            "x-default",
+            "https://eventos.inema.pro/do-chat-ao-agente/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [],
+        "entidades_sem_id": [],
+        "imgs": 1,
+        "imgs_sem_alt": 0,
+        "palavras": 1605,
+        "links_internos": 34
+      },
+      "https://eventos.inema.pro/execucao-longa/": {
+        "status": 200,
+        "final": "https://eventos.inema.pro/execucao-longa/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "Execução Longa: agentes que trabalham horas sem perder o rumo · Eventos INEMA",
+        "descricao": "A área Execução Longa do INEMA: o método para deixar um agente (Codex /goal ou Claude Code /goal) trabalhando por horas — objetivo verificável, estado em arquivos, tetos e portões, loop headless, critério de pronto nível 3, faixas de contexto e memória — e todos os cursos e projetos do INEMA sobre loops, contexto e memória de agentes.",
+        "h1": [
+          "Agentes que trabalham por horas. Sem perder o rumo."
+        ],
+        "lang": "pt-BR",
+        "canonicos": [
+          "https://eventos.inema.pro/execucao-longa/"
+        ],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://eventos.inema.pro/execucao-longa/"
+          ],
+          [
+            "en",
+            "https://eventos.inema.pro/execucao-longa/en/"
+          ],
+          [
+            "es",
+            "https://eventos.inema.pro/execucao-longa/es/"
+          ],
+          [
+            "x-default",
+            "https://eventos.inema.pro/execucao-longa/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [
+          "ItemList"
+        ],
+        "entidades_sem_id": [],
+        "imgs": 1,
+        "imgs_sem_alt": 0,
+        "palavras": 1538,
+        "links_internos": 33
+      }
+    },
+    "cdn": [
+      {
+        "token": "OAI-SearchBot",
+        "finalidade": "busca",
+        "status": 200,
+        "sinal": ""
+      },
+      {
+        "token": "PerplexityBot",
+        "finalidade": "busca",
+        "status": 200,
+        "sinal": ""
+      },
+      {
+        "token": "Perplexity-User",
+        "finalidade": "usuario",
+        "status": 200,
+        "sinal": ""
+      },
+      {
+        "token": "GPTBot",
+        "finalidade": "treino",
+        "status": 200,
+        "sinal": ""
+      }
+    ],
+    "llms_txt": 200,
+    "nao_rastreadas_robots": [],
+    "fila_restante": 1162,
+    "hreflang_nao_verificados": 4,
+    "requisicoes": 61
+  },
+  "achados": [
+    {
+      "id": "titulo-tamanho",
+      "prioridade": "melhoria",
+      "titulo": "Título muito curto ou longo (fora de 15–65 caracteres)",
+      "detalhe": "Faixa prática herdada do webmcp-readiness, não regra do Google (o Google corta pela largura). Fonte: https://developers.google.com/search/docs/appearance/title-link",
+      "como_corrigir": "Deixe o assunto principal nas primeiras palavras.",
+      "url": "https://eventos.inema.pro/agb2030/conversao/ (79); https://eventos.inema.pro/agb2030/conversao/en/ (84); https://eventos.inema.pro/agb2030/conversao/es/ (80); https://eventos.inema.pro/agb2030/incompany/ (81); https://eventos.inema.pro/agb2030/incompany/en/ (87) (+20)",
+      "urls": [
+        "https://eventos.inema.pro/agb2030/conversao/ (79)",
+        "https://eventos.inema.pro/agb2030/conversao/en/ (84)",
+        "https://eventos.inema.pro/agb2030/conversao/es/ (80)",
+        "https://eventos.inema.pro/agb2030/incompany/ (81)",
+        "https://eventos.inema.pro/agb2030/incompany/en/ (87)",
+        "https://eventos.inema.pro/agb2030/incompany/es/ (81)",
+        "https://eventos.inema.pro/agb2030/inema/ (76)",
+        "https://eventos.inema.pro/agb2030/inema/en/ (79)",
+        "https://eventos.inema.pro/agb2030/inema/es/ (77)",
+        "https://eventos.inema.pro/agi-ready/ (72)",
+        "https://eventos.inema.pro/agi-ready/en/ (79)",
+        "https://eventos.inema.pro/agi-ready/es/ (70)",
+        "https://eventos.inema.pro/atendimento/ (103)",
+        "https://eventos.inema.pro/atendimento/en/ (95)",
+        "https://eventos.inema.pro/atendimento/es/ (101)",
+        "https://eventos.inema.pro/codex-claude/ (71)",
+        "https://eventos.inema.pro/codex-claude/en/ (66)",
+        "https://eventos.inema.pro/codex-claude/es/ (73)",
+        "https://eventos.inema.pro/consultoria-ia/ (92)",
+        "https://eventos.inema.pro/consultoria-ia/en/ (91)",
+        "https://eventos.inema.pro/consultoria-ia/es/ (92)",
+        "https://eventos.inema.pro/do-chat-ao-agente/ (77)",
+        "https://eventos.inema.pro/do-chat-ao-agente/en/ (68)",
+        "https://eventos.inema.pro/do-chat-ao-agente/es/ (77)",
+        "https://eventos.inema.pro/execucao-longa/ (77)"
+      ],
+      "fonte": "https://developers.google.com/search/docs/appearance/title-link"
+    },
+    {
+      "id": "titulo-duplicado",
+      "prioridade": "melhoria",
+      "titulo": "2 título(s) repetido(s) em páginas diferentes",
+      "detalhe": "Exemplos: AGB 2030 — Empresa Agentic | INEMA | Content2Video — transforme conteúdo em vídeo com controle | INEMA Fonte: https://developers.google.com/search/docs/appearance/title-link",
+      "como_corrigir": "Cada página com título próprio.",
+      "url": "https://eventos.inema.pro/agb2030/index2.html; https://eventos.inema.pro/agb2030/en/index2.html; https://eventos.inema.pro/agb2030/es/index2.html; https://eventos.inema.pro/content2video.html; https://eventos.inema.pro/en/content2video.html",
+      "urls": [
+        "https://eventos.inema.pro/agb2030/index2.html",
+        "https://eventos.inema.pro/agb2030/en/index2.html",
+        "https://eventos.inema.pro/agb2030/es/index2.html",
+        "https://eventos.inema.pro/content2video.html",
+        "https://eventos.inema.pro/en/content2video.html"
+      ],
+      "fonte": "https://developers.google.com/search/docs/appearance/title-link"
+    },
+    {
+      "id": "h1-multiplo",
+      "prioridade": "melhoria",
+      "titulo": "Mais de um H1",
+      "detalhe": "Não é erro para o Google, mas confunde a hierarquia.",
+      "como_corrigir": "Deixe um H1 e passe os outros para H2.",
+      "url": "https://eventos.inema.pro/agb2030/index2.html; https://eventos.inema.pro/agb2030/en/index2.html; https://eventos.inema.pro/agb2030/es/index2.html",
+      "urls": [
+        "https://eventos.inema.pro/agb2030/index2.html",
+        "https://eventos.inema.pro/agb2030/en/index2.html",
+        "https://eventos.inema.pro/agb2030/es/index2.html"
+      ],
+      "fonte": ""
+    },
+    {
+      "id": "jsonld-ausente",
+      "prioridade": "melhoria",
+      "titulo": "Página sem dados estruturados (JSON-LD)",
+      "detalhe": "Não existe schema especial para IA; mas Organization/Person/Article/Course ajudam a entender a entidade. Fonte: https://developers.google.com/search/docs/appearance/ai-features",
+      "como_corrigir": "Acrescente JSON-LD que bata com o texto visível.",
+      "url": "https://eventos.inema.pro/; https://eventos.inema.pro/agb2030/conversao/; https://eventos.inema.pro/agb2030/conversao/en/; https://eventos.inema.pro/agb2030/conversao/es/; https://eventos.inema.pro/agb2030/criativa/ (+32)",
+      "urls": [
+        "https://eventos.inema.pro/",
+        "https://eventos.inema.pro/agb2030/conversao/",
+        "https://eventos.inema.pro/agb2030/conversao/en/",
+        "https://eventos.inema.pro/agb2030/conversao/es/",
+        "https://eventos.inema.pro/agb2030/criativa/",
+        "https://eventos.inema.pro/agb2030/criativa/en/",
+        "https://eventos.inema.pro/agb2030/criativa/es/",
+        "https://eventos.inema.pro/agb2030/diagnostico/",
+        "https://eventos.inema.pro/agb2030/diagnostico/en/",
+        "https://eventos.inema.pro/agb2030/diagnostico/es/",
+        "https://eventos.inema.pro/agb2030/incompany/",
+        "https://eventos.inema.pro/agb2030/incompany/en/",
+        "https://eventos.inema.pro/agb2030/incompany/es/",
+        "https://eventos.inema.pro/agb2030/",
+        "https://eventos.inema.pro/agb2030/en/",
+        "https://eventos.inema.pro/agb2030/es/",
+        "https://eventos.inema.pro/agb2030/index2.html",
+        "https://eventos.inema.pro/agb2030/en/index2.html",
+        "https://eventos.inema.pro/agb2030/es/index2.html",
+        "https://eventos.inema.pro/agb2030/inema/",
+        "https://eventos.inema.pro/agb2030/inema/en/",
+        "https://eventos.inema.pro/agb2030/inema/es/",
+        "https://eventos.inema.pro/agentes-hub-v.html",
+        "https://eventos.inema.pro/en/agentes-hub-v.html",
+        "https://eventos.inema.pro/es/agentes-hub-v.html",
+        "https://eventos.inema.pro/agi-ready/",
+        "https://eventos.inema.pro/agi-ready/en/",
+        "https://eventos.inema.pro/agi-ready/es/",
+        "https://eventos.inema.pro/arquitetura-de-intencao.html",
+        "https://eventos.inema.pro/en/arquitetura-de-intencao.html",
+        "https://eventos.inema.pro/es/arquitetura-de-intencao.html",
+        "https://eventos.inema.pro/content2video.html",
+        "https://eventos.inema.pro/en/content2video.html",
+        "https://eventos.inema.pro/es/content2video.html",
+        "https://eventos.inema.pro/do-chat-ao-agente/",
+        "https://eventos.inema.pro/do-chat-ao-agente/en/",
+        "https://eventos.inema.pro/do-chat-ao-agente/es/"
+      ],
+      "fonte": "https://developers.google.com/search/docs/appearance/ai-features"
+    },
+    {
+      "id": "llms",
+      "prioridade": "info",
+      "titulo": "llms.txt: HTTP 200",
+      "detalhe": "Opcional. Estudo do Ahrefs (jun/2026, 137 mil domínios): 97% dos arquivos não receberam nenhuma requisição; o guia de IA do Google diz que pode ignorar. Fonte: https://ahrefs.com/blog/llmstxt-study/",
+      "como_corrigir": "Não é prioridade; não venda como alavanca.",
+      "url": "",
+      "urls": [],
+      "fonte": "https://ahrefs.com/blog/llmstxt-study/"
+    }
+  ]
+}

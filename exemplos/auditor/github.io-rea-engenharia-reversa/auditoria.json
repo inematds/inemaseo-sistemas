@@ -1,0 +1,322 @@
+{
+  "dados": {
+    "inicio": "https://inematds.github.io/rea-engenharia-reversa/guia/",
+    "host": "inematds.github.io",
+    "redirecionamentos": [
+      {
+        "url": "http://inematds.github.io/rea-engenharia-reversa/guia/",
+        "status": 301,
+        "destino": "https://inematds.github.io/rea-engenharia-reversa/guia/"
+      }
+    ],
+    "robots": {
+      "status": 404,
+      "sitemaps": [],
+      "content_signal": [],
+      "robos": [
+        {
+          "token": "Googlebot",
+          "finalidade": "busca",
+          "empresa": "Google",
+          "fonte": "https://developers.google.com/search/docs/crawling-indexing/google-common-crawlers",
+          "pode_home": true,
+          "grupo": "nenhum"
+        },
+        {
+          "token": "Bingbot",
+          "finalidade": "busca",
+          "empresa": "Microsoft",
+          "fonte": "https://www.bing.com/webmasters/help/which-crawlers-does-bing-use-8c184ec0",
+          "pode_home": true,
+          "grupo": "nenhum"
+        },
+        {
+          "token": "OAI-SearchBot",
+          "finalidade": "busca",
+          "empresa": "OpenAI",
+          "fonte": "https://platform.openai.com/docs/bots",
+          "pode_home": true,
+          "grupo": "nenhum"
+        },
+        {
+          "token": "Claude-SearchBot",
+          "finalidade": "busca",
+          "empresa": "Anthropic",
+          "fonte": "https://support.anthropic.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how",
+          "pode_home": true,
+          "grupo": "nenhum"
+        },
+        {
+          "token": "PerplexityBot",
+          "finalidade": "busca",
+          "empresa": "Perplexity",
+          "fonte": "https://docs.perplexity.ai/guides/bots",
+          "pode_home": true,
+          "grupo": "nenhum"
+        },
+        {
+          "token": "ChatGPT-User",
+          "finalidade": "usuario",
+          "empresa": "OpenAI",
+          "fonte": "https://platform.openai.com/docs/bots",
+          "pode_home": true,
+          "grupo": "nenhum"
+        },
+        {
+          "token": "Claude-User",
+          "finalidade": "usuario",
+          "empresa": "Anthropic",
+          "fonte": "https://support.anthropic.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how",
+          "pode_home": true,
+          "grupo": "nenhum"
+        },
+        {
+          "token": "Perplexity-User",
+          "finalidade": "usuario",
+          "empresa": "Perplexity",
+          "fonte": "https://docs.perplexity.ai/guides/bots",
+          "pode_home": true,
+          "grupo": "nenhum"
+        },
+        {
+          "token": "GPTBot",
+          "finalidade": "treino",
+          "empresa": "OpenAI",
+          "fonte": "https://platform.openai.com/docs/bots",
+          "pode_home": true,
+          "grupo": "nenhum"
+        },
+        {
+          "token": "ClaudeBot",
+          "finalidade": "treino",
+          "empresa": "Anthropic",
+          "fonte": "https://support.anthropic.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how",
+          "pode_home": true,
+          "grupo": "nenhum"
+        },
+        {
+          "token": "Google-Extended",
+          "finalidade": "treino",
+          "empresa": "Google",
+          "fonte": "https://developers.google.com/search/docs/crawling-indexing/google-common-crawlers",
+          "pode_home": true,
+          "grupo": "nenhum"
+        }
+      ]
+    },
+    "sitemap": {
+      "arquivos": [
+        [
+          "https://inematds.github.io/rea-engenharia-reversa/guia/sitemap.xml",
+          404,
+          0
+        ]
+      ],
+      "urls": 0,
+      "com_lastmod": 0,
+      "com_hreflang": 0
+    },
+    "paginas": {
+      "https://inematds.github.io/rea-engenharia-reversa/guia/": {
+        "status": 200,
+        "final": "https://inematds.github.io/rea-engenharia-reversa/guia/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "REA em português — engenharia reversa com IA",
+        "descricao": "Guia em português do REA (Reverse Engineer Anything): o agente de IA fazendo engenharia reversa com Ghidra. Links, casos reais, avaliação e cuidados.",
+        "h1": [
+          "Seu agente abre qualquer programa e explica como funciona"
+        ],
+        "lang": "pt-BR",
+        "canonicos": [],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://inematds.github.io/rea-engenharia-reversa/guia/"
+          ],
+          [
+            "en",
+            "https://inematds.github.io/rea-engenharia-reversa/guia/en/"
+          ],
+          [
+            "es",
+            "https://inematds.github.io/rea-engenharia-reversa/guia/es/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [],
+        "entidades_sem_id": [],
+        "imgs": 13,
+        "imgs_sem_alt": 0,
+        "palavras": 3600,
+        "links_internos": 2
+      },
+      "https://inematds.github.io/rea-engenharia-reversa/guia/en/": {
+        "status": 200,
+        "final": "https://inematds.github.io/rea-engenharia-reversa/guia/en/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "REA explained — reverse engineering with AI",
+        "descricao": "English guide to REA (Reverse Engineer Anything): the AI agent doing reverse engineering with Ghidra. Links, real cases, assessment and precautions.",
+        "h1": [
+          "Your agent opens any program and explains how it works"
+        ],
+        "lang": "en",
+        "canonicos": [],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://inematds.github.io/rea-engenharia-reversa/guia/"
+          ],
+          [
+            "en",
+            "https://inematds.github.io/rea-engenharia-reversa/guia/en/"
+          ],
+          [
+            "es",
+            "https://inematds.github.io/rea-engenharia-reversa/guia/es/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [],
+        "entidades_sem_id": [],
+        "imgs": 13,
+        "imgs_sem_alt": 0,
+        "palavras": 3964,
+        "links_internos": 2
+      },
+      "https://inematds.github.io/rea-engenharia-reversa/guia/es/": {
+        "status": 200,
+        "final": "https://inematds.github.io/rea-engenharia-reversa/guia/es/",
+        "tipo": "text/html",
+        "x_robots": "",
+        "titulo": "REA en español — ingeniería inversa con IA",
+        "descricao": "Guía en español de REA (Reverse Engineer Anything): el agente de IA haciendo ingeniería inversa con Ghidra. Enlaces, casos reales, evaluación y precauciones.",
+        "h1": [
+          "Tu agente abre cualquier programa y explica cómo funciona"
+        ],
+        "lang": "es",
+        "canonicos": [],
+        "hreflang": [
+          [
+            "pt-br",
+            "https://inematds.github.io/rea-engenharia-reversa/guia/"
+          ],
+          [
+            "en",
+            "https://inematds.github.io/rea-engenharia-reversa/guia/en/"
+          ],
+          [
+            "es",
+            "https://inematds.github.io/rea-engenharia-reversa/guia/es/"
+          ]
+        ],
+        "robots_meta": "",
+        "jsonld_erros": [],
+        "jsonld_tipos": [],
+        "entidades_sem_id": [],
+        "imgs": 13,
+        "imgs_sem_alt": 0,
+        "palavras": 4004,
+        "links_internos": 2
+      }
+    },
+    "cdn": [
+      {
+        "token": "OAI-SearchBot",
+        "finalidade": "busca",
+        "status": 200,
+        "sinal": ""
+      },
+      {
+        "token": "PerplexityBot",
+        "finalidade": "busca",
+        "status": 200,
+        "sinal": ""
+      },
+      {
+        "token": "Perplexity-User",
+        "finalidade": "usuario",
+        "status": 200,
+        "sinal": ""
+      },
+      {
+        "token": "GPTBot",
+        "finalidade": "treino",
+        "status": 200,
+        "sinal": ""
+      }
+    ],
+    "llms_txt": 404,
+    "nao_rastreadas_robots": [],
+    "fila_restante": 0,
+    "hreflang_nao_verificados": 0,
+    "requisicoes": 12
+  },
+  "achados": [
+    {
+      "id": "sitemap-ausente",
+      "prioridade": "importante",
+      "titulo": "Sitemap não encontrado ou vazio",
+      "detalhe": "Tentado: https://inematds.github.io/rea-engenharia-reversa/guia/sitemap.xml. Fonte: https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap",
+      "como_corrigir": "Publique sitemap.xml com as URLs canônicas e declare em robots.txt.",
+      "url": "https://inematds.github.io/rea-engenharia-reversa/guia/sitemap.xml",
+      "urls": [
+        "https://inematds.github.io/rea-engenharia-reversa/guia/sitemap.xml"
+      ],
+      "fonte": "https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap"
+    },
+    {
+      "id": "canonico-ausente",
+      "prioridade": "importante",
+      "titulo": "Página sem link canônico",
+      "detalhe": "3 página(s) sem <link rel=canonical> no HTML entregue. Fonte: https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls",
+      "como_corrigir": "Declare um canônico absoluto apontando para a própria URL preferida.",
+      "url": "https://inematds.github.io/rea-engenharia-reversa/guia/; https://inematds.github.io/rea-engenharia-reversa/guia/en/; https://inematds.github.io/rea-engenharia-reversa/guia/es/",
+      "urls": [
+        "https://inematds.github.io/rea-engenharia-reversa/guia/",
+        "https://inematds.github.io/rea-engenharia-reversa/guia/en/",
+        "https://inematds.github.io/rea-engenharia-reversa/guia/es/"
+      ],
+      "fonte": "https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls"
+    },
+    {
+      "id": "robots-ausente",
+      "prioridade": "melhoria",
+      "titulo": "robots.txt não existe",
+      "detalhe": "Sem robots.txt tudo fica liberado, mas também não há onde declarar o sitemap. Fonte: https://developers.google.com/search/docs/crawling-indexing/robots/robots_txt",
+      "como_corrigir": "Publique /robots.txt com as regras por robô e a linha Sitemap:.",
+      "url": "https://inematds.github.io/robots.txt",
+      "urls": [
+        "https://inematds.github.io/robots.txt"
+      ],
+      "fonte": "https://developers.google.com/search/docs/crawling-indexing/robots/robots_txt"
+    },
+    {
+      "id": "jsonld-ausente",
+      "prioridade": "melhoria",
+      "titulo": "Página sem dados estruturados (JSON-LD)",
+      "detalhe": "Não existe schema especial para IA; mas Organization/Person/Article/Course ajudam a entender a entidade. Fonte: https://developers.google.com/search/docs/appearance/ai-features",
+      "como_corrigir": "Acrescente JSON-LD que bata com o texto visível.",
+      "url": "https://inematds.github.io/rea-engenharia-reversa/guia/; https://inematds.github.io/rea-engenharia-reversa/guia/en/; https://inematds.github.io/rea-engenharia-reversa/guia/es/",
+      "urls": [
+        "https://inematds.github.io/rea-engenharia-reversa/guia/",
+        "https://inematds.github.io/rea-engenharia-reversa/guia/en/",
+        "https://inematds.github.io/rea-engenharia-reversa/guia/es/"
+      ],
+      "fonte": "https://developers.google.com/search/docs/appearance/ai-features"
+    },
+    {
+      "id": "llms",
+      "prioridade": "info",
+      "titulo": "llms.txt: HTTP 404",
+      "detalhe": "Opcional. Estudo do Ahrefs (jun/2026, 137 mil domínios): 97% dos arquivos não receberam nenhuma requisição; o guia de IA do Google diz que pode ignorar. Fonte: https://ahrefs.com/blog/llmstxt-study/",
+      "como_corrigir": "Não é prioridade; não venda como alavanca.",
+      "url": "",
+      "urls": [],
+      "fonte": "https://ahrefs.com/blog/llmstxt-study/"
+    }
+  ]
+}

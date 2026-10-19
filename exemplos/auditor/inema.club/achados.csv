@@ -1,0 +1,52 @@
+prioridade,id,titulo,como_corrigir,url
+importante,html-vazio,Pouco texto no HTML entregue (< 80 palavras),Renderize o conteúdo principal no servidor (SSR/SSG).,https://www.inema.club/conhecimento/curso-atia/ (77)
+importante,html-vazio,Pouco texto no HTML entregue (< 80 palavras),Renderize o conteúdo principal no servidor (SSR/SSG).,https://www.inema.club/conhecimento/curso-codex-basico/ (78)
+melhoria,titulo-tamanho,Título muito curto ou longo (fora de 15–65 caracteres),Deixe o assunto principal nas primeiras palavras.,https://www.inema.club/cursos/ (67)
+melhoria,titulo-tamanho,Título muito curto ou longo (fora de 15–65 caracteres),Deixe o assunto principal nas primeiras palavras.,https://www.inema.club/en/cursos/ (67)
+melhoria,titulo-tamanho,Título muito curto ou longo (fora de 15–65 caracteres),Deixe o assunto principal nas primeiras palavras.,https://www.inema.club/es/cursos/ (72)
+melhoria,titulo-tamanho,Título muito curto ou longo (fora de 15–65 caracteres),Deixe o assunto principal nas primeiras palavras.,https://www.inema.club/eventos/ (71)
+melhoria,titulo-tamanho,Título muito curto ou longo (fora de 15–65 caracteres),Deixe o assunto principal nas primeiras palavras.,https://www.inema.club/en/eventos/ (66)
+melhoria,titulo-tamanho,Título muito curto ou longo (fora de 15–65 caracteres),Deixe o assunto principal nas primeiras palavras.,https://www.inema.club/es/eventos/ (79)
+melhoria,titulo-tamanho,Título muito curto ou longo (fora de 15–65 caracteres),Deixe o assunto principal nas primeiras palavras.,https://www.inema.club/es/noticias/ (66)
+melhoria,titulo-tamanho,Título muito curto ou longo (fora de 15–65 caracteres),Deixe o assunto principal nas primeiras palavras.,https://www.inema.club/aprender-inteligencia-artificial/ (73)
+melhoria,titulo-tamanho,Título muito curto ou longo (fora de 15–65 caracteres),Deixe o assunto principal nas primeiras palavras.,https://www.inema.club/en/learn-artificial-intelligence/ (80)
+melhoria,titulo-tamanho,Título muito curto ou longo (fora de 15–65 caracteres),Deixe o assunto principal nas primeiras palavras.,https://www.inema.club/es/aprender-inteligencia-artificial/ (77)
+melhoria,titulo-tamanho,Título muito curto ou longo (fora de 15–65 caracteres),Deixe o assunto principal nas primeiras palavras.,https://www.inema.club/ia/como-criar-um-jarvis-com-ia/ (68)
+melhoria,titulo-tamanho,Título muito curto ou longo (fora de 15–65 caracteres),Deixe o assunto principal nas primeiras palavras.,https://www.inema.club/conhecimento/case-programa-aiv/ (97)
+melhoria,titulo-tamanho,Título muito curto ou longo (fora de 15–65 caracteres),Deixe o assunto principal nas primeiras palavras.,https://www.inema.club/conhecimento/curso-atia/ (79)
+melhoria,titulo-tamanho,Título muito curto ou longo (fora de 15–65 caracteres),Deixe o assunto principal nas primeiras palavras.,https://www.inema.club/conhecimento/curso-do-zero-ao-deploy/ (89)
+melhoria,titulo-tamanho,Título muito curto ou longo (fora de 15–65 caracteres),Deixe o assunto principal nas primeiras palavras.,https://www.inema.club/conhecimento/curso-fep/ (89)
+melhoria,titulo-tamanho,Título muito curto ou longo (fora de 15–65 caracteres),Deixe o assunto principal nas primeiras palavras.,https://www.inema.club/conhecimento/curso-skills-craft/ (78)
+melhoria,titulo-tamanho,Título muito curto ou longo (fora de 15–65 caracteres),Deixe o assunto principal nas primeiras palavras.,https://www.inema.club/conhecimento/faq-comparar-opcoes-formacao-ia-brasil/ (94)
+melhoria,titulo-tamanho,Título muito curto ou longo (fora de 15–65 caracteres),Deixe o assunto principal nas primeiras palavras.,https://www.inema.club/conhecimento/faq-criar-agente-de-atendimento-com-ia/ (93)
+melhoria,titulo-tamanho,Título muito curto ou longo (fora de 15–65 caracteres),Deixe o assunto principal nas primeiras palavras.,https://www.inema.club/conhecimento/faq-criar-agentes-de-ia-sem-programar/ (79)
+melhoria,titulo-tamanho,Título muito curto ou longo (fora de 15–65 caracteres),Deixe o assunto principal nas primeiras palavras.,https://www.inema.club/conhecimento/faq-curso-de-claude-code-em-portugues/ (85)
+melhoria,titulo-tamanho,Título muito curto ou longo (fora de 15–65 caracteres),Deixe o assunto principal nas primeiras palavras.,https://www.inema.club/conhecimento/faq-formacao-ia-profissionais-40-mais/ (102)
+melhoria,titulo-tamanho,Título muito curto ou longo (fora de 15–65 caracteres),Deixe o assunto principal nas primeiras palavras.,https://www.inema.club/conhecimento/faq-implantacao-agentes-pequenas-empresas/ (98)
+melhoria,titulo-tamanho,Título muito curto ou longo (fora de 15–65 caracteres),Deixe o assunto principal nas primeiras palavras.,https://www.inema.club/conhecimento/faq-o-que-e-mcp/ (100)
+melhoria,titulo-tamanho,Título muito curto ou longo (fora de 15–65 caracteres),Deixe o assunto principal nas primeiras palavras.,https://www.inema.club/conhecimento/faq-onde-aprender-agentes-de-ia-em-portugues/ (82)
+melhoria,titulo-tamanho,Título muito curto ou longo (fora de 15–65 caracteres),Deixe o assunto principal nas primeiras palavras.,https://www.inema.club/conhecimento/faq-onde-aprender-apis-para-iniciantes/ (66)
+melhoria,titulo-tamanho,Título muito curto ou longo (fora de 15–65 caracteres),Deixe o assunto principal nas primeiras palavras.,https://www.inema.club/conhecimento/faq-onde-aprender-terminal-claude-code-codex/ (94)
+melhoria,titulo-tamanho,Título muito curto ou longo (fora de 15–65 caracteres),Deixe o assunto principal nas primeiras palavras.,https://www.inema.club/conhecimento/faq-quem-ajuda-com-aeo-geo-no-brasil/ (123)
+melhoria,titulo-tamanho,Título muito curto ou longo (fora de 15–65 caracteres),Deixe o assunto principal nas primeiras palavras.,https://www.inema.club/conhecimento/diferenca-entre-club-pro-vip/ (94)
+melhoria,jsonld-sem-id,Organization/Person/WebSite sem @id,Dê um @id fixo (ex.: https://site/#organizacao) e repita nas páginas.,https://www.inema.club/conhecimento/
+info,llms,llms.txt: HTTP 200,Não é prioridade; não venda como alavanca.,
+info,faq,FAQPage no JSON-LD,Mantenha as perguntas e respostas visíveis; não prometa vitrine.,https://www.inema.club/aprender-inteligencia-artificial/
+info,faq,FAQPage no JSON-LD,Mantenha as perguntas e respostas visíveis; não prometa vitrine.,https://www.inema.club/en/learn-artificial-intelligence/
+info,faq,FAQPage no JSON-LD,Mantenha as perguntas e respostas visíveis; não prometa vitrine.,https://www.inema.club/es/aprender-inteligencia-artificial/
+info,faq,FAQPage no JSON-LD,Mantenha as perguntas e respostas visíveis; não prometa vitrine.,https://www.inema.club/agentes-de-inteligencia-artificial/
+info,faq,FAQPage no JSON-LD,Mantenha as perguntas e respostas visíveis; não prometa vitrine.,https://www.inema.club/comunidade-inteligencia-artificial/
+info,faq,FAQPage no JSON-LD,Mantenha as perguntas e respostas visíveis; não prometa vitrine.,https://www.inema.club/ia/como-criar-um-agente-de-ia/
+info,faq,FAQPage no JSON-LD,Mantenha as perguntas e respostas visíveis; não prometa vitrine.,https://www.inema.club/ia/como-criar-um-jarvis-com-ia/
+info,faq,FAQPage no JSON-LD,Mantenha as perguntas e respostas visíveis; não prometa vitrine.,https://www.inema.club/conhecimento/faq-comparar-opcoes-formacao-ia-brasil/
+info,faq,FAQPage no JSON-LD,Mantenha as perguntas e respostas visíveis; não prometa vitrine.,https://www.inema.club/conhecimento/faq-criar-agente-de-atendimento-com-ia/
+info,faq,FAQPage no JSON-LD,Mantenha as perguntas e respostas visíveis; não prometa vitrine.,https://www.inema.club/conhecimento/faq-criar-agentes-de-ia-sem-programar/
+info,faq,FAQPage no JSON-LD,Mantenha as perguntas e respostas visíveis; não prometa vitrine.,https://www.inema.club/conhecimento/faq-curso-de-claude-code-em-portugues/
+info,faq,FAQPage no JSON-LD,Mantenha as perguntas e respostas visíveis; não prometa vitrine.,https://www.inema.club/conhecimento/faq-formacao-ia-profissionais-40-mais/
+info,faq,FAQPage no JSON-LD,Mantenha as perguntas e respostas visíveis; não prometa vitrine.,https://www.inema.club/conhecimento/faq-implantacao-agentes-pequenas-empresas/
+info,faq,FAQPage no JSON-LD,Mantenha as perguntas e respostas visíveis; não prometa vitrine.,https://www.inema.club/conhecimento/faq-o-que-e-mcp/
+info,faq,FAQPage no JSON-LD,Mantenha as perguntas e respostas visíveis; não prometa vitrine.,https://www.inema.club/conhecimento/faq-onde-aprender-agentes-de-ia-em-portugues/
+info,faq,FAQPage no JSON-LD,Mantenha as perguntas e respostas visíveis; não prometa vitrine.,https://www.inema.club/conhecimento/faq-onde-aprender-apis-para-iniciantes/
+info,faq,FAQPage no JSON-LD,Mantenha as perguntas e respostas visíveis; não prometa vitrine.,https://www.inema.club/conhecimento/faq-onde-aprender-terminal-claude-code-codex/
+info,faq,FAQPage no JSON-LD,Mantenha as perguntas e respostas visíveis; não prometa vitrine.,https://www.inema.club/conhecimento/faq-quem-ajuda-com-aeo-geo-no-brasil/
+info,faq,FAQPage no JSON-LD,Mantenha as perguntas e respostas visíveis; não prometa vitrine.,https://www.inema.club/conhecimento/faq-quem-ensina-agentes-de-ia-no-brasil/
