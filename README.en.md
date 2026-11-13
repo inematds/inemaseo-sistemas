@@ -12,6 +12,8 @@ inemaseo-sistemas is a set of five free programs for taking care of the SEO (how
 
 Full guide (landing page + step by step): **https://inematds.github.io/inemaseo-sistemas/guia/en/**
 
+🎬 Video: https://www.youtube.com/watch?v=R5jHoJJzi4I
+
 The "open Semrush" for **your own site**: 5 command-line tools that run on your computer, with just Python 3.10+ (standard library), no paid API and no account on any service other than Search Console and Bing Webmaster, which are free. MIT license.
 
 Part of [inemaSEO](https://eventos.inema.pro/inemaseo/) and the basis of course 7 of the inemaSEO Training.

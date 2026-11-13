@@ -12,6 +12,8 @@ O inemaseo-sistemas é um conjunto de cinco programas gratuitos para cuidar do S
 
 Guia completo (landing + passo a passo): **https://inematds.github.io/inemaseo-sistemas/guia/**
 
+🎬 Vídeo: https://www.youtube.com/watch?v=R5jHoJJzi4I
+
 O "Semrush aberto" do **seu próprio site**: 5 ferramentas de linha de comando que rodam no seu computador, só com Python 3.10+ (biblioteca padrão), sem API paga e sem conta em serviço nenhum além do Search Console e do Bing Webmaster, que são grátis. Licença MIT.
 
 Faz parte do [inemaSEO](https://eventos.inema.pro/inemaseo/) e é a base do curso 7 da Formação inemaSEO.
